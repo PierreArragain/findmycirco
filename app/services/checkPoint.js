@@ -7,15 +7,16 @@ const checkPoint = {
     findCirco : async (address) => {
         try {
             const point = await getCoordinates(address);
-            return result = [inside.feature(circos, point)];
+            const result = [inside.feature(circos, point)];
+            return result;
         } catch (err) {
             console.log(err)
         }
+        
     }
 }
 
-
-console.log(checkPoint.findCirco());
+module.exports = checkPoint;
 
 
 
