@@ -1,0 +1,37 @@
+<%- include ('partials/header') %>
+        <article>
+        <section>
+            <h1>Trouver ma circonscription éléctorale</h1>
+            <h2>Elections legislatives françaises - 15 et 22 juin 2022</h2>
+            <p>Connaissez-vous : </p>
+            <ul>
+                <li>la circonscription legislative dont vous dépendez ?</li>
+                <li>votre député ou députée actuelle ?</li>
+                <li>les candidats et candidates à l'élection legislative dans votre circonscription ?</li>
+            </ul>
+            <p> Ce site est là pour vous aider !</p>
+        </section>
+        <section>
+            <form action="/search/results" method="get" class="search-form">
+                <h3>Pour quelle adresse souhaitez-vous trouver la circonscription ?</h3>
+                <div class="street">
+                    <label for="streetNumber">Numéro de rue : </label>
+                    <input type="text" name="streetNumber" id="street-number">
+
+                    <label for="streetName">Nom de rue : </label>
+                    <input type="text" name="streetName" id="street-name" required>
+                </div>
+                <div class="town">
+                    <label for="zip">Code postal : </label>
+                    <input type="text" name="zip" id="town-zip" min-length="5" max-length="5" size="6">
+                    
+                    <label for="townName">Nom de la commune : </label>
+                    <input type="text" name="townName" id="town-name">
+                </div>
+                <input type="submit" value="Trouver ma circonscription">
+            </form>
+        </section>
+    </article>
+
+
+    <%- include ('partials/footer') %>

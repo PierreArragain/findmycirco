@@ -7,7 +7,6 @@ const coordinateCalculator = {
 
         const coordinates = [result.long, result.lat]
 
-        console.log(coordinates);
         return coordinates;
         } catch (err) {
             console.log(err);

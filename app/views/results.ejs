@@ -1,0 +1,19 @@
+<%- include ('partials/header') %>
+
+<h2>Votre circonscription est </h2>
+
+<%  
+console.log(result);
+let numero = parseInt(result.properties.num_circ, 10);
+console.log(numero);
+let order;
+    if (numero === 1) {
+        order = "ère";
+    } else {
+        order = "ème";
+    }
+    console.log(numero + order)
+%> 
+
+<p> La <%= result.properties.num_circ %><%= order %> circonscription du département <%= result.properties.nom_dpt %>  </p>
+<%- include ('partials/footer') %>
