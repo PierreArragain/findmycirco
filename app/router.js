@@ -1,6 +1,6 @@
 const express = require('express');
 const mainController = require("./controllers/mainController");
-const { findCirco } = require('./services/checkPoint');
+const { findCirco } = require('./modules/checkPoint');
 
 
 const router = express.Router();

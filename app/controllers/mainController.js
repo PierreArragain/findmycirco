@@ -1,8 +1,8 @@
 const errorController = require("./errorController");
 const {
     findCirco
-} = require("../services/checkPoint");
-
+} = require("../modules/checkPoint");
+const { findMyMp } = require("../modules/mpFinder")
 const mainController = {
     homePage: (req, res) => {
         res.render('home');
@@ -13,8 +13,12 @@ const mainController = {
         const searchedAddress = `${query.streetNumber} ${query.streetName} ${query.zip} ${query.townName}`
 
         const result = await findCirco(searchedAddress);
+
+        const myMP = findMyMp(result.numDpt, result.numCirco);
+        console.log(myMP);
         res.render("results", {
-            result
+            result: result,
+            myMp : myMP
         });
     }
 }
