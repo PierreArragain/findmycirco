@@ -4,14 +4,14 @@
             <h2>Votre circonscription est </h2>
         
 
-        <% console.log(result); let numero=parseInt(result.numCirco, 10); console.log(numero); let order; if
+        <% let numero=parseInt(result.numCirco, 10); console.log(numero); let order; if
             (numero===1) { order="ère" ; } else { order="ème" ; } console.log(numero + order) %>
 
             <p> la <%= myMp.numCirc %><%= order %> circonscription du département <%= myMp.dpt %>
             </p>
         </section>
-        <section class = "depute-id-section">
-            <h2>Voici les informations concernant <% if (myMp.gender === "H") { %> le député actuel <% } else {%> la députée actuelle <% } %> de cette circonscription</h2>
+        <section class="depute-id-section">
+            <h2>Voici les informations concernant <% if (myMp.gender === "H") { %> le député <% } else {%> la députée <% } %> de votre circonscription</h2>
             <div class="depute-id-container">
                 <img class="depute-id-img" src="<%= myMp.url_img %> " alt="Photo de <%= myMp.lastname %> <%= myMp.firstname %> ">
                 <div class="depute-id-details">
@@ -25,7 +25,7 @@
             </div>
         </section>
         <section class="candidats-section">
-            <p>Lors de leur publication par le Ministère de l'Intérieur, vous pourrez retrouver ici la liste des candidates et candidats à l'élection legislatives dans votre circonscription
+            <p>Lors de leur publication par le Ministère de l'Intérieur, vous pourrez retrouver ici la liste des candidates et candidats à l'élection legislative dans votre circonscription
             </p>
         </section>
 

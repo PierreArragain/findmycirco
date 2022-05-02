@@ -15,7 +15,7 @@ const mainController = {
         const result = await findCirco(searchedAddress);
 
         const myMP = findMyMp(result.numDpt, result.numCirco);
-        console.log(myMP);
+
         res.render("results", {
             result: result,
             myMp : myMP
