@@ -1,0 +1,5772 @@
+[
+  {
+    "dpt_num": "01",
+    "circo_num": "01",
+    "abs": "23,67",
+    "vot": "76,33",
+    "score_blanc": "6,14",
+    "score_nul": "1,88",
+    "score_macron": "54,28",
+    "score_lepen": "45,72"
+  },
+  {
+    "dpt_num": "01",
+    "circo_num": "02",
+    "abs": "23,37",
+    "vot": "76,63",
+    "score_blanc": "5,81",
+    "score_nul": "1,56",
+    "score_macron": "55,21",
+    "score_lepen": "44,79"
+  },
+  {
+    "dpt_num": "01",
+    "circo_num": "03",
+    "abs": "28,38",
+    "vot": "71,62",
+    "score_blanc": "5,96",
+    "score_nul": "1,51",
+    "score_macron": "62,64",
+    "score_lepen": "37,36"
+  },
+  {
+    "dpt_num": "01",
+    "circo_num": "04",
+    "abs": "23,17",
+    "vot": "76,83",
+    "score_blanc": "5,63",
+    "score_nul": "1,83",
+    "score_macron": "52,46",
+    "score_lepen": "47,54"
+  },
+  {
+    "dpt_num": "01",
+    "circo_num": "05",
+    "abs": "27,24",
+    "vot": "72,76",
+    "score_blanc": "6,75",
+    "score_nul": "2,23",
+    "score_macron": "50,79",
+    "score_lepen": "49,21"
+  },
+  {
+    "dpt_num": "02",
+    "circo_num": "01",
+    "abs": "24,46",
+    "vot": "75,54",
+    "score_blanc": "5,6",
+    "score_nul": "2,15",
+    "score_macron": "39,78",
+    "score_lepen": "60,22"
+  },
+  {
+    "dpt_num": "02",
+    "circo_num": "02",
+    "abs": "27,3",
+    "vot": "72,7",
+    "score_blanc": "5,38",
+    "score_nul": "2,21",
+    "score_macron": "43,56",
+    "score_lepen": "56,44"
+  },
+  {
+    "dpt_num": "02",
+    "circo_num": "03",
+    "abs": "24,49",
+    "vot": "75,51",
+    "score_blanc": "4,2",
+    "score_nul": "2,06",
+    "score_macron": "34,55",
+    "score_lepen": "65,45"
+  },
+  {
+    "dpt_num": "02",
+    "circo_num": "04",
+    "abs": "28,89",
+    "vot": "71,11",
+    "score_blanc": "5,28",
+    "score_nul": 2,
+    "score_macron": "40,67",
+    "score_lepen": "59,33"
+  },
+  {
+    "dpt_num": "02",
+    "circo_num": "05",
+    "abs": "25,66",
+    "vot": "74,34",
+    "score_blanc": "5,65",
+    "score_nul": "1,93",
+    "score_macron": "41,43",
+    "score_lepen": "58,57"
+  },
+  {
+    "dpt_num": "03",
+    "circo_num": "01",
+    "abs": "24,42",
+    "vot": "75,58",
+    "score_blanc": "7,45",
+    "score_nul": "3,59",
+    "score_macron": "52,44",
+    "score_lepen": "47,56"
+  },
+  {
+    "dpt_num": "03",
+    "circo_num": "02",
+    "abs": "25,73",
+    "vot": "74,27",
+    "score_blanc": "7,69",
+    "score_nul": "3,92",
+    "score_macron": "50,93",
+    "score_lepen": "49,07"
+  },
+  {
+    "dpt_num": "03",
+    "circo_num": "03",
+    "abs": "24,68",
+    "vot": "75,32",
+    "score_blanc": "7,02",
+    "score_nul": "2,66",
+    "score_macron": "53,64",
+    "score_lepen": "46,36"
+  },
+  {
+    "dpt_num": "04",
+    "circo_num": "01",
+    "abs": "24,16",
+    "vot": "75,84",
+    "score_blanc": "8,11",
+    "score_nul": "2,97",
+    "score_macron": "46,31",
+    "score_lepen": "53,69"
+  },
+  {
+    "dpt_num": "04",
+    "circo_num": "02",
+    "abs": "25,61",
+    "vot": "74,39",
+    "score_blanc": "8,05",
+    "score_nul": "2,45",
+    "score_macron": "50,67",
+    "score_lepen": "49,33"
+  },
+  {
+    "dpt_num": "05",
+    "circo_num": "01",
+    "abs": "24,14",
+    "vot": "75,86",
+    "score_blanc": "8,07",
+    "score_nul": "2,67",
+    "score_macron": "53,28",
+    "score_lepen": "46,72"
+  },
+  {
+    "dpt_num": "05",
+    "circo_num": "02",
+    "abs": "23,94",
+    "vot": "76,06",
+    "score_blanc": "9,08",
+    "score_nul": "2,44",
+    "score_macron": "57,05",
+    "score_lepen": "42,95"
+  },
+  {
+    "dpt_num": "06",
+    "circo_num": "01",
+    "abs": "32,69",
+    "vot": "67,31",
+    "score_blanc": "5,27",
+    "score_nul": "1,82",
+    "score_macron": "56,91",
+    "score_lepen": "43,09"
+  },
+  {
+    "dpt_num": "06",
+    "circo_num": "02",
+    "abs": "26,12",
+    "vot": "73,88",
+    "score_blanc": "6,01",
+    "score_nul": "1,69",
+    "score_macron": "46,11",
+    "score_lepen": "53,89"
+  },
+  {
+    "dpt_num": "06",
+    "circo_num": "03",
+    "abs": "31,52",
+    "vot": "68,48",
+    "score_blanc": "5,43",
+    "score_nul": "1,82",
+    "score_macron": "54,01",
+    "score_lepen": "45,99"
+  },
+  {
+    "dpt_num": "06",
+    "circo_num": "04",
+    "abs": "26,79",
+    "vot": "73,21",
+    "score_blanc": "5,04",
+    "score_nul": "1,92",
+    "score_macron": "42,55",
+    "score_lepen": "57,45"
+  },
+  {
+    "dpt_num": "06",
+    "circo_num": "05",
+    "abs": "28,34",
+    "vot": "71,66",
+    "score_blanc": "4,85",
+    "score_nul": "1,99",
+    "score_macron": "47,25",
+    "score_lepen": "52,75"
+  },
+  {
+    "dpt_num": "06",
+    "circo_num": "06",
+    "abs": "24,74",
+    "vot": "75,26",
+    "score_blanc": "6,03",
+    "score_nul": "0,75",
+    "score_macron": "47,12",
+    "score_lepen": "52,88"
+  },
+  {
+    "dpt_num": "06",
+    "circo_num": "07",
+    "abs": "25,41",
+    "vot": "74,59",
+    "score_blanc": "5,63",
+    "score_nul": "1,04",
+    "score_macron": "56,42",
+    "score_lepen": "43,58"
+  },
+  {
+    "dpt_num": "06",
+    "circo_num": "08",
+    "abs": "29,16",
+    "vot": "70,84",
+    "score_blanc": "5,29",
+    "score_nul": "1,2",
+    "score_macron": "50,22",
+    "score_lepen": "49,78"
+  },
+  {
+    "dpt_num": "06",
+    "circo_num": "09",
+    "abs": "26,27",
+    "vot": "73,73",
+    "score_blanc": "5,39",
+    "score_nul": "1,2",
+    "score_macron": "50,57",
+    "score_lepen": "49,43"
+  },
+  {
+    "dpt_num": "07",
+    "circo_num": "01",
+    "abs": "25,27",
+    "vot": "74,73",
+    "score_blanc": "8,05",
+    "score_nul": "4,08",
+    "score_macron": "50,11",
+    "score_lepen": "49,89"
+  },
+  {
+    "dpt_num": "07",
+    "circo_num": "02",
+    "abs": "22,85",
+    "vot": "77,15",
+    "score_blanc": "7,39",
+    "score_nul": "2,39",
+    "score_macron": "54,36",
+    "score_lepen": "45,64"
+  },
+  {
+    "dpt_num": "07",
+    "circo_num": "03",
+    "abs": "25,01",
+    "vot": "74,99",
+    "score_blanc": "9,26",
+    "score_nul": "3,27",
+    "score_macron": "52,26",
+    "score_lepen": "47,74"
+  },
+  {
+    "dpt_num": "08",
+    "circo_num": "01",
+    "abs": "23,72",
+    "vot": "76,28",
+    "score_blanc": "5,48",
+    "score_nul": "2,27",
+    "score_macron": "45,18",
+    "score_lepen": "54,82"
+  },
+  {
+    "dpt_num": "08",
+    "circo_num": "02",
+    "abs": "29,28",
+    "vot": "70,72",
+    "score_blanc": "6,02",
+    "score_nul": "2,32",
+    "score_macron": "42,15",
+    "score_lepen": "57,85"
+  },
+  {
+    "dpt_num": "08",
+    "circo_num": "03",
+    "abs": "24,73",
+    "vot": "75,27",
+    "score_blanc": "5,5",
+    "score_nul": "2,33",
+    "score_macron": "42,15",
+    "score_lepen": "57,85"
+  },
+  {
+    "dpt_num": "09",
+    "circo_num": "01",
+    "abs": "24,96",
+    "vot": "75,04",
+    "score_blanc": "10,32",
+    "score_nul": "4,15",
+    "score_macron": "52,91",
+    "score_lepen": "47,09"
+  },
+  {
+    "dpt_num": "09",
+    "circo_num": "02",
+    "abs": "25,02",
+    "vot": "74,98",
+    "score_blanc": "9,07",
+    "score_nul": "4,23",
+    "score_macron": "49,44",
+    "score_lepen": "50,56"
+  },
+  {
+    "dpt_num": 10,
+    "circo_num": "01",
+    "abs": "23,19",
+    "vot": "76,81",
+    "score_blanc": "5,43",
+    "score_nul": "1,95",
+    "score_macron": "45,27",
+    "score_lepen": "54,73"
+  },
+  {
+    "dpt_num": 10,
+    "circo_num": "02",
+    "abs": "23,86",
+    "vot": "76,14",
+    "score_blanc": "5,77",
+    "score_nul": "1,94",
+    "score_macron": "48,72",
+    "score_lepen": "51,28"
+  },
+  {
+    "dpt_num": 10,
+    "circo_num": "03",
+    "abs": "27,89",
+    "vot": "72,11",
+    "score_blanc": "5,72",
+    "score_nul": "2,21",
+    "score_macron": "51,02",
+    "score_lepen": "48,98"
+  },
+  {
+    "dpt_num": 11,
+    "circo_num": "01",
+    "abs": "24,08",
+    "vot": "75,92",
+    "score_blanc": "6,81",
+    "score_nul": "3,1",
+    "score_macron": "44,69",
+    "score_lepen": "55,31"
+  },
+  {
+    "dpt_num": 11,
+    "circo_num": "02",
+    "abs": "26,74",
+    "vot": "73,26",
+    "score_blanc": "6,89",
+    "score_nul": "2,73",
+    "score_macron": "44,37",
+    "score_lepen": "55,63"
+  },
+  {
+    "dpt_num": 11,
+    "circo_num": "03",
+    "abs": "22,67",
+    "vot": "77,33",
+    "score_blanc": "7,94",
+    "score_nul": "3,57",
+    "score_macron": "46,28",
+    "score_lepen": "53,72"
+  },
+  {
+    "dpt_num": 12,
+    "circo_num": "01",
+    "abs": "22,35",
+    "vot": "77,65",
+    "score_blanc": "7,65",
+    "score_nul": "3,01",
+    "score_macron": "63,51",
+    "score_lepen": "36,49"
+  },
+  {
+    "dpt_num": 12,
+    "circo_num": "02",
+    "abs": "23,08",
+    "vot": "76,92",
+    "score_blanc": "8,8",
+    "score_nul": "4,28",
+    "score_macron": "58,2",
+    "score_lepen": "41,8"
+  },
+  {
+    "dpt_num": 12,
+    "circo_num": "03",
+    "abs": "22,25",
+    "vot": "77,75",
+    "score_blanc": "8,23",
+    "score_nul": "3,92",
+    "score_macron": "58,06",
+    "score_lepen": "41,94"
+  },
+  {
+    "dpt_num": 13,
+    "circo_num": "01",
+    "abs": "30,77",
+    "vot": "69,23",
+    "score_blanc": "5,1",
+    "score_nul": "1,45",
+    "score_macron": "49,95",
+    "score_lepen": "50,05"
+  },
+  {
+    "dpt_num": 13,
+    "circo_num": "02",
+    "abs": "28,41",
+    "vot": "71,59",
+    "score_blanc": "5,09",
+    "score_nul": "1,45",
+    "score_macron": "65,06",
+    "score_lepen": "34,94"
+  },
+  {
+    "dpt_num": 13,
+    "circo_num": "03",
+    "abs": "36,36",
+    "vot": "63,64",
+    "score_blanc": "4,99",
+    "score_nul": "1,49",
+    "score_macron": "50,75",
+    "score_lepen": "49,25"
+  },
+  {
+    "dpt_num": 13,
+    "circo_num": "04",
+    "abs": "42,23",
+    "vot": "57,77",
+    "score_blanc": "6,66",
+    "score_nul": "1,86",
+    "score_macron": "76,58",
+    "score_lepen": "23,42"
+  },
+  {
+    "dpt_num": 13,
+    "circo_num": "05",
+    "abs": "32,9",
+    "vot": "67,1",
+    "score_blanc": "6,01",
+    "score_nul": "1,9",
+    "score_macron": "66,18",
+    "score_lepen": "33,82"
+  },
+  {
+    "dpt_num": 13,
+    "circo_num": "06",
+    "abs": "32,86",
+    "vot": "67,14",
+    "score_blanc": "4,96",
+    "score_nul": "1,52",
+    "score_macron": "54,9",
+    "score_lepen": "45,1"
+  },
+  {
+    "dpt_num": 13,
+    "circo_num": "07",
+    "abs": "47,26",
+    "vot": "52,74",
+    "score_blanc": "4,7",
+    "score_nul": "1,79",
+    "score_macron": "60,55",
+    "score_lepen": "39,45"
+  },
+  {
+    "dpt_num": 13,
+    "circo_num": "08",
+    "abs": "24,98",
+    "vot": "75,02",
+    "score_blanc": "5,92",
+    "score_nul": "2,1",
+    "score_macron": "47,43",
+    "score_lepen": "52,57"
+  },
+  {
+    "dpt_num": 13,
+    "circo_num": "09",
+    "abs": "26,96",
+    "vot": "73,04",
+    "score_blanc": "6,11",
+    "score_nul": "2,02",
+    "score_macron": "47,97",
+    "score_lepen": "52,03"
+  },
+  {
+    "dpt_num": 13,
+    "circo_num": 10,
+    "abs": 23,
+    "vot": 77,
+    "score_blanc": "5,78",
+    "score_nul": "1,86",
+    "score_macron": "45,92",
+    "score_lepen": "54,08"
+  },
+  {
+    "dpt_num": 13,
+    "circo_num": 11,
+    "abs": "25,56",
+    "vot": "74,44",
+    "score_blanc": "5,59",
+    "score_nul": "1,78",
+    "score_macron": "57,32",
+    "score_lepen": "42,68"
+  },
+  {
+    "dpt_num": 13,
+    "circo_num": 12,
+    "abs": "26,33",
+    "vot": "73,67",
+    "score_blanc": "5,65",
+    "score_nul": "1,3",
+    "score_macron": "40,71",
+    "score_lepen": "59,29"
+  },
+  {
+    "dpt_num": 13,
+    "circo_num": 13,
+    "abs": "29,04",
+    "vot": "70,96",
+    "score_blanc": "6,91",
+    "score_nul": "2,9",
+    "score_macron": "41,4",
+    "score_lepen": "58,6"
+  },
+  {
+    "dpt_num": 13,
+    "circo_num": 14,
+    "abs": "24,74",
+    "vot": "75,26",
+    "score_blanc": 6,
+    "score_nul": "1,87",
+    "score_macron": "61,22",
+    "score_lepen": "38,78"
+  },
+  {
+    "dpt_num": 13,
+    "circo_num": 15,
+    "abs": "22,42",
+    "vot": "77,58",
+    "score_blanc": "6,08",
+    "score_nul": "2,1",
+    "score_macron": "45,93",
+    "score_lepen": "54,07"
+  },
+  {
+    "dpt_num": 13,
+    "circo_num": 16,
+    "abs": "26,83",
+    "vot": "73,17",
+    "score_blanc": "6,25",
+    "score_nul": "2,61",
+    "score_macron": "44,65",
+    "score_lepen": "55,35"
+  },
+  {
+    "dpt_num": 14,
+    "circo_num": "01",
+    "abs": "22,7",
+    "vot": "77,3",
+    "score_blanc": "6,54",
+    "score_nul": "2,26",
+    "score_macron": "72,7",
+    "score_lepen": "27,3"
+  },
+  {
+    "dpt_num": 14,
+    "circo_num": "02",
+    "abs": "25,46",
+    "vot": "74,54",
+    "score_blanc": "6,11",
+    "score_nul": "3,11",
+    "score_macron": "65,71",
+    "score_lepen": "34,29"
+  },
+  {
+    "dpt_num": 14,
+    "circo_num": "03",
+    "abs": "23,75",
+    "vot": "76,25",
+    "score_blanc": "5,8",
+    "score_nul": "2,54",
+    "score_macron": "49,98",
+    "score_lepen": "50,02"
+  },
+  {
+    "dpt_num": 14,
+    "circo_num": "04",
+    "abs": "22,81",
+    "vot": "77,19",
+    "score_blanc": "5,95",
+    "score_nul": "2,1",
+    "score_macron": "59,01",
+    "score_lepen": "40,99"
+  },
+  {
+    "dpt_num": 14,
+    "circo_num": "05",
+    "abs": "21,18",
+    "vot": "78,82",
+    "score_blanc": "5,96",
+    "score_nul": "2,13",
+    "score_macron": "60,62",
+    "score_lepen": "39,38"
+  },
+  {
+    "dpt_num": 14,
+    "circo_num": "06",
+    "abs": "21,26",
+    "vot": "78,74",
+    "score_blanc": "5,9",
+    "score_nul": "2,49",
+    "score_macron": "56,92",
+    "score_lepen": "43,08"
+  },
+  {
+    "dpt_num": 15,
+    "circo_num": "01",
+    "abs": "22,23",
+    "vot": "77,77",
+    "score_blanc": "7,66",
+    "score_nul": "3,5",
+    "score_macron": "59,23",
+    "score_lepen": "40,77"
+  },
+  {
+    "dpt_num": 15,
+    "circo_num": "02",
+    "abs": "22,39",
+    "vot": "77,61",
+    "score_blanc": "7,29",
+    "score_nul": "2,92",
+    "score_macron": "52,35",
+    "score_lepen": "47,65"
+  },
+  {
+    "dpt_num": 16,
+    "circo_num": "01",
+    "abs": "27,29",
+    "vot": "72,71",
+    "score_blanc": "7,65",
+    "score_nul": "2,81",
+    "score_macron": "62,41",
+    "score_lepen": "37,59"
+  },
+  {
+    "dpt_num": 16,
+    "circo_num": "02",
+    "abs": "24,25",
+    "vot": "75,75",
+    "score_blanc": "6,46",
+    "score_nul": "2,55",
+    "score_macron": "52,87",
+    "score_lepen": "47,13"
+  },
+  {
+    "dpt_num": 16,
+    "circo_num": "03",
+    "abs": "23,62",
+    "vot": "76,38",
+    "score_blanc": "6,77",
+    "score_nul": "3,81",
+    "score_macron": "50,67",
+    "score_lepen": "49,33"
+  },
+  {
+    "dpt_num": 17,
+    "circo_num": "01",
+    "abs": "26,45",
+    "vot": "73,55",
+    "score_blanc": "6,81",
+    "score_nul": "2,09",
+    "score_macron": "70,89",
+    "score_lepen": "29,11"
+  },
+  {
+    "dpt_num": 17,
+    "circo_num": "02",
+    "abs": "23,49",
+    "vot": "76,51",
+    "score_blanc": "7,18",
+    "score_nul": "2,43",
+    "score_macron": "57,77",
+    "score_lepen": "42,23"
+  },
+  {
+    "dpt_num": 17,
+    "circo_num": "03",
+    "abs": "24,88",
+    "vot": "75,12",
+    "score_blanc": "7,16",
+    "score_nul": "2,73",
+    "score_macron": "52,33",
+    "score_lepen": "47,67"
+  },
+  {
+    "dpt_num": 17,
+    "circo_num": "04",
+    "abs": "23,84",
+    "vot": "76,16",
+    "score_blanc": "6,18",
+    "score_nul": "2,43",
+    "score_macron": "48,6",
+    "score_lepen": "51,4"
+  },
+  {
+    "dpt_num": 17,
+    "circo_num": "05",
+    "abs": "22,96",
+    "vot": "77,04",
+    "score_blanc": "6,25",
+    "score_nul": "2,37",
+    "score_macron": "50,94",
+    "score_lepen": "49,06"
+  },
+  {
+    "dpt_num": 18,
+    "circo_num": "01",
+    "abs": "26,63",
+    "vot": "73,37",
+    "score_blanc": "7,98",
+    "score_nul": "1,73",
+    "score_macron": "56,15",
+    "score_lepen": "43,85"
+  },
+  {
+    "dpt_num": 18,
+    "circo_num": "02",
+    "abs": "28,45",
+    "vot": "71,55",
+    "score_blanc": "7,52",
+    "score_nul": "2,91",
+    "score_macron": "52,82",
+    "score_lepen": "47,18"
+  },
+  {
+    "dpt_num": 18,
+    "circo_num": "03",
+    "abs": "25,71",
+    "vot": "74,29",
+    "score_blanc": "7,39",
+    "score_nul": "2,32",
+    "score_macron": "49,37",
+    "score_lepen": "50,63"
+  },
+  {
+    "dpt_num": 19,
+    "circo_num": "01",
+    "abs": "22,41",
+    "vot": "77,59",
+    "score_blanc": "9,9",
+    "score_nul": "5,67",
+    "score_macron": "55,22",
+    "score_lepen": "44,78"
+  },
+  {
+    "dpt_num": 19,
+    "circo_num": "02",
+    "abs": "23,9",
+    "vot": "76,1",
+    "score_blanc": "7,95",
+    "score_nul": "4,28",
+    "score_macron": "56,32",
+    "score_lepen": "43,68"
+  },
+  {
+    "dpt_num": "2A",
+    "circo_num": "01",
+    "abs": "40,18",
+    "vot": "59,82",
+    "score_blanc": "6,24",
+    "score_nul": "3,23",
+    "score_macron": "41,5",
+    "score_lepen": "58,5"
+  },
+  {
+    "dpt_num": "2A",
+    "circo_num": "02",
+    "abs": "38,51",
+    "vot": "61,49",
+    "score_blanc": "5,82",
+    "score_nul": "3,36",
+    "score_macron": "41,83",
+    "score_lepen": "58,17"
+  },
+  {
+    "dpt_num": "2B",
+    "circo_num": "01",
+    "abs": "37,82",
+    "vot": "62,18",
+    "score_blanc": "6,46",
+    "score_nul": "2,77",
+    "score_macron": "42,98",
+    "score_lepen": "57,02"
+  },
+  {
+    "dpt_num": "2B",
+    "circo_num": "02",
+    "abs": "40,08",
+    "vot": "59,92",
+    "score_blanc": "7,18",
+    "score_nul": "2,99",
+    "score_macron": "41,33",
+    "score_lepen": "58,67"
+  },
+  {
+    "dpt_num": 21,
+    "circo_num": "01",
+    "abs": "25,2",
+    "vot": "74,8",
+    "score_blanc": "6,97",
+    "score_nul": "1,86",
+    "score_macron": "69,12",
+    "score_lepen": "30,88"
+  },
+  {
+    "dpt_num": 21,
+    "circo_num": "02",
+    "abs": "25,65",
+    "vot": "74,35",
+    "score_blanc": "6,93",
+    "score_nul": 2,
+    "score_macron": "59,03",
+    "score_lepen": "40,97"
+  },
+  {
+    "dpt_num": 21,
+    "circo_num": "03",
+    "abs": "25,63",
+    "vot": "74,37",
+    "score_blanc": "6,86",
+    "score_nul": "1,99",
+    "score_macron": "58,65",
+    "score_lepen": "41,35"
+  },
+  {
+    "dpt_num": 21,
+    "circo_num": "04",
+    "abs": "22,42",
+    "vot": "77,58",
+    "score_blanc": "7,37",
+    "score_nul": "2,41",
+    "score_macron": "47,92",
+    "score_lepen": "52,08"
+  },
+  {
+    "dpt_num": 21,
+    "circo_num": "05",
+    "abs": "23,32",
+    "vot": "76,68",
+    "score_blanc": "6,62",
+    "score_nul": "1,91",
+    "score_macron": "52,75",
+    "score_lepen": "47,25"
+  },
+  {
+    "dpt_num": 22,
+    "circo_num": "01",
+    "abs": "22,64",
+    "vot": "77,36",
+    "score_blanc": "7,37",
+    "score_nul": "2,67",
+    "score_macron": "68,51",
+    "score_lepen": "31,49"
+  },
+  {
+    "dpt_num": 22,
+    "circo_num": "02",
+    "abs": "19,79",
+    "vot": "80,21",
+    "score_blanc": "6,84",
+    "score_nul": "2,65",
+    "score_macron": "61,64",
+    "score_lepen": "38,36"
+  },
+  {
+    "dpt_num": 22,
+    "circo_num": "03",
+    "abs": "19,64",
+    "vot": "80,36",
+    "score_blanc": "6,46",
+    "score_nul": "3,23",
+    "score_macron": "59,41",
+    "score_lepen": "40,59"
+  },
+  {
+    "dpt_num": 22,
+    "circo_num": "04",
+    "abs": "22,05",
+    "vot": "77,95",
+    "score_blanc": "8,16",
+    "score_nul": "3,98",
+    "score_macron": "57,88",
+    "score_lepen": "42,12"
+  },
+  {
+    "dpt_num": 22,
+    "circo_num": "05",
+    "abs": "22,15",
+    "vot": "77,85",
+    "score_blanc": "7,58",
+    "score_nul": "2,73",
+    "score_macron": "66,11",
+    "score_lepen": "33,89"
+  },
+  {
+    "dpt_num": 23,
+    "circo_num": "01",
+    "abs": "25,81",
+    "vot": "74,19",
+    "score_blanc": "8,77",
+    "score_nul": "4,23",
+    "score_macron": "52,04",
+    "score_lepen": "47,96"
+  },
+  {
+    "dpt_num": 24,
+    "circo_num": "01",
+    "abs": "24,23",
+    "vot": "75,77",
+    "score_blanc": "7,82",
+    "score_nul": "4,1",
+    "score_macron": "52,77",
+    "score_lepen": "47,23"
+  },
+  {
+    "dpt_num": 24,
+    "circo_num": "02",
+    "abs": "24,01",
+    "vot": "75,99",
+    "score_blanc": "7,08",
+    "score_nul": "3,52",
+    "score_macron": "49,78",
+    "score_lepen": "50,22"
+  },
+  {
+    "dpt_num": 24,
+    "circo_num": "03",
+    "abs": "20,78",
+    "vot": "79,22",
+    "score_blanc": "7,38",
+    "score_nul": "5,64",
+    "score_macron": "50,21",
+    "score_lepen": "49,79"
+  },
+  {
+    "dpt_num": 24,
+    "circo_num": "04",
+    "abs": "22,03",
+    "vot": "77,97",
+    "score_blanc": "8,46",
+    "score_nul": "4,39",
+    "score_macron": "53,04",
+    "score_lepen": "46,96"
+  },
+  {
+    "dpt_num": 25,
+    "circo_num": "01",
+    "abs": "26,69",
+    "vot": "73,31",
+    "score_blanc": "7,2",
+    "score_nul": "2,2",
+    "score_macron": "63,03",
+    "score_lepen": "36,97"
+  },
+  {
+    "dpt_num": 25,
+    "circo_num": "02",
+    "abs": "25,11",
+    "vot": "74,89",
+    "score_blanc": "7,32",
+    "score_nul": "2,27",
+    "score_macron": "64,37",
+    "score_lepen": "35,63"
+  },
+  {
+    "dpt_num": 25,
+    "circo_num": "03",
+    "abs": "26,17",
+    "vot": "73,83",
+    "score_blanc": "6,5",
+    "score_nul": "2,45",
+    "score_macron": "50,38",
+    "score_lepen": "49,62"
+  },
+  {
+    "dpt_num": 25,
+    "circo_num": "04",
+    "abs": "29,04",
+    "vot": "70,96",
+    "score_blanc": "6,1",
+    "score_nul": "2,66",
+    "score_macron": "47,1",
+    "score_lepen": "52,9"
+  },
+  {
+    "dpt_num": 25,
+    "circo_num": "05",
+    "abs": "23,32",
+    "vot": "76,68",
+    "score_blanc": "6,12",
+    "score_nul": "2,43",
+    "score_macron": "57,88",
+    "score_lepen": "42,12"
+  },
+  {
+    "dpt_num": 26,
+    "circo_num": "01",
+    "abs": "28,35",
+    "vot": "71,65",
+    "score_blanc": "6,46",
+    "score_nul": "2,15",
+    "score_macron": "62,02",
+    "score_lepen": "37,98"
+  },
+  {
+    "dpt_num": 26,
+    "circo_num": "02",
+    "abs": "26,15",
+    "vot": "73,85",
+    "score_blanc": "6,41",
+    "score_nul": "2,42",
+    "score_macron": "50,47",
+    "score_lepen": "49,53"
+  },
+  {
+    "dpt_num": 26,
+    "circo_num": "03",
+    "abs": "22,79",
+    "vot": "77,21",
+    "score_blanc": "9,21",
+    "score_nul": "2,64",
+    "score_macron": "58,3",
+    "score_lepen": "41,7"
+  },
+  {
+    "dpt_num": 26,
+    "circo_num": "04",
+    "abs": "24,75",
+    "vot": "75,25",
+    "score_blanc": "6,93",
+    "score_nul": "2,03",
+    "score_macron": "53,1",
+    "score_lepen": "46,9"
+  },
+  {
+    "dpt_num": 27,
+    "circo_num": "01",
+    "abs": "25,74",
+    "vot": "74,26",
+    "score_blanc": "5,73",
+    "score_nul": "1,77",
+    "score_macron": "48,85",
+    "score_lepen": "51,15"
+  },
+  {
+    "dpt_num": 27,
+    "circo_num": "02",
+    "abs": "22,99",
+    "vot": "77,01",
+    "score_blanc": "6,07",
+    "score_nul": "1,78",
+    "score_macron": "49,37",
+    "score_lepen": "50,63"
+  },
+  {
+    "dpt_num": 27,
+    "circo_num": "03",
+    "abs": "22,23",
+    "vot": "77,77",
+    "score_blanc": "5,8",
+    "score_nul": "1,83",
+    "score_macron": "46,04",
+    "score_lepen": "53,96"
+  },
+  {
+    "dpt_num": 27,
+    "circo_num": "04",
+    "abs": "25,58",
+    "vot": "74,42",
+    "score_blanc": "6,28",
+    "score_nul": "2,04",
+    "score_macron": "50,69",
+    "score_lepen": "49,31"
+  },
+  {
+    "dpt_num": 27,
+    "circo_num": "05",
+    "abs": "24,47",
+    "vot": "75,53",
+    "score_blanc": "5,94",
+    "score_nul": "1,85",
+    "score_macron": "48,17",
+    "score_lepen": "51,83"
+  },
+  {
+    "dpt_num": 28,
+    "circo_num": "01",
+    "abs": "25,23",
+    "vot": "74,77",
+    "score_blanc": "6,34",
+    "score_nul": "1,97",
+    "score_macron": "59,73",
+    "score_lepen": "40,27"
+  },
+  {
+    "dpt_num": 28,
+    "circo_num": "02",
+    "abs": "29,87",
+    "vot": "70,13",
+    "score_blanc": "6,03",
+    "score_nul": "2,11",
+    "score_macron": "52,34",
+    "score_lepen": "47,66"
+  },
+  {
+    "dpt_num": 28,
+    "circo_num": "03",
+    "abs": "25,63",
+    "vot": "74,37",
+    "score_blanc": "6,17",
+    "score_nul": "2,35",
+    "score_macron": "52,21",
+    "score_lepen": "47,79"
+  },
+  {
+    "dpt_num": 28,
+    "circo_num": "04",
+    "abs": "23,96",
+    "vot": "76,04",
+    "score_blanc": "5,73",
+    "score_nul": "2,2",
+    "score_macron": "46,86",
+    "score_lepen": "53,14"
+  },
+  {
+    "dpt_num": 29,
+    "circo_num": "01",
+    "abs": "21,43",
+    "vot": "78,57",
+    "score_blanc": "7,27",
+    "score_nul": "2,47",
+    "score_macron": "71,23",
+    "score_lepen": "28,77"
+  },
+  {
+    "dpt_num": 29,
+    "circo_num": "02",
+    "abs": "28,22",
+    "vot": "71,78",
+    "score_blanc": "9,92",
+    "score_nul": "0,32",
+    "score_macron": "70,66",
+    "score_lepen": "29,34"
+  },
+  {
+    "dpt_num": 29,
+    "circo_num": "03",
+    "abs": "21,95",
+    "vot": "78,05",
+    "score_blanc": "7,59",
+    "score_nul": "1,53",
+    "score_macron": "67,65",
+    "score_lepen": "32,35"
+  },
+  {
+    "dpt_num": 29,
+    "circo_num": "04",
+    "abs": "22,31",
+    "vot": "77,69",
+    "score_blanc": "7,75",
+    "score_nul": "2,65",
+    "score_macron": "68,24",
+    "score_lepen": "31,76"
+  },
+  {
+    "dpt_num": 29,
+    "circo_num": "05",
+    "abs": "20,63",
+    "vot": "79,37",
+    "score_blanc": "6,78",
+    "score_nul": "2,07",
+    "score_macron": "68,8",
+    "score_lepen": "31,2"
+  },
+  {
+    "dpt_num": 29,
+    "circo_num": "06",
+    "abs": "22,89",
+    "vot": "77,11",
+    "score_blanc": "7,8",
+    "score_nul": "2,95",
+    "score_macron": "63,54",
+    "score_lepen": "36,46"
+  },
+  {
+    "dpt_num": 29,
+    "circo_num": "07",
+    "abs": "22,38",
+    "vot": "77,62",
+    "score_blanc": "8,01",
+    "score_nul": 3,
+    "score_macron": "67,2",
+    "score_lepen": "32,8"
+  },
+  {
+    "dpt_num": 29,
+    "circo_num": "08",
+    "abs": "23,59",
+    "vot": "76,41",
+    "score_blanc": "8,01",
+    "score_nul": "3,05",
+    "score_macron": "62,89",
+    "score_lepen": "37,11"
+  },
+  {
+    "dpt_num": 30,
+    "circo_num": "01",
+    "abs": "30,94",
+    "vot": "69,06",
+    "score_blanc": "5,63",
+    "score_nul": "1,97",
+    "score_macron": "51,68",
+    "score_lepen": "48,32"
+  },
+  {
+    "dpt_num": 30,
+    "circo_num": "02",
+    "abs": "23,97",
+    "vot": "76,03",
+    "score_blanc": 6,
+    "score_nul": "2,11",
+    "score_macron": "43,42",
+    "score_lepen": "56,58"
+  },
+  {
+    "dpt_num": 30,
+    "circo_num": "03",
+    "abs": "23,57",
+    "vot": "76,43",
+    "score_blanc": "6,31",
+    "score_nul": "2,17",
+    "score_macron": "47,82",
+    "score_lepen": "52,18"
+  },
+  {
+    "dpt_num": 30,
+    "circo_num": "04",
+    "abs": "25,35",
+    "vot": "74,65",
+    "score_blanc": "7,55",
+    "score_nul": "2,51",
+    "score_macron": "43,81",
+    "score_lepen": "56,19"
+  },
+  {
+    "dpt_num": 30,
+    "circo_num": "05",
+    "abs": "26,41",
+    "vot": "73,59",
+    "score_blanc": "8,5",
+    "score_nul": "2,96",
+    "score_macron": "49,25",
+    "score_lepen": "50,75"
+  },
+  {
+    "dpt_num": 30,
+    "circo_num": "06",
+    "abs": "28,98",
+    "vot": "71,02",
+    "score_blanc": "6,47",
+    "score_nul": 2,
+    "score_macron": "52,26",
+    "score_lepen": "47,74"
+  },
+  {
+    "dpt_num": 31,
+    "circo_num": "01",
+    "abs": "26,61",
+    "vot": "73,39",
+    "score_blanc": "7,33",
+    "score_nul": "2,25",
+    "score_macron": "73,53",
+    "score_lepen": "26,47"
+  },
+  {
+    "dpt_num": 31,
+    "circo_num": "02",
+    "abs": "25,72",
+    "vot": "74,28",
+    "score_blanc": "7,59",
+    "score_nul": "2,68",
+    "score_macron": "68,47",
+    "score_lepen": "31,53"
+  },
+  {
+    "dpt_num": 31,
+    "circo_num": "03",
+    "abs": "22,68",
+    "vot": "77,32",
+    "score_blanc": "6,74",
+    "score_nul": "2,12",
+    "score_macron": "74,24",
+    "score_lepen": "25,76"
+  },
+  {
+    "dpt_num": 31,
+    "circo_num": "04",
+    "abs": "29,65",
+    "vot": "70,35",
+    "score_blanc": "7,26",
+    "score_nul": "2,36",
+    "score_macron": "78,55",
+    "score_lepen": "21,45"
+  },
+  {
+    "dpt_num": 31,
+    "circo_num": "05",
+    "abs": "22,24",
+    "vot": "77,76",
+    "score_blanc": "7,01",
+    "score_nul": "2,68",
+    "score_macron": "55,54",
+    "score_lepen": "44,46"
+  },
+  {
+    "dpt_num": 31,
+    "circo_num": "06",
+    "abs": "21,73",
+    "vot": "78,27",
+    "score_blanc": "6,79",
+    "score_nul": "3,24",
+    "score_macron": "64,72",
+    "score_lepen": "35,28"
+  },
+  {
+    "dpt_num": 31,
+    "circo_num": "07",
+    "abs": "24,01",
+    "vot": "75,99",
+    "score_blanc": "7,3",
+    "score_nul": "2,92",
+    "score_macron": "54,72",
+    "score_lepen": "45,28"
+  },
+  {
+    "dpt_num": 31,
+    "circo_num": "08",
+    "abs": "24,01",
+    "vot": "75,99",
+    "score_blanc": "8,17",
+    "score_nul": "3,91",
+    "score_macron": "49,4",
+    "score_lepen": "50,6"
+  },
+  {
+    "dpt_num": 31,
+    "circo_num": "09",
+    "abs": "27,68",
+    "vot": "72,32",
+    "score_blanc": "7,61",
+    "score_nul": "2,42",
+    "score_macron": "68,59",
+    "score_lepen": "31,41"
+  },
+  {
+    "dpt_num": 31,
+    "circo_num": 10,
+    "abs": "19,11",
+    "vot": "80,89",
+    "score_blanc": "7,6",
+    "score_nul": "2,49",
+    "score_macron": "64,91",
+    "score_lepen": "35,09"
+  },
+  {
+    "dpt_num": 32,
+    "circo_num": "01",
+    "abs": "21,5",
+    "vot": "78,5",
+    "score_blanc": "8,75",
+    "score_nul": "5,18",
+    "score_macron": "56,94",
+    "score_lepen": "43,06"
+  },
+  {
+    "dpt_num": 32,
+    "circo_num": "02",
+    "abs": "20,59",
+    "vot": "79,41",
+    "score_blanc": "7,62",
+    "score_nul": "6,88",
+    "score_macron": "54,47",
+    "score_lepen": "45,53"
+  },
+  {
+    "dpt_num": 33,
+    "circo_num": "01",
+    "abs": "27,23",
+    "vot": "72,77",
+    "score_blanc": "6,09",
+    "score_nul": "1,63",
+    "score_macron": "75,9",
+    "score_lepen": "24,1"
+  },
+  {
+    "dpt_num": 33,
+    "circo_num": "02",
+    "abs": "28,28",
+    "vot": "71,72",
+    "score_blanc": "6,09",
+    "score_nul": "1,58",
+    "score_macron": "82,51",
+    "score_lepen": "17,49"
+  },
+  {
+    "dpt_num": 33,
+    "circo_num": "03",
+    "abs": "29,39",
+    "vot": "70,61",
+    "score_blanc": "7,8",
+    "score_nul": "2,27",
+    "score_macron": "73,6",
+    "score_lepen": "26,4"
+  },
+  {
+    "dpt_num": 33,
+    "circo_num": "04",
+    "abs": "29,43",
+    "vot": "70,57",
+    "score_blanc": "7,11",
+    "score_nul": "2,48",
+    "score_macron": "60,45",
+    "score_lepen": "39,55"
+  },
+  {
+    "dpt_num": 33,
+    "circo_num": "05",
+    "abs": "23,52",
+    "vot": "76,48",
+    "score_blanc": "6,47",
+    "score_nul": "2,44",
+    "score_macron": "52,5",
+    "score_lepen": "47,5"
+  },
+  {
+    "dpt_num": 33,
+    "circo_num": "06",
+    "abs": "22,71",
+    "vot": "77,29",
+    "score_blanc": "6,73",
+    "score_nul": "2,15",
+    "score_macron": "68,33",
+    "score_lepen": "31,67"
+  },
+  {
+    "dpt_num": 33,
+    "circo_num": "07",
+    "abs": "25,59",
+    "vot": "74,41",
+    "score_blanc": "7,33",
+    "score_nul": "2,3",
+    "score_macron": "72,16",
+    "score_lepen": "27,84"
+  },
+  {
+    "dpt_num": 33,
+    "circo_num": "08",
+    "abs": "23,41",
+    "vot": "76,59",
+    "score_blanc": "6,36",
+    "score_nul": "2,16",
+    "score_macron": "57,84",
+    "score_lepen": "42,16"
+  },
+  {
+    "dpt_num": 33,
+    "circo_num": "09",
+    "abs": "21,94",
+    "vot": "78,06",
+    "score_blanc": "7,84",
+    "score_nul": "2,68",
+    "score_macron": "55,06",
+    "score_lepen": "44,94"
+  },
+  {
+    "dpt_num": 33,
+    "circo_num": 10,
+    "abs": "23,14",
+    "vot": "76,86",
+    "score_blanc": "6,77",
+    "score_nul": "2,6",
+    "score_macron": "51,61",
+    "score_lepen": "48,39"
+  },
+  {
+    "dpt_num": 33,
+    "circo_num": 11,
+    "abs": "24,2",
+    "vot": "75,8",
+    "score_blanc": "6,59",
+    "score_nul": "2,51",
+    "score_macron": "42,09",
+    "score_lepen": "57,91"
+  },
+  {
+    "dpt_num": 33,
+    "circo_num": 12,
+    "abs": "22,06",
+    "vot": "77,94",
+    "score_blanc": "7,69",
+    "score_nul": "2,57",
+    "score_macron": "55,13",
+    "score_lepen": "44,87"
+  },
+  {
+    "dpt_num": 34,
+    "circo_num": "01",
+    "abs": "28,27",
+    "vot": "71,73",
+    "score_blanc": "6,64",
+    "score_nul": "1,88",
+    "score_macron": "57,98",
+    "score_lepen": "42,02"
+  },
+  {
+    "dpt_num": 34,
+    "circo_num": "02",
+    "abs": "35,77",
+    "vot": "64,23",
+    "score_blanc": "6,8",
+    "score_nul": "2,01",
+    "score_macron": "76,29",
+    "score_lepen": "23,71"
+  },
+  {
+    "dpt_num": 34,
+    "circo_num": "03",
+    "abs": "23,11",
+    "vot": "76,89",
+    "score_blanc": "6,73",
+    "score_nul": "2,01",
+    "score_macron": "62,78",
+    "score_lepen": "37,22"
+  },
+  {
+    "dpt_num": 34,
+    "circo_num": "04",
+    "abs": "23,25",
+    "vot": "76,75",
+    "score_blanc": "7,74",
+    "score_nul": "2,52",
+    "score_macron": "52,36",
+    "score_lepen": "47,64"
+  },
+  {
+    "dpt_num": 34,
+    "circo_num": "05",
+    "abs": "24,65",
+    "vot": "75,35",
+    "score_blanc": "7,77",
+    "score_nul": "3,46",
+    "score_macron": "42,35",
+    "score_lepen": "57,65"
+  },
+  {
+    "dpt_num": 34,
+    "circo_num": "06",
+    "abs": "27,05",
+    "vot": "72,95",
+    "score_blanc": "6,01",
+    "score_nul": "2,08",
+    "score_macron": "41,28",
+    "score_lepen": "58,72"
+  },
+  {
+    "dpt_num": 34,
+    "circo_num": "07",
+    "abs": "26,71",
+    "vot": "73,29",
+    "score_blanc": "6,02",
+    "score_nul": "2,7",
+    "score_macron": "43,87",
+    "score_lepen": "56,13"
+  },
+  {
+    "dpt_num": 34,
+    "circo_num": "08",
+    "abs": "27,09",
+    "vot": "72,91",
+    "score_blanc": "6,6",
+    "score_nul": "2,34",
+    "score_macron": "53,13",
+    "score_lepen": "46,87"
+  },
+  {
+    "dpt_num": 34,
+    "circo_num": "09",
+    "abs": "27,74",
+    "vot": "72,26",
+    "score_blanc": "5,9",
+    "score_nul": "2,17",
+    "score_macron": "54,67",
+    "score_lepen": "45,33"
+  },
+  {
+    "dpt_num": 35,
+    "circo_num": "01",
+    "abs": "24,76",
+    "vot": "75,24",
+    "score_blanc": "7,04",
+    "score_nul": "1,99",
+    "score_macron": "78,78",
+    "score_lepen": "21,22"
+  },
+  {
+    "dpt_num": 35,
+    "circo_num": "02",
+    "abs": "20,42",
+    "vot": "79,58",
+    "score_blanc": "6,55",
+    "score_nul": "1,93",
+    "score_macron": "78,74",
+    "score_lepen": "21,26"
+  },
+  {
+    "dpt_num": 35,
+    "circo_num": "03",
+    "abs": "20,98",
+    "vot": "79,02",
+    "score_blanc": "6,86",
+    "score_nul": "2,23",
+    "score_macron": "67,9",
+    "score_lepen": "32,1"
+  },
+  {
+    "dpt_num": 35,
+    "circo_num": "04",
+    "abs": "21,33",
+    "vot": "78,67",
+    "score_blanc": "7,17",
+    "score_nul": "2,31",
+    "score_macron": "62,86",
+    "score_lepen": "37,14"
+  },
+  {
+    "dpt_num": 35,
+    "circo_num": "05",
+    "abs": "20,3",
+    "vot": "79,7",
+    "score_blanc": "5,79",
+    "score_nul": "2,12",
+    "score_macron": "68,96",
+    "score_lepen": "31,04"
+  },
+  {
+    "dpt_num": 35,
+    "circo_num": "06",
+    "abs": "20,47",
+    "vot": "79,53",
+    "score_blanc": "6,29",
+    "score_nul": "2,58",
+    "score_macron": "63,67",
+    "score_lepen": "36,33"
+  },
+  {
+    "dpt_num": 35,
+    "circo_num": "07",
+    "abs": "23,04",
+    "vot": "76,96",
+    "score_blanc": "6,32",
+    "score_nul": "2,32",
+    "score_macron": "66,24",
+    "score_lepen": "33,76"
+  },
+  {
+    "dpt_num": 35,
+    "circo_num": "08",
+    "abs": "24,12",
+    "vot": "75,88",
+    "score_blanc": "6,56",
+    "score_nul": "1,86",
+    "score_macron": "81,66",
+    "score_lepen": "18,34"
+  },
+  {
+    "dpt_num": 36,
+    "circo_num": "01",
+    "abs": "26,89",
+    "vot": "73,11",
+    "score_blanc": "6,66",
+    "score_nul": "3,16",
+    "score_macron": "53,8",
+    "score_lepen": "46,2"
+  },
+  {
+    "dpt_num": 36,
+    "circo_num": "02",
+    "abs": "22,99",
+    "vot": "77,01",
+    "score_blanc": "7,33",
+    "score_nul": "3,38",
+    "score_macron": "49,37",
+    "score_lepen": "50,63"
+  },
+  {
+    "dpt_num": 37,
+    "circo_num": "01",
+    "abs": "31,47",
+    "vot": "68,53",
+    "score_blanc": "6,9",
+    "score_nul": "2,03",
+    "score_macron": "74,73",
+    "score_lepen": "25,27"
+  },
+  {
+    "dpt_num": 37,
+    "circo_num": "02",
+    "abs": "22,31",
+    "vot": "77,69",
+    "score_blanc": "6,68",
+    "score_nul": "2,23",
+    "score_macron": "59,51",
+    "score_lepen": "40,49"
+  },
+  {
+    "dpt_num": 37,
+    "circo_num": "03",
+    "abs": "23,45",
+    "vot": "76,55",
+    "score_blanc": "6,64",
+    "score_nul": "4,65",
+    "score_macron": "61,69",
+    "score_lepen": "38,31"
+  },
+  {
+    "dpt_num": 37,
+    "circo_num": "04",
+    "abs": "25,06",
+    "vot": "74,94",
+    "score_blanc": "6,71",
+    "score_nul": "2,31",
+    "score_macron": "61,2",
+    "score_lepen": "38,8"
+  },
+  {
+    "dpt_num": 37,
+    "circo_num": "05",
+    "abs": "22,91",
+    "vot": "77,09",
+    "score_blanc": "6,42",
+    "score_nul": "2,29",
+    "score_macron": "60,16",
+    "score_lepen": "39,84"
+  },
+  {
+    "dpt_num": 38,
+    "circo_num": "01",
+    "abs": "24,89",
+    "vot": "75,11",
+    "score_blanc": "5,72",
+    "score_nul": "1,32",
+    "score_macron": "79,05",
+    "score_lepen": "20,95"
+  },
+  {
+    "dpt_num": 38,
+    "circo_num": "02",
+    "abs": "29,23",
+    "vot": "70,77",
+    "score_blanc": "6,94",
+    "score_nul": "1,77",
+    "score_macron": "64,31",
+    "score_lepen": "35,69"
+  },
+  {
+    "dpt_num": 38,
+    "circo_num": "03",
+    "abs": "32,18",
+    "vot": "67,82",
+    "score_blanc": "6,54",
+    "score_nul": "1,69",
+    "score_macron": "71,57",
+    "score_lepen": "28,43"
+  },
+  {
+    "dpt_num": 38,
+    "circo_num": "04",
+    "abs": "25,04",
+    "vot": "74,96",
+    "score_blanc": "7,56",
+    "score_nul": "1,81",
+    "score_macron": "61,94",
+    "score_lepen": "38,06"
+  },
+  {
+    "dpt_num": 38,
+    "circo_num": "05",
+    "abs": "23,8",
+    "vot": "76,2",
+    "score_blanc": "7,12",
+    "score_nul": "1,71",
+    "score_macron": "63,56",
+    "score_lepen": "36,44"
+  },
+  {
+    "dpt_num": 38,
+    "circo_num": "06",
+    "abs": "25,41",
+    "vot": "74,59",
+    "score_blanc": "5,75",
+    "score_nul": "1,49",
+    "score_macron": "49,11",
+    "score_lepen": "50,89"
+  },
+  {
+    "dpt_num": 38,
+    "circo_num": "07",
+    "abs": "23,71",
+    "vot": "76,29",
+    "score_blanc": "6,54",
+    "score_nul": "2,34",
+    "score_macron": "49,04",
+    "score_lepen": "50,96"
+  },
+  {
+    "dpt_num": 38,
+    "circo_num": "08",
+    "abs": "25,35",
+    "vot": "74,65",
+    "score_blanc": "6,3",
+    "score_nul": "1,97",
+    "score_macron": "54,12",
+    "score_lepen": "45,88"
+  },
+  {
+    "dpt_num": 38,
+    "circo_num": "09",
+    "abs": "24,91",
+    "vot": "75,09",
+    "score_blanc": "7,4",
+    "score_nul": "1,69",
+    "score_macron": "59,92",
+    "score_lepen": "40,08"
+  },
+  {
+    "dpt_num": 38,
+    "circo_num": 10,
+    "abs": "27,4",
+    "vot": "72,6",
+    "score_blanc": "6,11",
+    "score_nul": "1,85",
+    "score_macron": "51,76",
+    "score_lepen": "48,24"
+  },
+  {
+    "dpt_num": 39,
+    "circo_num": "01",
+    "abs": "23,38",
+    "vot": "76,62",
+    "score_blanc": "8,18",
+    "score_nul": "2,66",
+    "score_macron": "54,11",
+    "score_lepen": "45,89"
+  },
+  {
+    "dpt_num": 39,
+    "circo_num": "02",
+    "abs": "24,97",
+    "vot": "75,03",
+    "score_blanc": "7,74",
+    "score_nul": "2,45",
+    "score_macron": "55,59",
+    "score_lepen": "44,41"
+  },
+  {
+    "dpt_num": 39,
+    "circo_num": "03",
+    "abs": "23,97",
+    "vot": "76,03",
+    "score_blanc": "7,32",
+    "score_nul": "2,82",
+    "score_macron": "50,13",
+    "score_lepen": "49,87"
+  },
+  {
+    "dpt_num": 40,
+    "circo_num": "01",
+    "abs": "23,2",
+    "vot": "76,8",
+    "score_blanc": "8,3",
+    "score_nul": "2,67",
+    "score_macron": "54,84",
+    "score_lepen": "45,16"
+  },
+  {
+    "dpt_num": 40,
+    "circo_num": "02",
+    "abs": "23,07",
+    "vot": "76,93",
+    "score_blanc": "8,09",
+    "score_nul": "2,88",
+    "score_macron": "59,95",
+    "score_lepen": "40,05"
+  },
+  {
+    "dpt_num": 40,
+    "circo_num": "03",
+    "abs": "20,04",
+    "vot": "79,96",
+    "score_blanc": "7,8",
+    "score_nul": "4,55",
+    "score_macron": "54,23",
+    "score_lepen": "45,77"
+  },
+  {
+    "dpt_num": 41,
+    "circo_num": "01",
+    "abs": "25,96",
+    "vot": "74,04",
+    "score_blanc": "6,73",
+    "score_nul": "2,43",
+    "score_macron": "59,46",
+    "score_lepen": "40,54"
+  },
+  {
+    "dpt_num": 41,
+    "circo_num": "02",
+    "abs": "23,58",
+    "vot": "76,42",
+    "score_blanc": "5,95",
+    "score_nul": "2,45",
+    "score_macron": "49,08",
+    "score_lepen": "50,92"
+  },
+  {
+    "dpt_num": 41,
+    "circo_num": "03",
+    "abs": "22,06",
+    "vot": "77,94",
+    "score_blanc": "6,51",
+    "score_nul": "2,39",
+    "score_macron": "52,98",
+    "score_lepen": "47,02"
+  },
+  {
+    "dpt_num": 42,
+    "circo_num": "01",
+    "abs": "31,14",
+    "vot": "68,86",
+    "score_blanc": "6,24",
+    "score_nul": "2,11",
+    "score_macron": "63,72",
+    "score_lepen": "36,28"
+  },
+  {
+    "dpt_num": 42,
+    "circo_num": "02",
+    "abs": "34,51",
+    "vot": "65,49",
+    "score_blanc": "6,47",
+    "score_nul": "2,08",
+    "score_macron": "68,43",
+    "score_lepen": "31,57"
+  },
+  {
+    "dpt_num": 42,
+    "circo_num": "03",
+    "abs": "27,85",
+    "vot": "72,15",
+    "score_blanc": "7,13",
+    "score_nul": "1,29",
+    "score_macron": "55,8",
+    "score_lepen": "44,2"
+  },
+  {
+    "dpt_num": 42,
+    "circo_num": "04",
+    "abs": "26,05",
+    "vot": "73,95",
+    "score_blanc": "6,97",
+    "score_nul": "2,15",
+    "score_macron": "52,96",
+    "score_lepen": "47,04"
+  },
+  {
+    "dpt_num": 42,
+    "circo_num": "05",
+    "abs": "23,56",
+    "vot": "76,44",
+    "score_blanc": "6,87",
+    "score_nul": "2,34",
+    "score_macron": "54,23",
+    "score_lepen": "45,77"
+  },
+  {
+    "dpt_num": 42,
+    "circo_num": "06",
+    "abs": "22,87",
+    "vot": "77,13",
+    "score_blanc": "6,51",
+    "score_nul": "2,05",
+    "score_macron": "54,46",
+    "score_lepen": "45,54"
+  },
+  {
+    "dpt_num": 43,
+    "circo_num": "01",
+    "abs": "22,53",
+    "vot": "77,47",
+    "score_blanc": "7,54",
+    "score_nul": "2,84",
+    "score_macron": "49,5",
+    "score_lepen": "50,5"
+  },
+  {
+    "dpt_num": 43,
+    "circo_num": "02",
+    "abs": "23,06",
+    "vot": "76,94",
+    "score_blanc": "8,21",
+    "score_nul": "3,37",
+    "score_macron": "51,02",
+    "score_lepen": "48,98"
+  },
+  {
+    "dpt_num": 44,
+    "circo_num": "01",
+    "abs": "26,4",
+    "vot": "73,6",
+    "score_blanc": "6,96",
+    "score_nul": "1,23",
+    "score_macron": "79,52",
+    "score_lepen": "20,48"
+  },
+  {
+    "dpt_num": 44,
+    "circo_num": "02",
+    "abs": "27,51",
+    "vot": "72,49",
+    "score_blanc": "6,8",
+    "score_nul": "1,64",
+    "score_macron": "82,53",
+    "score_lepen": "17,47"
+  },
+  {
+    "dpt_num": 44,
+    "circo_num": "03",
+    "abs": "28,64",
+    "vot": "71,36",
+    "score_blanc": "8,13",
+    "score_nul": "1,57",
+    "score_macron": "74,23",
+    "score_lepen": "25,77"
+  },
+  {
+    "dpt_num": 44,
+    "circo_num": "04",
+    "abs": "25,69",
+    "vot": "74,31",
+    "score_blanc": "7,63",
+    "score_nul": "2,41",
+    "score_macron": "74,72",
+    "score_lepen": "25,28"
+  },
+  {
+    "dpt_num": 44,
+    "circo_num": "05",
+    "abs": "21,96",
+    "vot": "78,04",
+    "score_blanc": "6,86",
+    "score_nul": "2,03",
+    "score_macron": "72,87",
+    "score_lepen": "27,13"
+  },
+  {
+    "dpt_num": 44,
+    "circo_num": "06",
+    "abs": "23,69",
+    "vot": "76,31",
+    "score_blanc": "7,15",
+    "score_nul": "2,66",
+    "score_macron": "60,47",
+    "score_lepen": "39,53"
+  },
+  {
+    "dpt_num": 44,
+    "circo_num": "07",
+    "abs": "21,76",
+    "vot": "78,24",
+    "score_blanc": "7,24",
+    "score_nul": "2,04",
+    "score_macron": "62,68",
+    "score_lepen": "37,32"
+  },
+  {
+    "dpt_num": 44,
+    "circo_num": "08",
+    "abs": "27,53",
+    "vot": "72,47",
+    "score_blanc": "7,99",
+    "score_nul": "2,51",
+    "score_macron": "63,09",
+    "score_lepen": "36,91"
+  },
+  {
+    "dpt_num": 44,
+    "circo_num": "09",
+    "abs": "22,26",
+    "vot": "77,74",
+    "score_blanc": "7,04",
+    "score_nul": "2,3",
+    "score_macron": "61,87",
+    "score_lepen": "38,13"
+  },
+  {
+    "dpt_num": 44,
+    "circo_num": 10,
+    "abs": "20,02",
+    "vot": "79,98",
+    "score_blanc": "6,72",
+    "score_nul": "2,24",
+    "score_macron": "70,7",
+    "score_lepen": "29,3"
+  },
+  {
+    "dpt_num": 45,
+    "circo_num": "01",
+    "abs": "24,91",
+    "vot": "75,09",
+    "score_blanc": "6,44",
+    "score_nul": "1,85",
+    "score_macron": "68,67",
+    "score_lepen": "31,33"
+  },
+  {
+    "dpt_num": 45,
+    "circo_num": "02",
+    "abs": "26,26",
+    "vot": "73,74",
+    "score_blanc": "6,19",
+    "score_nul": "2,2",
+    "score_macron": "61,65",
+    "score_lepen": "38,35"
+  },
+  {
+    "dpt_num": 45,
+    "circo_num": "03",
+    "abs": "23,57",
+    "vot": "76,43",
+    "score_blanc": "6,1",
+    "score_nul": "2,19",
+    "score_macron": "52,11",
+    "score_lepen": "47,89"
+  },
+  {
+    "dpt_num": 45,
+    "circo_num": "04",
+    "abs": "27,14",
+    "vot": "72,86",
+    "score_blanc": "5,45",
+    "score_nul": "2,1",
+    "score_macron": "47,99",
+    "score_lepen": "52,01"
+  },
+  {
+    "dpt_num": 45,
+    "circo_num": "05",
+    "abs": "24,56",
+    "vot": "75,44",
+    "score_blanc": "5,8",
+    "score_nul": "1,94",
+    "score_macron": "50,95",
+    "score_lepen": "49,05"
+  },
+  {
+    "dpt_num": 45,
+    "circo_num": "06",
+    "abs": "25,09",
+    "vot": "74,91",
+    "score_blanc": "6,34",
+    "score_nul": "2,05",
+    "score_macron": "62,62",
+    "score_lepen": "37,38"
+  },
+  {
+    "dpt_num": 46,
+    "circo_num": "01",
+    "abs": "23,02",
+    "vot": "76,98",
+    "score_blanc": "9,04",
+    "score_nul": "4,15",
+    "score_macron": "58,04",
+    "score_lepen": "41,96"
+  },
+  {
+    "dpt_num": 46,
+    "circo_num": "02",
+    "abs": "22,05",
+    "vot": "77,95",
+    "score_blanc": "9,61",
+    "score_nul": "4,45",
+    "score_macron": "60,42",
+    "score_lepen": "39,58"
+  },
+  {
+    "dpt_num": 47,
+    "circo_num": "01",
+    "abs": "23,82",
+    "vot": "76,18",
+    "score_blanc": "7,22",
+    "score_nul": "3,13",
+    "score_macron": "52,91",
+    "score_lepen": "47,09"
+  },
+  {
+    "dpt_num": 47,
+    "circo_num": "02",
+    "abs": "23,66",
+    "vot": "76,34",
+    "score_blanc": "6,65",
+    "score_nul": "4,64",
+    "score_macron": "46,5",
+    "score_lepen": "53,5"
+  },
+  {
+    "dpt_num": 47,
+    "circo_num": "03",
+    "abs": "24,81",
+    "vot": "75,19",
+    "score_blanc": "7,16",
+    "score_nul": "3,28",
+    "score_macron": "48,58",
+    "score_lepen": "51,42"
+  },
+  {
+    "dpt_num": 48,
+    "circo_num": "01",
+    "abs": "21,9",
+    "vot": "78,1",
+    "score_blanc": "8,72",
+    "score_nul": "4,1",
+    "score_macron": "54,2",
+    "score_lepen": "45,8"
+  },
+  {
+    "dpt_num": 49,
+    "circo_num": "01",
+    "abs": "25,25",
+    "vot": "74,75",
+    "score_blanc": "6,51",
+    "score_nul": "1,98",
+    "score_macron": "71,7",
+    "score_lepen": "28,3"
+  },
+  {
+    "dpt_num": 49,
+    "circo_num": "02",
+    "abs": "24,03",
+    "vot": "75,97",
+    "score_blanc": "6,91",
+    "score_nul": "2,35",
+    "score_macron": "70,76",
+    "score_lepen": "29,24"
+  },
+  {
+    "dpt_num": 49,
+    "circo_num": "03",
+    "abs": "23,51",
+    "vot": "76,49",
+    "score_blanc": "6,11",
+    "score_nul": "2,06",
+    "score_macron": "53,75",
+    "score_lepen": "46,25"
+  },
+  {
+    "dpt_num": 49,
+    "circo_num": "04",
+    "abs": "22,45",
+    "vot": "77,55",
+    "score_blanc": "6,06",
+    "score_nul": "1,95",
+    "score_macron": "59,83",
+    "score_lepen": "40,17"
+  },
+  {
+    "dpt_num": 49,
+    "circo_num": "05",
+    "abs": "23,98",
+    "vot": "76,02",
+    "score_blanc": "5,88",
+    "score_nul": "2,03",
+    "score_macron": "70,06",
+    "score_lepen": "29,94"
+  },
+  {
+    "dpt_num": 49,
+    "circo_num": "06",
+    "abs": "22,56",
+    "vot": "77,44",
+    "score_blanc": "6,36",
+    "score_nul": "2,13",
+    "score_macron": "68,43",
+    "score_lepen": "31,57"
+  },
+  {
+    "dpt_num": 49,
+    "circo_num": "07",
+    "abs": "22,61",
+    "vot": "77,39",
+    "score_blanc": "6,33",
+    "score_nul": "1,96",
+    "score_macron": "68,25",
+    "score_lepen": "31,75"
+  },
+  {
+    "dpt_num": 50,
+    "circo_num": "01",
+    "abs": "22,87",
+    "vot": "77,13",
+    "score_blanc": "6,04",
+    "score_nul": "1,99",
+    "score_macron": "58,17",
+    "score_lepen": "41,83"
+  },
+  {
+    "dpt_num": 50,
+    "circo_num": "02",
+    "abs": "22,64",
+    "vot": "77,36",
+    "score_blanc": "5,85",
+    "score_nul": "2,33",
+    "score_macron": "62,01",
+    "score_lepen": "37,99"
+  },
+  {
+    "dpt_num": 50,
+    "circo_num": "03",
+    "abs": "22,5",
+    "vot": "77,5",
+    "score_blanc": "6,48",
+    "score_nul": "2,11",
+    "score_macron": "57,88",
+    "score_lepen": "42,12"
+  },
+  {
+    "dpt_num": 50,
+    "circo_num": "04",
+    "abs": "27,02",
+    "vot": "72,98",
+    "score_blanc": "7,71",
+    "score_nul": "2,37",
+    "score_macron": "60,63",
+    "score_lepen": "39,37"
+  },
+  {
+    "dpt_num": 51,
+    "circo_num": "01",
+    "abs": "28,48",
+    "vot": "71,52",
+    "score_blanc": "5,22",
+    "score_nul": "1,88",
+    "score_macron": "58,32",
+    "score_lepen": "41,68"
+  },
+  {
+    "dpt_num": 51,
+    "circo_num": "02",
+    "abs": "26,87",
+    "vot": "73,13",
+    "score_blanc": "5,13",
+    "score_nul": "1,85",
+    "score_macron": "59,49",
+    "score_lepen": "40,51"
+  },
+  {
+    "dpt_num": 51,
+    "circo_num": "03",
+    "abs": "26,92",
+    "vot": "73,08",
+    "score_blanc": "5,56",
+    "score_nul": "1,81",
+    "score_macron": 50,
+    "score_lepen": 50
+  },
+  {
+    "dpt_num": 51,
+    "circo_num": "04",
+    "abs": "26,25",
+    "vot": "73,75",
+    "score_blanc": "5,36",
+    "score_nul": "2,17",
+    "score_macron": "51,05",
+    "score_lepen": "48,95"
+  },
+  {
+    "dpt_num": 51,
+    "circo_num": "05",
+    "abs": 22,
+    "vot": 78,
+    "score_blanc": "5,22",
+    "score_nul": "1,88",
+    "score_macron": "42,82",
+    "score_lepen": "57,18"
+  },
+  {
+    "dpt_num": 52,
+    "circo_num": "01",
+    "abs": "24,58",
+    "vot": "75,42",
+    "score_blanc": "6,17",
+    "score_nul": "2,85",
+    "score_macron": "47,13",
+    "score_lepen": "52,87"
+  },
+  {
+    "dpt_num": 52,
+    "circo_num": "02",
+    "abs": "25,93",
+    "vot": "74,07",
+    "score_blanc": "5,12",
+    "score_nul": "2,19",
+    "score_macron": "38,24",
+    "score_lepen": "61,76"
+  },
+  {
+    "dpt_num": 53,
+    "circo_num": "01",
+    "abs": "23,46",
+    "vot": "76,54",
+    "score_blanc": "6,18",
+    "score_nul": "2,44",
+    "score_macron": "65,52",
+    "score_lepen": "34,48"
+  },
+  {
+    "dpt_num": 53,
+    "circo_num": "02",
+    "abs": "22,11",
+    "vot": "77,89",
+    "score_blanc": "5,86",
+    "score_nul": "2,04",
+    "score_macron": "65,63",
+    "score_lepen": "34,37"
+  },
+  {
+    "dpt_num": 53,
+    "circo_num": "03",
+    "abs": "22,57",
+    "vot": "77,43",
+    "score_blanc": 6,
+    "score_nul": "2,58",
+    "score_macron": "61,32",
+    "score_lepen": "38,68"
+  },
+  {
+    "dpt_num": 54,
+    "circo_num": "01",
+    "abs": "27,7",
+    "vot": "72,3",
+    "score_blanc": "6,4",
+    "score_nul": "1,81",
+    "score_macron": "67,44",
+    "score_lepen": "32,56"
+  },
+  {
+    "dpt_num": 54,
+    "circo_num": "02",
+    "abs": "27,61",
+    "vot": "72,39",
+    "score_blanc": "6,41",
+    "score_nul": "1,74",
+    "score_macron": "71,77",
+    "score_lepen": "28,23"
+  },
+  {
+    "dpt_num": 54,
+    "circo_num": "03",
+    "abs": "32,1",
+    "vot": "67,9",
+    "score_blanc": "6,09",
+    "score_nul": "2,26",
+    "score_macron": "49,23",
+    "score_lepen": "50,77"
+  },
+  {
+    "dpt_num": 54,
+    "circo_num": "04",
+    "abs": "24,81",
+    "vot": "75,19",
+    "score_blanc": "5,96",
+    "score_nul": "2,09",
+    "score_macron": "46,82",
+    "score_lepen": "53,18"
+  },
+  {
+    "dpt_num": 54,
+    "circo_num": "05",
+    "abs": "22,79",
+    "vot": "77,21",
+    "score_blanc": "5,83",
+    "score_nul": "2,1",
+    "score_macron": "48,96",
+    "score_lepen": "51,04"
+  },
+  {
+    "dpt_num": 54,
+    "circo_num": "06",
+    "abs": "27,84",
+    "vot": "72,16",
+    "score_blanc": "6,67",
+    "score_nul": "2,06",
+    "score_macron": "47,24",
+    "score_lepen": "52,76"
+  },
+  {
+    "dpt_num": 55,
+    "circo_num": "01",
+    "abs": "23,34",
+    "vot": "76,66",
+    "score_blanc": "5,61",
+    "score_nul": "2,19",
+    "score_macron": "44,57",
+    "score_lepen": "55,43"
+  },
+  {
+    "dpt_num": 55,
+    "circo_num": "02",
+    "abs": "25,05",
+    "vot": "74,95",
+    "score_blanc": "5,34",
+    "score_nul": "2,27",
+    "score_macron": "44,19",
+    "score_lepen": "55,81"
+  },
+  {
+    "dpt_num": 56,
+    "circo_num": "01",
+    "abs": "21,7",
+    "vot": "78,3",
+    "score_blanc": "6,91",
+    "score_nul": "1,9",
+    "score_macron": "70,11",
+    "score_lepen": "29,89"
+  },
+  {
+    "dpt_num": 56,
+    "circo_num": "02",
+    "abs": "20,97",
+    "vot": "79,03",
+    "score_blanc": "7,4",
+    "score_nul": "2,41",
+    "score_macron": "64,14",
+    "score_lepen": "35,86"
+  },
+  {
+    "dpt_num": 56,
+    "circo_num": "03",
+    "abs": "20,88",
+    "vot": "79,12",
+    "score_blanc": "6,22",
+    "score_nul": "2,82",
+    "score_macron": "57,79",
+    "score_lepen": "42,21"
+  },
+  {
+    "dpt_num": 56,
+    "circo_num": "04",
+    "abs": 21,
+    "vot": 79,
+    "score_blanc": "7,01",
+    "score_nul": "2,13",
+    "score_macron": "58,3",
+    "score_lepen": "41,7"
+  },
+  {
+    "dpt_num": 56,
+    "circo_num": "05",
+    "abs": "27,09",
+    "vot": "72,91",
+    "score_blanc": "7,94",
+    "score_nul": "2,07",
+    "score_macron": "68,07",
+    "score_lepen": "31,93"
+  },
+  {
+    "dpt_num": 56,
+    "circo_num": "06",
+    "abs": "22,58",
+    "vot": "77,42",
+    "score_blanc": "7,03",
+    "score_nul": "3,08",
+    "score_macron": "58,57",
+    "score_lepen": "41,43"
+  },
+  {
+    "dpt_num": 57,
+    "circo_num": "01",
+    "abs": "30,02",
+    "vot": "69,98",
+    "score_blanc": "5,99",
+    "score_nul": "1,56",
+    "score_macron": "54,69",
+    "score_lepen": "45,31"
+  },
+  {
+    "dpt_num": 57,
+    "circo_num": "02",
+    "abs": "27,9",
+    "vot": "72,1",
+    "score_blanc": "5,99",
+    "score_nul": "1,43",
+    "score_macron": "59,21",
+    "score_lepen": "40,79"
+  },
+  {
+    "dpt_num": 57,
+    "circo_num": "03",
+    "abs": "28,84",
+    "vot": "71,16",
+    "score_blanc": "6,1",
+    "score_nul": "1,65",
+    "score_macron": "60,75",
+    "score_lepen": "39,25"
+  },
+  {
+    "dpt_num": 57,
+    "circo_num": "04",
+    "abs": "23,24",
+    "vot": "76,76",
+    "score_blanc": "5,24",
+    "score_nul": "1,67",
+    "score_macron": "42,64",
+    "score_lepen": "57,36"
+  },
+  {
+    "dpt_num": 57,
+    "circo_num": "05",
+    "abs": "26,1",
+    "vot": "73,9",
+    "score_blanc": 5,
+    "score_nul": "1,84",
+    "score_macron": "43,44",
+    "score_lepen": "56,56"
+  },
+  {
+    "dpt_num": 57,
+    "circo_num": "06",
+    "abs": "32,55",
+    "vot": "67,45",
+    "score_blanc": "5,03",
+    "score_nul": "1,43",
+    "score_macron": "43,74",
+    "score_lepen": "56,26"
+  },
+  {
+    "dpt_num": 57,
+    "circo_num": "07",
+    "abs": "26,99",
+    "vot": "73,01",
+    "score_blanc": "5,39",
+    "score_nul": "1,79",
+    "score_macron": "42,25",
+    "score_lepen": "57,75"
+  },
+  {
+    "dpt_num": 57,
+    "circo_num": "08",
+    "abs": "34,08",
+    "vot": "65,92",
+    "score_blanc": "6,17",
+    "score_nul": "1,62",
+    "score_macron": "47,81",
+    "score_lepen": "52,19"
+  },
+  {
+    "dpt_num": 57,
+    "circo_num": "09",
+    "abs": "27,11",
+    "vot": "72,89",
+    "score_blanc": "5,69",
+    "score_nul": "1,56",
+    "score_macron": "58,07",
+    "score_lepen": "41,93"
+  },
+  {
+    "dpt_num": 58,
+    "circo_num": "01",
+    "abs": "28,81",
+    "vot": "71,19",
+    "score_blanc": "7,58",
+    "score_nul": "3,01",
+    "score_macron": "52,05",
+    "score_lepen": "47,95"
+  },
+  {
+    "dpt_num": 58,
+    "circo_num": "02",
+    "abs": "24,61",
+    "vot": "75,39",
+    "score_blanc": "6,85",
+    "score_nul": "3,46",
+    "score_macron": "47,99",
+    "score_lepen": "52,01"
+  },
+  {
+    "dpt_num": 59,
+    "circo_num": "01",
+    "abs": "33,06",
+    "vot": "66,94",
+    "score_blanc": "5,66",
+    "score_nul": "2,06",
+    "score_macron": "74,54",
+    "score_lepen": "25,46"
+  },
+  {
+    "dpt_num": 59,
+    "circo_num": "02",
+    "abs": "31,33",
+    "vot": "68,67",
+    "score_blanc": "6,2",
+    "score_nul": "2,23",
+    "score_macron": "70,48",
+    "score_lepen": "29,52"
+  },
+  {
+    "dpt_num": 59,
+    "circo_num": "03",
+    "abs": "31,87",
+    "vot": "68,13",
+    "score_blanc": "4,76",
+    "score_nul": "2,04",
+    "score_macron": "40,38",
+    "score_lepen": "59,62"
+  },
+  {
+    "dpt_num": 59,
+    "circo_num": "04",
+    "abs": "26,01",
+    "vot": "73,99",
+    "score_blanc": "4,95",
+    "score_nul": "1,81",
+    "score_macron": "69,14",
+    "score_lepen": "30,86"
+  },
+  {
+    "dpt_num": 59,
+    "circo_num": "05",
+    "abs": "23,84",
+    "vot": "76,16",
+    "score_blanc": "5,67",
+    "score_nul": "1,91",
+    "score_macron": "55,18",
+    "score_lepen": "44,82"
+  },
+  {
+    "dpt_num": 59,
+    "circo_num": "06",
+    "abs": "20,69",
+    "vot": "79,31",
+    "score_blanc": "5,33",
+    "score_nul": "1,83",
+    "score_macron": "61,69",
+    "score_lepen": "38,31"
+  },
+  {
+    "dpt_num": 59,
+    "circo_num": "07",
+    "abs": "30,24",
+    "vot": "69,76",
+    "score_blanc": "5,36",
+    "score_nul": "1,97",
+    "score_macron": "65,73",
+    "score_lepen": "34,27"
+  },
+  {
+    "dpt_num": 59,
+    "circo_num": "08",
+    "abs": "42,44",
+    "vot": "57,56",
+    "score_blanc": "5,2",
+    "score_nul": "2,06",
+    "score_macron": "59,26",
+    "score_lepen": "40,74"
+  },
+  {
+    "dpt_num": 59,
+    "circo_num": "09",
+    "abs": "29,6",
+    "vot": "70,4",
+    "score_blanc": "4,88",
+    "score_nul": "1,73",
+    "score_macron": "73,72",
+    "score_lepen": "26,28"
+  },
+  {
+    "dpt_num": 59,
+    "circo_num": 10,
+    "abs": "34,29",
+    "vot": "65,71",
+    "score_blanc": "4,87",
+    "score_nul": "1,79",
+    "score_macron": "57,2",
+    "score_lepen": "42,8"
+  },
+  {
+    "dpt_num": 59,
+    "circo_num": 11,
+    "abs": "30,44",
+    "vot": "69,56",
+    "score_blanc": "5,38",
+    "score_nul": "2,27",
+    "score_macron": "62,37",
+    "score_lepen": "37,63"
+  },
+  {
+    "dpt_num": 59,
+    "circo_num": 12,
+    "abs": "26,42",
+    "vot": "73,58",
+    "score_blanc": "5,03",
+    "score_nul": "2,18",
+    "score_macron": "38,88",
+    "score_lepen": "61,12"
+  },
+  {
+    "dpt_num": 59,
+    "circo_num": 13,
+    "abs": "31,07",
+    "vot": "68,93",
+    "score_blanc": "6,18",
+    "score_nul": "2,18",
+    "score_macron": "46,2",
+    "score_lepen": "53,8"
+  },
+  {
+    "dpt_num": 59,
+    "circo_num": 14,
+    "abs": "22,98",
+    "vot": "77,02",
+    "score_blanc": "4,97",
+    "score_nul": "3,03",
+    "score_macron": "46,01",
+    "score_lepen": "53,99"
+  },
+  {
+    "dpt_num": 59,
+    "circo_num": 15,
+    "abs": "22,99",
+    "vot": "77,01",
+    "score_blanc": "4,85",
+    "score_nul": "2,25",
+    "score_macron": "48,82",
+    "score_lepen": "51,18"
+  },
+  {
+    "dpt_num": 59,
+    "circo_num": 16,
+    "abs": "28,68",
+    "vot": "71,32",
+    "score_blanc": "5,29",
+    "score_nul": "2,16",
+    "score_macron": "37,44",
+    "score_lepen": "62,56"
+  },
+  {
+    "dpt_num": 59,
+    "circo_num": 17,
+    "abs": "28,46",
+    "vot": "71,54",
+    "score_blanc": "5,35",
+    "score_nul": "2,22",
+    "score_macron": "44,45",
+    "score_lepen": "55,55"
+  },
+  {
+    "dpt_num": 59,
+    "circo_num": 18,
+    "abs": "26,78",
+    "vot": "73,22",
+    "score_blanc": "4,67",
+    "score_nul": "2,08",
+    "score_macron": "39,03",
+    "score_lepen": "60,97"
+  },
+  {
+    "dpt_num": 59,
+    "circo_num": 19,
+    "abs": "29,24",
+    "vot": "70,76",
+    "score_blanc": "4,98",
+    "score_nul": "2,11",
+    "score_macron": "36,64",
+    "score_lepen": "63,36"
+  },
+  {
+    "dpt_num": 59,
+    "circo_num": 20,
+    "abs": "30,96",
+    "vot": "69,04",
+    "score_blanc": "4,86",
+    "score_nul": "2,05",
+    "score_macron": "39,96",
+    "score_lepen": "60,04"
+  },
+  {
+    "dpt_num": 59,
+    "circo_num": 21,
+    "abs": "29,79",
+    "vot": "70,21",
+    "score_blanc": "5,1",
+    "score_nul": "1,92",
+    "score_macron": "48,17",
+    "score_lepen": "51,83"
+  },
+  {
+    "dpt_num": 60,
+    "circo_num": "01",
+    "abs": "24,81",
+    "vot": "75,19",
+    "score_blanc": "5,27",
+    "score_nul": "2,23",
+    "score_macron": "43,18",
+    "score_lepen": "56,82"
+  },
+  {
+    "dpt_num": 60,
+    "circo_num": "02",
+    "abs": "23,52",
+    "vot": "76,48",
+    "score_blanc": "5,31",
+    "score_nul": "1,9",
+    "score_macron": "42,32",
+    "score_lepen": "57,68"
+  },
+  {
+    "dpt_num": 60,
+    "circo_num": "03",
+    "abs": "30,46",
+    "vot": "69,54",
+    "score_blanc": "6,02",
+    "score_nul": "2,27",
+    "score_macron": "49,39",
+    "score_lepen": "50,61"
+  },
+  {
+    "dpt_num": 60,
+    "circo_num": "04",
+    "abs": "24,66",
+    "vot": "75,34",
+    "score_blanc": "5,51",
+    "score_nul": "1,74",
+    "score_macron": "54,05",
+    "score_lepen": "45,95"
+  },
+  {
+    "dpt_num": 60,
+    "circo_num": "05",
+    "abs": "25,71",
+    "vot": "74,29",
+    "score_blanc": "5,89",
+    "score_nul": "2,05",
+    "score_macron": "48,84",
+    "score_lepen": "51,16"
+  },
+  {
+    "dpt_num": 60,
+    "circo_num": "06",
+    "abs": "24,38",
+    "vot": "75,62",
+    "score_blanc": "5,74",
+    "score_nul": "1,83",
+    "score_macron": "46,88",
+    "score_lepen": "53,12"
+  },
+  {
+    "dpt_num": 60,
+    "circo_num": "07",
+    "abs": "27,36",
+    "vot": "72,64",
+    "score_blanc": "6,43",
+    "score_nul": "2,25",
+    "score_macron": "46,29",
+    "score_lepen": "53,71"
+  },
+  {
+    "dpt_num": 61,
+    "circo_num": "01",
+    "abs": "24,08",
+    "vot": "75,92",
+    "score_blanc": "6,1",
+    "score_nul": "2,15",
+    "score_macron": 59,
+    "score_lepen": 41
+  },
+  {
+    "dpt_num": 61,
+    "circo_num": "02",
+    "abs": "23,34",
+    "vot": "76,66",
+    "score_blanc": "5,77",
+    "score_nul": "2,04",
+    "score_macron": "50,2",
+    "score_lepen": "49,8"
+  },
+  {
+    "dpt_num": 61,
+    "circo_num": "03",
+    "abs": "23,73",
+    "vot": "76,27",
+    "score_blanc": "6,36",
+    "score_nul": "2,36",
+    "score_macron": "56,02",
+    "score_lepen": "43,98"
+  },
+  {
+    "dpt_num": 62,
+    "circo_num": "01",
+    "abs": "20,35",
+    "vot": "79,65",
+    "score_blanc": "4,71",
+    "score_nul": "2,2",
+    "score_macron": "41,26",
+    "score_lepen": "58,74"
+  },
+  {
+    "dpt_num": 62,
+    "circo_num": "02",
+    "abs": "23,51",
+    "vot": "76,49",
+    "score_blanc": "5,5",
+    "score_nul": "2,82",
+    "score_macron": "55,8",
+    "score_lepen": "44,2"
+  },
+  {
+    "dpt_num": 62,
+    "circo_num": "03",
+    "abs": "30,91",
+    "vot": "69,09",
+    "score_blanc": "4,53",
+    "score_nul": "3,48",
+    "score_macron": "36,52",
+    "score_lepen": "63,48"
+  },
+  {
+    "dpt_num": 62,
+    "circo_num": "04",
+    "abs": "21,94",
+    "vot": "78,06",
+    "score_blanc": "4,44",
+    "score_nul": "2,23",
+    "score_macron": "51,38",
+    "score_lepen": "48,62"
+  },
+  {
+    "dpt_num": 62,
+    "circo_num": "05",
+    "abs": "26,97",
+    "vot": "73,03",
+    "score_blanc": "5,19",
+    "score_nul": "2,18",
+    "score_macron": "48,31",
+    "score_lepen": "51,69"
+  },
+  {
+    "dpt_num": 62,
+    "circo_num": "06",
+    "abs": "19,6",
+    "vot": "80,4",
+    "score_blanc": "4,52",
+    "score_nul": "2,96",
+    "score_macron": "42,32",
+    "score_lepen": "57,68"
+  },
+  {
+    "dpt_num": 62,
+    "circo_num": "07",
+    "abs": "28,17",
+    "vot": "71,83",
+    "score_blanc": "4,73",
+    "score_nul": "2,52",
+    "score_macron": "40,23",
+    "score_lepen": "59,77"
+  },
+  {
+    "dpt_num": 62,
+    "circo_num": "08",
+    "abs": "24,24",
+    "vot": "75,76",
+    "score_blanc": "4,68",
+    "score_nul": "2,72",
+    "score_macron": "43,21",
+    "score_lepen": "56,79"
+  },
+  {
+    "dpt_num": 62,
+    "circo_num": "09",
+    "abs": "23,9",
+    "vot": "76,1",
+    "score_blanc": "4,77",
+    "score_nul": "2,42",
+    "score_macron": "45,86",
+    "score_lepen": "54,14"
+  },
+  {
+    "dpt_num": 62,
+    "circo_num": 10,
+    "abs": "26,23",
+    "vot": "73,77",
+    "score_blanc": "4,15",
+    "score_nul": "2,17",
+    "score_macron": "33,94",
+    "score_lepen": "66,06"
+  },
+  {
+    "dpt_num": 62,
+    "circo_num": 11,
+    "abs": "28,81",
+    "vot": "71,19",
+    "score_blanc": "4,28",
+    "score_nul": "2,32",
+    "score_macron": "36,59",
+    "score_lepen": "63,41"
+  },
+  {
+    "dpt_num": 62,
+    "circo_num": 12,
+    "abs": "26,56",
+    "vot": "73,44",
+    "score_blanc": "4,31",
+    "score_nul": "2,15",
+    "score_macron": "34,67",
+    "score_lepen": "65,33"
+  },
+  {
+    "dpt_num": 63,
+    "circo_num": "01",
+    "abs": "29,87",
+    "vot": "70,13",
+    "score_blanc": "7,27",
+    "score_nul": "2,56",
+    "score_macron": "66,25",
+    "score_lepen": "33,75"
+  },
+  {
+    "dpt_num": 63,
+    "circo_num": "02",
+    "abs": "22,82",
+    "vot": "77,18",
+    "score_blanc": "8,11",
+    "score_nul": "3,3",
+    "score_macron": "55,45",
+    "score_lepen": "44,55"
+  },
+  {
+    "dpt_num": 63,
+    "circo_num": "03",
+    "abs": "24,17",
+    "vot": "75,83",
+    "score_blanc": "7,79",
+    "score_nul": "2,75",
+    "score_macron": "68,32",
+    "score_lepen": "31,68"
+  },
+  {
+    "dpt_num": 63,
+    "circo_num": "04",
+    "abs": "24,03",
+    "vot": "75,97",
+    "score_blanc": "8,39",
+    "score_nul": "2,97",
+    "score_macron": "59,7",
+    "score_lepen": "40,3"
+  },
+  {
+    "dpt_num": 63,
+    "circo_num": "05",
+    "abs": "24,08",
+    "vot": "75,92",
+    "score_blanc": "7,84",
+    "score_nul": "3,32",
+    "score_macron": "53,06",
+    "score_lepen": "46,94"
+  },
+  {
+    "dpt_num": 64,
+    "circo_num": "01",
+    "abs": "24,5",
+    "vot": "75,5",
+    "score_blanc": "8,15",
+    "score_nul": "2,7",
+    "score_macron": "65,49",
+    "score_lepen": "34,51"
+  },
+  {
+    "dpt_num": 64,
+    "circo_num": "02",
+    "abs": "21,82",
+    "vot": "78,18",
+    "score_blanc": "8,07",
+    "score_nul": "2,91",
+    "score_macron": "62,61",
+    "score_lepen": "37,39"
+  },
+  {
+    "dpt_num": 64,
+    "circo_num": "03",
+    "abs": "23,24",
+    "vot": "76,76",
+    "score_blanc": "8,55",
+    "score_nul": "3,66",
+    "score_macron": "57,44",
+    "score_lepen": "42,56"
+  },
+  {
+    "dpt_num": 64,
+    "circo_num": "04",
+    "abs": "23,05",
+    "vot": "76,95",
+    "score_blanc": "10,66",
+    "score_nul": "4,19",
+    "score_macron": "60,1",
+    "score_lepen": "39,9"
+  },
+  {
+    "dpt_num": 64,
+    "circo_num": "05",
+    "abs": "25,43",
+    "vot": "74,57",
+    "score_blanc": "8,31",
+    "score_nul": "2,59",
+    "score_macron": "64,71",
+    "score_lepen": "35,29"
+  },
+  {
+    "dpt_num": 64,
+    "circo_num": "06",
+    "abs": "25,44",
+    "vot": "74,56",
+    "score_blanc": "8,52",
+    "score_nul": "2,71",
+    "score_macron": "67,04",
+    "score_lepen": "32,96"
+  },
+  {
+    "dpt_num": 65,
+    "circo_num": "01",
+    "abs": "25,06",
+    "vot": "74,94",
+    "score_blanc": "9,7",
+    "score_nul": "3,76",
+    "score_macron": 56,
+    "score_lepen": 44
+  },
+  {
+    "dpt_num": 65,
+    "circo_num": "02",
+    "abs": "23,89",
+    "vot": "76,11",
+    "score_blanc": "8,07",
+    "score_nul": "3,5",
+    "score_macron": "55,03",
+    "score_lepen": "44,97"
+  },
+  {
+    "dpt_num": 66,
+    "circo_num": "01",
+    "abs": "28,17",
+    "vot": "71,83",
+    "score_blanc": "5,76",
+    "score_nul": "3,71",
+    "score_macron": "48,22",
+    "score_lepen": "51,78"
+  },
+  {
+    "dpt_num": 66,
+    "circo_num": "02",
+    "abs": "25,32",
+    "vot": "74,68",
+    "score_blanc": "5,66",
+    "score_nul": "2,54",
+    "score_macron": "39,38",
+    "score_lepen": "60,62"
+  },
+  {
+    "dpt_num": 66,
+    "circo_num": "03",
+    "abs": "26,95",
+    "vot": "73,05",
+    "score_blanc": "7,35",
+    "score_nul": "3,21",
+    "score_macron": "45,73",
+    "score_lepen": "54,27"
+  },
+  {
+    "dpt_num": 66,
+    "circo_num": "04",
+    "abs": "24,75",
+    "vot": "75,25",
+    "score_blanc": "6,64",
+    "score_nul": "2,88",
+    "score_macron": "43,31",
+    "score_lepen": "56,69"
+  },
+  {
+    "dpt_num": 67,
+    "circo_num": "01",
+    "abs": "30,12",
+    "vot": "69,88",
+    "score_blanc": "5,21",
+    "score_nul": "1,5",
+    "score_macron": "80,7",
+    "score_lepen": "19,3"
+  },
+  {
+    "dpt_num": 67,
+    "circo_num": "02",
+    "abs": "29,75",
+    "vot": "70,25",
+    "score_blanc": "5,57",
+    "score_nul": "1,41",
+    "score_macron": "73,01",
+    "score_lepen": "26,99"
+  },
+  {
+    "dpt_num": 67,
+    "circo_num": "03",
+    "abs": "30,36",
+    "vot": "69,64",
+    "score_blanc": "5,29",
+    "score_nul": "1,46",
+    "score_macron": "70,52",
+    "score_lepen": "29,48"
+  },
+  {
+    "dpt_num": 67,
+    "circo_num": "04",
+    "abs": "23,31",
+    "vot": "76,69",
+    "score_blanc": "4,78",
+    "score_nul": "1,51",
+    "score_macron": "63,88",
+    "score_lepen": "36,12"
+  },
+  {
+    "dpt_num": 67,
+    "circo_num": "05",
+    "abs": "23,87",
+    "vot": "76,13",
+    "score_blanc": "5,21",
+    "score_nul": "1,61",
+    "score_macron": "53,68",
+    "score_lepen": "46,32"
+  },
+  {
+    "dpt_num": 67,
+    "circo_num": "06",
+    "abs": "23,16",
+    "vot": "76,84",
+    "score_blanc": "5,09",
+    "score_nul": "1,7",
+    "score_macron": "53,93",
+    "score_lepen": "46,07"
+  },
+  {
+    "dpt_num": 67,
+    "circo_num": "07",
+    "abs": "23,35",
+    "vot": "76,65",
+    "score_blanc": "5,19",
+    "score_nul": "3,51",
+    "score_macron": "48,85",
+    "score_lepen": "51,15"
+  },
+  {
+    "dpt_num": 67,
+    "circo_num": "08",
+    "abs": "23,81",
+    "vot": "76,19",
+    "score_blanc": "4,41",
+    "score_nul": "1,59",
+    "score_macron": "47,93",
+    "score_lepen": "52,07"
+  },
+  {
+    "dpt_num": 67,
+    "circo_num": "09",
+    "abs": "24,68",
+    "vot": "75,32",
+    "score_blanc": "4,58",
+    "score_nul": "2,53",
+    "score_macron": "54,77",
+    "score_lepen": "45,23"
+  },
+  {
+    "dpt_num": 68,
+    "circo_num": "01",
+    "abs": "27,62",
+    "vot": "72,38",
+    "score_blanc": "5,32",
+    "score_nul": "1,7",
+    "score_macron": "54,32",
+    "score_lepen": "45,68"
+  },
+  {
+    "dpt_num": 68,
+    "circo_num": "02",
+    "abs": "23,66",
+    "vot": "76,34",
+    "score_blanc": "5,65",
+    "score_nul": "1,77",
+    "score_macron": "54,08",
+    "score_lepen": "45,92"
+  },
+  {
+    "dpt_num": 68,
+    "circo_num": "03",
+    "abs": "24,67",
+    "vot": "75,33",
+    "score_blanc": "5,26",
+    "score_nul": "1,59",
+    "score_macron": "52,01",
+    "score_lepen": "47,99"
+  },
+  {
+    "dpt_num": 68,
+    "circo_num": "04",
+    "abs": "24,31",
+    "vot": "75,69",
+    "score_blanc": "5,41",
+    "score_nul": "1,78",
+    "score_macron": "45,49",
+    "score_lepen": "54,51"
+  },
+  {
+    "dpt_num": 68,
+    "circo_num": "05",
+    "abs": "30,81",
+    "vot": "69,19",
+    "score_blanc": "6,92",
+    "score_nul": "0,72",
+    "score_macron": "62,07",
+    "score_lepen": "37,93"
+  },
+  {
+    "dpt_num": 68,
+    "circo_num": "06",
+    "abs": "29,28",
+    "vot": "70,72",
+    "score_blanc": "5,73",
+    "score_nul": "1,29",
+    "score_macron": "52,79",
+    "score_lepen": "47,21"
+  },
+  {
+    "dpt_num": 69,
+    "circo_num": "01",
+    "abs": "26,21",
+    "vot": "73,79",
+    "score_blanc": "5,7",
+    "score_nul": "1,65",
+    "score_macron": "77,17",
+    "score_lepen": "22,83"
+  },
+  {
+    "dpt_num": 69,
+    "circo_num": "02",
+    "abs": "23,2",
+    "vot": "76,8",
+    "score_blanc": "5,76",
+    "score_nul": "1,52",
+    "score_macron": 82,
+    "score_lepen": 18
+  },
+  {
+    "dpt_num": 69,
+    "circo_num": "03",
+    "abs": "25,5",
+    "vot": "74,5",
+    "score_blanc": "5,78",
+    "score_nul": "1,49",
+    "score_macron": "80,61",
+    "score_lepen": "19,39"
+  },
+  {
+    "dpt_num": 69,
+    "circo_num": "04",
+    "abs": "22,06",
+    "vot": "77,94",
+    "score_blanc": "5,12",
+    "score_nul": "1,48",
+    "score_macron": "79,38",
+    "score_lepen": "20,62"
+  },
+  {
+    "dpt_num": 69,
+    "circo_num": "05",
+    "abs": "23,48",
+    "vot": "76,52",
+    "score_blanc": "5,23",
+    "score_nul": "1,34",
+    "score_macron": "71,73",
+    "score_lepen": "28,27"
+  },
+  {
+    "dpt_num": 69,
+    "circo_num": "06",
+    "abs": "34,85",
+    "vot": "65,15",
+    "score_blanc": "6,28",
+    "score_nul": "1,58",
+    "score_macron": "75,98",
+    "score_lepen": "24,02"
+  },
+  {
+    "dpt_num": 69,
+    "circo_num": "07",
+    "abs": "37,55",
+    "vot": "62,45",
+    "score_blanc": "5,91",
+    "score_nul": "1,96",
+    "score_macron": "68,92",
+    "score_lepen": "31,08"
+  },
+  {
+    "dpt_num": 69,
+    "circo_num": "08",
+    "abs": "22,67",
+    "vot": "77,33",
+    "score_blanc": "5,98",
+    "score_nul": "1,59",
+    "score_macron": 61,
+    "score_lepen": 39
+  },
+  {
+    "dpt_num": 69,
+    "circo_num": "09",
+    "abs": "24,62",
+    "vot": "75,38",
+    "score_blanc": "5,94",
+    "score_nul": "1,54",
+    "score_macron": "58,12",
+    "score_lepen": "41,88"
+  },
+  {
+    "dpt_num": 69,
+    "circo_num": 10,
+    "abs": "21,55",
+    "vot": "78,45",
+    "score_blanc": "5,6",
+    "score_nul": "1,52",
+    "score_macron": "64,71",
+    "score_lepen": "35,29"
+  },
+  {
+    "dpt_num": 69,
+    "circo_num": 11,
+    "abs": "24,8",
+    "vot": "75,2",
+    "score_blanc": "6,08",
+    "score_nul": "1,71",
+    "score_macron": "58,53",
+    "score_lepen": "41,47"
+  },
+  {
+    "dpt_num": 69,
+    "circo_num": 12,
+    "abs": "24,37",
+    "vot": "75,63",
+    "score_blanc": "5,39",
+    "score_nul": "3,54",
+    "score_macron": "70,73",
+    "score_lepen": "29,27"
+  },
+  {
+    "dpt_num": 69,
+    "circo_num": 13,
+    "abs": "27,69",
+    "vot": "72,31",
+    "score_blanc": "5,17",
+    "score_nul": "1,54",
+    "score_macron": "59,16",
+    "score_lepen": "40,84"
+  },
+  {
+    "dpt_num": 69,
+    "circo_num": 14,
+    "abs": "38,94",
+    "vot": "61,06",
+    "score_blanc": "6,1",
+    "score_nul": "2,12",
+    "score_macron": "63,49",
+    "score_lepen": "36,51"
+  },
+  {
+    "dpt_num": 70,
+    "circo_num": "01",
+    "abs": "22,31",
+    "vot": "77,69",
+    "score_blanc": "6,3",
+    "score_nul": "3,16",
+    "score_macron": "45,01",
+    "score_lepen": "54,99"
+  },
+  {
+    "dpt_num": 70,
+    "circo_num": "02",
+    "abs": "23,29",
+    "vot": "76,71",
+    "score_blanc": "5,78",
+    "score_nul": "5,24",
+    "score_macron": "41,19",
+    "score_lepen": "58,81"
+  },
+  {
+    "dpt_num": 71,
+    "circo_num": "01",
+    "abs": "25,4",
+    "vot": "74,6",
+    "score_blanc": "7,37",
+    "score_nul": "1,92",
+    "score_macron": "60,69",
+    "score_lepen": "39,31"
+  },
+  {
+    "dpt_num": 71,
+    "circo_num": "02",
+    "abs": "23,71",
+    "vot": "76,29",
+    "score_blanc": "7,03",
+    "score_nul": "2,71",
+    "score_macron": "52,35",
+    "score_lepen": "47,65"
+  },
+  {
+    "dpt_num": 71,
+    "circo_num": "03",
+    "abs": "24,77",
+    "vot": "75,23",
+    "score_blanc": "7,07",
+    "score_nul": "2,64",
+    "score_macron": "52,08",
+    "score_lepen": "47,92"
+  },
+  {
+    "dpt_num": 71,
+    "circo_num": "04",
+    "abs": "24,49",
+    "vot": "75,51",
+    "score_blanc": "6,8",
+    "score_nul": "2,37",
+    "score_macron": "47,51",
+    "score_lepen": "52,49"
+  },
+  {
+    "dpt_num": 71,
+    "circo_num": "05",
+    "abs": "28,26",
+    "vot": "71,74",
+    "score_blanc": "7,23",
+    "score_nul": "2,75",
+    "score_macron": "54,79",
+    "score_lepen": "45,21"
+  },
+  {
+    "dpt_num": 72,
+    "circo_num": "01",
+    "abs": "24,15",
+    "vot": "75,85",
+    "score_blanc": "7,61",
+    "score_nul": "1,36",
+    "score_macron": "60,86",
+    "score_lepen": "39,14"
+  },
+  {
+    "dpt_num": 72,
+    "circo_num": "02",
+    "abs": "27,7",
+    "vot": "72,3",
+    "score_blanc": "8,35",
+    "score_nul": "1,49",
+    "score_macron": "57,04",
+    "score_lepen": "42,96"
+  },
+  {
+    "dpt_num": 72,
+    "circo_num": "03",
+    "abs": "24,35",
+    "vot": "75,65",
+    "score_blanc": "6,38",
+    "score_nul": "2,5",
+    "score_macron": "49,33",
+    "score_lepen": "50,67"
+  },
+  {
+    "dpt_num": 72,
+    "circo_num": "04",
+    "abs": "24,65",
+    "vot": "75,35",
+    "score_blanc": "7,04",
+    "score_nul": "2,03",
+    "score_macron": "55,05",
+    "score_lepen": "44,95"
+  },
+  {
+    "dpt_num": 72,
+    "circo_num": "05",
+    "abs": "25,01",
+    "vot": "74,99",
+    "score_blanc": "7,05",
+    "score_nul": "1,89",
+    "score_macron": "55,74",
+    "score_lepen": "44,26"
+  },
+  {
+    "dpt_num": 73,
+    "circo_num": "01",
+    "abs": "23,84",
+    "vot": "76,16",
+    "score_blanc": "6,55",
+    "score_nul": "2,5",
+    "score_macron": "58,16",
+    "score_lepen": "41,84"
+  },
+  {
+    "dpt_num": 73,
+    "circo_num": "02",
+    "abs": "26,03",
+    "vot": "73,97",
+    "score_blanc": "7,29",
+    "score_nul": "2,04",
+    "score_macron": "54,81",
+    "score_lepen": "45,19"
+  },
+  {
+    "dpt_num": 73,
+    "circo_num": "03",
+    "abs": "23,73",
+    "vot": "76,27",
+    "score_blanc": "7,37",
+    "score_nul": "2,39",
+    "score_macron": "53,65",
+    "score_lepen": "46,35"
+  },
+  {
+    "dpt_num": 73,
+    "circo_num": "04",
+    "abs": "26,33",
+    "vot": "73,67",
+    "score_blanc": "7,52",
+    "score_nul": "2,24",
+    "score_macron": "63,77",
+    "score_lepen": "36,23"
+  },
+  {
+    "dpt_num": 74,
+    "circo_num": "01",
+    "abs": "23,33",
+    "vot": "76,67",
+    "score_blanc": "6,21",
+    "score_nul": "1,71",
+    "score_macron": "64,57",
+    "score_lepen": "35,43"
+  },
+  {
+    "dpt_num": 74,
+    "circo_num": "02",
+    "abs": "24,83",
+    "vot": "75,17",
+    "score_blanc": "6,39",
+    "score_nul": "1,67",
+    "score_macron": "66,08",
+    "score_lepen": "33,92"
+  },
+  {
+    "dpt_num": 74,
+    "circo_num": "03",
+    "abs": "24,59",
+    "vot": "75,41",
+    "score_blanc": "6,45",
+    "score_nul": "1,81",
+    "score_macron": "56,03",
+    "score_lepen": "43,97"
+  },
+  {
+    "dpt_num": 74,
+    "circo_num": "04",
+    "abs": "29,67",
+    "vot": "70,33",
+    "score_blanc": "5,93",
+    "score_nul": "1,54",
+    "score_macron": "62,28",
+    "score_lepen": "37,72"
+  },
+  {
+    "dpt_num": 74,
+    "circo_num": "05",
+    "abs": "26,76",
+    "vot": "73,24",
+    "score_blanc": "6,36",
+    "score_nul": "3,86",
+    "score_macron": "59,94",
+    "score_lepen": "40,06"
+  },
+  {
+    "dpt_num": 74,
+    "circo_num": "06",
+    "abs": "27,68",
+    "vot": "72,32",
+    "score_blanc": "6,16",
+    "score_nul": "1,67",
+    "score_macron": "59,9",
+    "score_lepen": "40,1"
+  },
+  {
+    "dpt_num": 75,
+    "circo_num": "01",
+    "abs": "22,79",
+    "vot": "77,21",
+    "score_blanc": "4,21",
+    "score_nul": "1,1",
+    "score_macron": "83,84",
+    "score_lepen": "16,16"
+  },
+  {
+    "dpt_num": 75,
+    "circo_num": "02",
+    "abs": "21,57",
+    "vot": "78,43",
+    "score_blanc": "4,05",
+    "score_nul": "1,26",
+    "score_macron": "85,4",
+    "score_lepen": "14,6"
+  },
+  {
+    "dpt_num": 75,
+    "circo_num": "03",
+    "abs": "25,66",
+    "vot": "74,34",
+    "score_blanc": "4,72",
+    "score_nul": "1,32",
+    "score_macron": "86,14",
+    "score_lepen": "13,86"
+  },
+  {
+    "dpt_num": 75,
+    "circo_num": "04",
+    "abs": "24,36",
+    "vot": "75,64",
+    "score_blanc": "3,76",
+    "score_nul": "3,06",
+    "score_macron": "83,34",
+    "score_lepen": "16,66"
+  },
+  {
+    "dpt_num": 75,
+    "circo_num": "05",
+    "abs": "24,6",
+    "vot": "75,4",
+    "score_blanc": "4,16",
+    "score_nul": "1,19",
+    "score_macron": "89,5",
+    "score_lepen": "10,5"
+  },
+  {
+    "dpt_num": 75,
+    "circo_num": "06",
+    "abs": "27,1",
+    "vot": "72,9",
+    "score_blanc": "5,36",
+    "score_nul": "1,38",
+    "score_macron": "88,64",
+    "score_lepen": "11,36"
+  },
+  {
+    "dpt_num": 75,
+    "circo_num": "07",
+    "abs": "23,12",
+    "vot": "76,88",
+    "score_blanc": "4,26",
+    "score_nul": "1,3",
+    "score_macron": "88,76",
+    "score_lepen": "11,24"
+  },
+  {
+    "dpt_num": 75,
+    "circo_num": "08",
+    "abs": "26,79",
+    "vot": "73,21",
+    "score_blanc": "5,71",
+    "score_nul": "1,67",
+    "score_macron": "83,94",
+    "score_lepen": "16,06"
+  },
+  {
+    "dpt_num": 75,
+    "circo_num": "09",
+    "abs": "27,97",
+    "vot": "72,03",
+    "score_blanc": "6,17",
+    "score_nul": "1,93",
+    "score_macron": "82,23",
+    "score_lepen": "17,77"
+  },
+  {
+    "dpt_num": 75,
+    "circo_num": 10,
+    "abs": "27,46",
+    "vot": "72,54",
+    "score_blanc": "5,88",
+    "score_nul": "1,69",
+    "score_macron": "82,45",
+    "score_lepen": "17,55"
+  },
+  {
+    "dpt_num": 75,
+    "circo_num": 11,
+    "abs": "22,35",
+    "vot": "77,65",
+    "score_blanc": "4,82",
+    "score_nul": "1,33",
+    "score_macron": "86,43",
+    "score_lepen": "13,57"
+  },
+  {
+    "dpt_num": 75,
+    "circo_num": 12,
+    "abs": "22,67",
+    "vot": "77,33",
+    "score_blanc": "4,48",
+    "score_nul": "1,2",
+    "score_macron": "82,61",
+    "score_lepen": "17,39"
+  },
+  {
+    "dpt_num": 75,
+    "circo_num": 13,
+    "abs": "24,82",
+    "vot": "75,18",
+    "score_blanc": "4,86",
+    "score_nul": "1,44",
+    "score_macron": "81,84",
+    "score_lepen": "18,16"
+  },
+  {
+    "dpt_num": 75,
+    "circo_num": 14,
+    "abs": "23,43",
+    "vot": "76,57",
+    "score_blanc": "3,97",
+    "score_nul": "1,13",
+    "score_macron": "81,74",
+    "score_lepen": "18,26"
+  },
+  {
+    "dpt_num": 75,
+    "circo_num": 15,
+    "abs": "30,27",
+    "vot": "69,73",
+    "score_blanc": "5,96",
+    "score_nul": "1,65",
+    "score_macron": "85,31",
+    "score_lepen": "14,69"
+  },
+  {
+    "dpt_num": 75,
+    "circo_num": 16,
+    "abs": "32,97",
+    "vot": "67,03",
+    "score_blanc": "5,62",
+    "score_nul": "1,7",
+    "score_macron": "86,04",
+    "score_lepen": "13,96"
+  },
+  {
+    "dpt_num": 75,
+    "circo_num": 17,
+    "abs": "35,9",
+    "vot": "64,1",
+    "score_blanc": 6,
+    "score_nul": "1,67",
+    "score_macron": "85,42",
+    "score_lepen": "14,58"
+  },
+  {
+    "dpt_num": 75,
+    "circo_num": 18,
+    "abs": "25,14",
+    "vot": "74,86",
+    "score_blanc": "4,71",
+    "score_nul": "1,22",
+    "score_macron": "88,32",
+    "score_lepen": "11,68"
+  },
+  {
+    "dpt_num": 76,
+    "circo_num": "01",
+    "abs": "28,16",
+    "vot": "71,84",
+    "score_blanc": "6,42",
+    "score_nul": "1,74",
+    "score_macron": "75,66",
+    "score_lepen": "24,34"
+  },
+  {
+    "dpt_num": 76,
+    "circo_num": "02",
+    "abs": "20,27",
+    "vot": "79,73",
+    "score_blanc": "6,28",
+    "score_nul": "1,53",
+    "score_macron": "62,1",
+    "score_lepen": "37,9"
+  },
+  {
+    "dpt_num": 76,
+    "circo_num": "03",
+    "abs": "32,43",
+    "vot": "67,57",
+    "score_blanc": "8,28",
+    "score_nul": "2,34",
+    "score_macron": "62,32",
+    "score_lepen": "37,68"
+  },
+  {
+    "dpt_num": 76,
+    "circo_num": "04",
+    "abs": "29,4",
+    "vot": "70,6",
+    "score_blanc": "6,92",
+    "score_nul": "2,39",
+    "score_macron": "53,48",
+    "score_lepen": "46,52"
+  },
+  {
+    "dpt_num": 76,
+    "circo_num": "05",
+    "abs": "22,19",
+    "vot": "77,81",
+    "score_blanc": "6,51",
+    "score_nul": "1,98",
+    "score_macron": "50,78",
+    "score_lepen": "49,22"
+  },
+  {
+    "dpt_num": 76,
+    "circo_num": "06",
+    "abs": "22,87",
+    "vot": "77,13",
+    "score_blanc": "5,64",
+    "score_nul": "1,92",
+    "score_macron": "45,49",
+    "score_lepen": "54,51"
+  },
+  {
+    "dpt_num": 76,
+    "circo_num": "07",
+    "abs": "27,48",
+    "vot": "72,52",
+    "score_blanc": "8,36",
+    "score_nul": "0,69",
+    "score_macron": "64,46",
+    "score_lepen": "35,54"
+  },
+  {
+    "dpt_num": 76,
+    "circo_num": "08",
+    "abs": "35,92",
+    "vot": "64,08",
+    "score_blanc": "9,53",
+    "score_nul": "0,55",
+    "score_macron": "55,88",
+    "score_lepen": "44,12"
+  },
+  {
+    "dpt_num": 76,
+    "circo_num": "09",
+    "abs": "22,26",
+    "vot": "77,74",
+    "score_blanc": "6,3",
+    "score_nul": "2,1",
+    "score_macron": "47,95",
+    "score_lepen": "52,05"
+  },
+  {
+    "dpt_num": 76,
+    "circo_num": 10,
+    "abs": "20,07",
+    "vot": "79,93",
+    "score_blanc": "5,94",
+    "score_nul": "1,74",
+    "score_macron": "48,67",
+    "score_lepen": "51,33"
+  },
+  {
+    "dpt_num": 77,
+    "circo_num": "01",
+    "abs": "32,65",
+    "vot": "67,35",
+    "score_blanc": "6,58",
+    "score_nul": "1,92",
+    "score_macron": "60,29",
+    "score_lepen": "39,71"
+  },
+  {
+    "dpt_num": 77,
+    "circo_num": "02",
+    "abs": "26,24",
+    "vot": "73,76",
+    "score_blanc": "6,59",
+    "score_nul": "1,83",
+    "score_macron": "57,52",
+    "score_lepen": "42,48"
+  },
+  {
+    "dpt_num": 77,
+    "circo_num": "03",
+    "abs": "28,69",
+    "vot": "71,31",
+    "score_blanc": "6,95",
+    "score_nul": "5,1",
+    "score_macron": "51,45",
+    "score_lepen": "48,55"
+  },
+  {
+    "dpt_num": 77,
+    "circo_num": "04",
+    "abs": "26,37",
+    "vot": "73,63",
+    "score_blanc": "6,2",
+    "score_nul": "2,35",
+    "score_macron": "43,58",
+    "score_lepen": "56,42"
+  },
+  {
+    "dpt_num": 77,
+    "circo_num": "05",
+    "abs": "28,12",
+    "vot": "71,88",
+    "score_blanc": "6,23",
+    "score_nul": "1,87",
+    "score_macron": "52,44",
+    "score_lepen": "47,56"
+  },
+  {
+    "dpt_num": 77,
+    "circo_num": "06",
+    "abs": "30,98",
+    "vot": "69,02",
+    "score_blanc": "7,05",
+    "score_nul": "1,73",
+    "score_macron": "50,52",
+    "score_lepen": "49,48"
+  },
+  {
+    "dpt_num": 77,
+    "circo_num": "07",
+    "abs": "29,29",
+    "vot": "70,71",
+    "score_blanc": "6,6",
+    "score_nul": "1,81",
+    "score_macron": "56,81",
+    "score_lepen": "43,19"
+  },
+  {
+    "dpt_num": 77,
+    "circo_num": "08",
+    "abs": "29,09",
+    "vot": "70,91",
+    "score_blanc": "6,43",
+    "score_nul": "1,69",
+    "score_macron": "66,28",
+    "score_lepen": "33,72"
+  },
+  {
+    "dpt_num": 77,
+    "circo_num": "09",
+    "abs": "29,68",
+    "vot": "70,32",
+    "score_blanc": "6,57",
+    "score_nul": "1,75",
+    "score_macron": "58,56",
+    "score_lepen": "41,44"
+  },
+  {
+    "dpt_num": 77,
+    "circo_num": 10,
+    "abs": "32,86",
+    "vot": "67,14",
+    "score_blanc": "7,05",
+    "score_nul": "2,08",
+    "score_macron": "69,18",
+    "score_lepen": "30,82"
+  },
+  {
+    "dpt_num": 77,
+    "circo_num": 11,
+    "abs": "33,33",
+    "vot": "66,67",
+    "score_blanc": "8,65",
+    "score_nul": "1,39",
+    "score_macron": "62,61",
+    "score_lepen": "37,39"
+  },
+  {
+    "dpt_num": 78,
+    "circo_num": "01",
+    "abs": "25,27",
+    "vot": "74,73",
+    "score_blanc": "6,12",
+    "score_nul": "1,58",
+    "score_macron": "73,43",
+    "score_lepen": "26,57"
+  },
+  {
+    "dpt_num": 78,
+    "circo_num": "02",
+    "abs": "22,46",
+    "vot": "77,54",
+    "score_blanc": "5,47",
+    "score_nul": "1,59",
+    "score_macron": "73,64",
+    "score_lepen": "26,36"
+  },
+  {
+    "dpt_num": 78,
+    "circo_num": "03",
+    "abs": "23,65",
+    "vot": "76,35",
+    "score_blanc": "5,32",
+    "score_nul": "1,31",
+    "score_macron": "73,92",
+    "score_lepen": "26,08"
+  },
+  {
+    "dpt_num": 78,
+    "circo_num": "04",
+    "abs": "24,15",
+    "vot": "75,85",
+    "score_blanc": "4,98",
+    "score_nul": "1,41",
+    "score_macron": "77,3",
+    "score_lepen": "22,7"
+  },
+  {
+    "dpt_num": 78,
+    "circo_num": "05",
+    "abs": "26,59",
+    "vot": "73,41",
+    "score_blanc": "5,25",
+    "score_nul": "1,46",
+    "score_macron": "76,02",
+    "score_lepen": "23,98"
+  },
+  {
+    "dpt_num": 78,
+    "circo_num": "06",
+    "abs": 27,
+    "vot": 73,
+    "score_blanc": "5,22",
+    "score_nul": "1,49",
+    "score_macron": "74,94",
+    "score_lepen": "25,06"
+  },
+  {
+    "dpt_num": 78,
+    "circo_num": "07",
+    "abs": 29,
+    "vot": 71,
+    "score_blanc": "6,09",
+    "score_nul": "1,66",
+    "score_macron": "69,79",
+    "score_lepen": "30,21"
+  },
+  {
+    "dpt_num": 78,
+    "circo_num": "08",
+    "abs": "34,6",
+    "vot": "65,4",
+    "score_blanc": "6,31",
+    "score_nul": "2,07",
+    "score_macron": "62,51",
+    "score_lepen": "37,49"
+  },
+  {
+    "dpt_num": 78,
+    "circo_num": "09",
+    "abs": "27,61",
+    "vot": "72,39",
+    "score_blanc": "6,21",
+    "score_nul": "1,85",
+    "score_macron": "60,54",
+    "score_lepen": "39,46"
+  },
+  {
+    "dpt_num": 78,
+    "circo_num": 10,
+    "abs": "23,38",
+    "vot": "76,62",
+    "score_blanc": "6,24",
+    "score_nul": "1,65",
+    "score_macron": 67,
+    "score_lepen": 33
+  },
+  {
+    "dpt_num": 78,
+    "circo_num": 11,
+    "abs": "30,33",
+    "vot": "69,67",
+    "score_blanc": "6,38",
+    "score_nul": "1,85",
+    "score_macron": "71,64",
+    "score_lepen": "28,36"
+  },
+  {
+    "dpt_num": 78,
+    "circo_num": 12,
+    "abs": "25,87",
+    "vot": "74,13",
+    "score_blanc": "6,03",
+    "score_nul": "1,5",
+    "score_macron": "72,03",
+    "score_lepen": "27,97"
+  },
+  {
+    "dpt_num": 79,
+    "circo_num": "01",
+    "abs": "23,92",
+    "vot": "76,08",
+    "score_blanc": "7,16",
+    "score_nul": "2,58",
+    "score_macron": "68,57",
+    "score_lepen": "31,43"
+  },
+  {
+    "dpt_num": 79,
+    "circo_num": "02",
+    "abs": "23,42",
+    "vot": "76,58",
+    "score_blanc": "6,82",
+    "score_nul": "2,79",
+    "score_macron": "58,74",
+    "score_lepen": "41,26"
+  },
+  {
+    "dpt_num": 79,
+    "circo_num": "03",
+    "abs": "23,46",
+    "vot": "76,54",
+    "score_blanc": "5,69",
+    "score_nul": "2,42",
+    "score_macron": "59,28",
+    "score_lepen": "40,72"
+  },
+  {
+    "dpt_num": 80,
+    "circo_num": "01",
+    "abs": "28,17",
+    "vot": "71,83",
+    "score_blanc": "5,49",
+    "score_nul": "2,53",
+    "score_macron": "51,87",
+    "score_lepen": "48,13"
+  },
+  {
+    "dpt_num": 80,
+    "circo_num": "02",
+    "abs": "27,12",
+    "vot": "72,88",
+    "score_blanc": "5,84",
+    "score_nul": "2,05",
+    "score_macron": "66,74",
+    "score_lepen": "33,26"
+  },
+  {
+    "dpt_num": 80,
+    "circo_num": "03",
+    "abs": "20,9",
+    "vot": "79,1",
+    "score_blanc": "5,43",
+    "score_nul": "2,83",
+    "score_macron": "43,34",
+    "score_lepen": "56,66"
+  },
+  {
+    "dpt_num": 80,
+    "circo_num": "04",
+    "abs": "21,12",
+    "vot": "78,88",
+    "score_blanc": "5,68",
+    "score_nul": "2,09",
+    "score_macron": "46,55",
+    "score_lepen": "53,45"
+  },
+  {
+    "dpt_num": 80,
+    "circo_num": "05",
+    "abs": "23,01",
+    "vot": "76,99",
+    "score_blanc": "4,85",
+    "score_nul": 2,
+    "score_macron": "38,84",
+    "score_lepen": "61,16"
+  },
+  {
+    "dpt_num": 81,
+    "circo_num": "01",
+    "abs": "24,47",
+    "vot": "75,53",
+    "score_blanc": "7,27",
+    "score_nul": "3,69",
+    "score_macron": "54,54",
+    "score_lepen": "45,46"
+  },
+  {
+    "dpt_num": 81,
+    "circo_num": "02",
+    "abs": "24,6",
+    "vot": "75,4",
+    "score_blanc": "8,03",
+    "score_nul": "4,01",
+    "score_macron": "53,17",
+    "score_lepen": "46,83"
+  },
+  {
+    "dpt_num": 81,
+    "circo_num": "03",
+    "abs": "22,92",
+    "vot": "77,08",
+    "score_blanc": "7,36",
+    "score_nul": "3,29",
+    "score_macron": "51,77",
+    "score_lepen": "48,23"
+  },
+  {
+    "dpt_num": 82,
+    "circo_num": "01",
+    "abs": "24,01",
+    "vot": "75,99",
+    "score_blanc": "7,45",
+    "score_nul": "3,09",
+    "score_macron": "51,32",
+    "score_lepen": "48,68"
+  },
+  {
+    "dpt_num": 82,
+    "circo_num": "02",
+    "abs": "22,44",
+    "vot": "77,56",
+    "score_blanc": "6,64",
+    "score_nul": "3,06",
+    "score_macron": "44,85",
+    "score_lepen": "55,15"
+  },
+  {
+    "dpt_num": 83,
+    "circo_num": "01",
+    "abs": "30,03",
+    "vot": "69,97",
+    "score_blanc": "6,2",
+    "score_nul": "1,65",
+    "score_macron": "51,76",
+    "score_lepen": "48,24"
+  },
+  {
+    "dpt_num": 83,
+    "circo_num": "02",
+    "abs": "27,64",
+    "vot": "72,36",
+    "score_blanc": "5,75",
+    "score_nul": "1,7",
+    "score_macron": "44,97",
+    "score_lepen": "55,03"
+  },
+  {
+    "dpt_num": 83,
+    "circo_num": "03",
+    "abs": "24,57",
+    "vot": "75,43",
+    "score_blanc": "5,69",
+    "score_nul": "1,9",
+    "score_macron": "48,69",
+    "score_lepen": "51,31"
+  },
+  {
+    "dpt_num": 83,
+    "circo_num": "04",
+    "abs": "26,31",
+    "vot": "73,69",
+    "score_blanc": "4,91",
+    "score_nul": "1,72",
+    "score_macron": "42,88",
+    "score_lepen": "57,12"
+  },
+  {
+    "dpt_num": 83,
+    "circo_num": "05",
+    "abs": "25,24",
+    "vot": "74,76",
+    "score_blanc": "4,71",
+    "score_nul": "1,83",
+    "score_macron": "44,84",
+    "score_lepen": "55,16"
+  },
+  {
+    "dpt_num": 83,
+    "circo_num": "06",
+    "abs": "24,25",
+    "vot": "75,75",
+    "score_blanc": "5,51",
+    "score_nul": "1,83",
+    "score_macron": "41,16",
+    "score_lepen": "58,84"
+  },
+  {
+    "dpt_num": 83,
+    "circo_num": "07",
+    "abs": "27,87",
+    "vot": "72,13",
+    "score_blanc": "5,73",
+    "score_nul": "1,53",
+    "score_macron": "47,28",
+    "score_lepen": "52,72"
+  },
+  {
+    "dpt_num": 83,
+    "circo_num": "08",
+    "abs": "24,6",
+    "vot": "75,4",
+    "score_blanc": "5,74",
+    "score_nul": "1,9",
+    "score_macron": "41,33",
+    "score_lepen": "58,67"
+  },
+  {
+    "dpt_num": 84,
+    "circo_num": "01",
+    "abs": "33,16",
+    "vot": "66,84",
+    "score_blanc": "6,27",
+    "score_nul": "2,29",
+    "score_macron": "58,05",
+    "score_lepen": "41,95"
+  },
+  {
+    "dpt_num": 84,
+    "circo_num": "02",
+    "abs": "24,18",
+    "vot": "75,82",
+    "score_blanc": "5,95",
+    "score_nul": "2,07",
+    "score_macron": "48,47",
+    "score_lepen": "51,53"
+  },
+  {
+    "dpt_num": 84,
+    "circo_num": "03",
+    "abs": "24,5",
+    "vot": "75,5",
+    "score_blanc": "5,66",
+    "score_nul": "2,15",
+    "score_macron": "42,42",
+    "score_lepen": "57,58"
+  },
+  {
+    "dpt_num": 84,
+    "circo_num": "04",
+    "abs": "23,99",
+    "vot": "76,01",
+    "score_blanc": "5,96",
+    "score_nul": "1,78",
+    "score_macron": "44,08",
+    "score_lepen": "55,92"
+  },
+  {
+    "dpt_num": 84,
+    "circo_num": "05",
+    "abs": "24,85",
+    "vot": "75,15",
+    "score_blanc": "6,44",
+    "score_nul": "2,14",
+    "score_macron": "49,25",
+    "score_lepen": "50,75"
+  },
+  {
+    "dpt_num": 85,
+    "circo_num": "01",
+    "abs": "22,01",
+    "vot": "77,99",
+    "score_blanc": "5,5",
+    "score_nul": "2,43",
+    "score_macron": "63,46",
+    "score_lepen": "36,54"
+  },
+  {
+    "dpt_num": 85,
+    "circo_num": "02",
+    "abs": "21,81",
+    "vot": "78,19",
+    "score_blanc": "6,07",
+    "score_nul": "2,47",
+    "score_macron": "60,77",
+    "score_lepen": "39,23"
+  },
+  {
+    "dpt_num": 85,
+    "circo_num": "03",
+    "abs": "23,16",
+    "vot": "76,84",
+    "score_blanc": "5,66",
+    "score_nul": "2,33",
+    "score_macron": "59,73",
+    "score_lepen": "40,27"
+  },
+  {
+    "dpt_num": 85,
+    "circo_num": "04",
+    "abs": "19,72",
+    "vot": "80,28",
+    "score_blanc": "5,77",
+    "score_nul": "2,06",
+    "score_macron": "69,01",
+    "score_lepen": "30,99"
+  },
+  {
+    "dpt_num": 85,
+    "circo_num": "05",
+    "abs": "22,5",
+    "vot": "77,5",
+    "score_blanc": "6,25",
+    "score_nul": "2,58",
+    "score_macron": "55,3",
+    "score_lepen": "44,7"
+  },
+  {
+    "dpt_num": 86,
+    "circo_num": "01",
+    "abs": "25,22",
+    "vot": "74,78",
+    "score_blanc": "7,22",
+    "score_nul": "2,6",
+    "score_macron": "65,46",
+    "score_lepen": "34,54"
+  },
+  {
+    "dpt_num": 86,
+    "circo_num": "02",
+    "abs": "24,36",
+    "vot": "75,64",
+    "score_blanc": "7,19",
+    "score_nul": "2,42",
+    "score_macron": "69,56",
+    "score_lepen": "30,44"
+  },
+  {
+    "dpt_num": 86,
+    "circo_num": "03",
+    "abs": "23,28",
+    "vot": "76,72",
+    "score_blanc": "6,75",
+    "score_nul": "2,98",
+    "score_macron": "53,43",
+    "score_lepen": "46,57"
+  },
+  {
+    "dpt_num": 86,
+    "circo_num": "04",
+    "abs": "26,64",
+    "vot": "73,36",
+    "score_blanc": "5,94",
+    "score_nul": "2,69",
+    "score_macron": "50,79",
+    "score_lepen": "49,21"
+  },
+  {
+    "dpt_num": 87,
+    "circo_num": "01",
+    "abs": "25,85",
+    "vot": "74,15",
+    "score_blanc": "8,21",
+    "score_nul": "4,44",
+    "score_macron": "60,55",
+    "score_lepen": "39,45"
+  },
+  {
+    "dpt_num": 87,
+    "circo_num": "02",
+    "abs": "22,65",
+    "vot": "77,35",
+    "score_blanc": "8,1",
+    "score_nul": "4,51",
+    "score_macron": "57,89",
+    "score_lepen": "42,11"
+  },
+  {
+    "dpt_num": 87,
+    "circo_num": "03",
+    "abs": "25,1",
+    "vot": "74,9",
+    "score_blanc": "7,56",
+    "score_nul": "4,35",
+    "score_macron": "59,39",
+    "score_lepen": "40,61"
+  },
+  {
+    "dpt_num": 88,
+    "circo_num": "01",
+    "abs": "26,04",
+    "vot": "73,96",
+    "score_blanc": "5,73",
+    "score_nul": "2,21",
+    "score_macron": "51,86",
+    "score_lepen": "48,14"
+  },
+  {
+    "dpt_num": 88,
+    "circo_num": "02",
+    "abs": "24,61",
+    "vot": "75,39",
+    "score_blanc": "5,7",
+    "score_nul": "2,42",
+    "score_macron": "43,26",
+    "score_lepen": "56,74"
+  },
+  {
+    "dpt_num": 88,
+    "circo_num": "03",
+    "abs": "23,95",
+    "vot": "76,05",
+    "score_blanc": "6,69",
+    "score_nul": "2,63",
+    "score_macron": "51,68",
+    "score_lepen": "48,32"
+  },
+  {
+    "dpt_num": 88,
+    "circo_num": "04",
+    "abs": "22,64",
+    "vot": "77,36",
+    "score_blanc": "5,93",
+    "score_nul": "2,59",
+    "score_macron": "43,53",
+    "score_lepen": "56,47"
+  },
+  {
+    "dpt_num": 89,
+    "circo_num": "01",
+    "abs": "24,58",
+    "vot": "75,42",
+    "score_blanc": "6,78",
+    "score_nul": "2,13",
+    "score_macron": "53,25",
+    "score_lepen": "46,75"
+  },
+  {
+    "dpt_num": 89,
+    "circo_num": "02",
+    "abs": "24,94",
+    "vot": "75,06",
+    "score_blanc": "6,38",
+    "score_nul": "2,29",
+    "score_macron": "47,67",
+    "score_lepen": "52,33"
+  },
+  {
+    "dpt_num": 89,
+    "circo_num": "03",
+    "abs": "27,89",
+    "vot": "72,11",
+    "score_blanc": "6,08",
+    "score_nul": 2,
+    "score_macron": "44,83",
+    "score_lepen": "55,17"
+  },
+  {
+    "dpt_num": 90,
+    "circo_num": "01",
+    "abs": "26,68",
+    "vot": "73,32",
+    "score_blanc": "6,36",
+    "score_nul": "2,62",
+    "score_macron": "49,79",
+    "score_lepen": "50,21"
+  },
+  {
+    "dpt_num": 90,
+    "circo_num": "02",
+    "abs": "26,68",
+    "vot": "73,32",
+    "score_blanc": "6,97",
+    "score_nul": "3,05",
+    "score_macron": "53,13",
+    "score_lepen": "46,87"
+  },
+  {
+    "dpt_num": 91,
+    "circo_num": "01",
+    "abs": "38,4",
+    "vot": "61,6",
+    "score_blanc": "6,92",
+    "score_nul": "2,31",
+    "score_macron": "66,49",
+    "score_lepen": "33,51"
+  },
+  {
+    "dpt_num": 91,
+    "circo_num": "02",
+    "abs": "26,57",
+    "vot": "73,43",
+    "score_blanc": "6,49",
+    "score_nul": "1,95",
+    "score_macron": "53,63",
+    "score_lepen": "46,37"
+  },
+  {
+    "dpt_num": 91,
+    "circo_num": "03",
+    "abs": "26,05",
+    "vot": "73,95",
+    "score_blanc": "7,1",
+    "score_nul": "2,12",
+    "score_macron": "60,36",
+    "score_lepen": "39,64"
+  },
+  {
+    "dpt_num": 91,
+    "circo_num": "04",
+    "abs": "25,19",
+    "vot": "74,81",
+    "score_blanc": "6,43",
+    "score_nul": "1,85",
+    "score_macron": "65,14",
+    "score_lepen": "34,86"
+  },
+  {
+    "dpt_num": 91,
+    "circo_num": "05",
+    "abs": "23,87",
+    "vot": "76,13",
+    "score_blanc": "5,6",
+    "score_nul": "1,52",
+    "score_macron": "79,5",
+    "score_lepen": "20,5"
+  },
+  {
+    "dpt_num": 91,
+    "circo_num": "06",
+    "abs": "28,14",
+    "vot": "71,86",
+    "score_blanc": "6,05",
+    "score_nul": "1,98",
+    "score_macron": "73,08",
+    "score_lepen": "26,92"
+  },
+  {
+    "dpt_num": 91,
+    "circo_num": "07",
+    "abs": "32,21",
+    "vot": "67,79",
+    "score_blanc": "6,7",
+    "score_nul": "2,05",
+    "score_macron": "65,23",
+    "score_lepen": "34,77"
+  },
+  {
+    "dpt_num": 91,
+    "circo_num": "08",
+    "abs": "31,19",
+    "vot": "68,81",
+    "score_blanc": "6,86",
+    "score_nul": "2,07",
+    "score_macron": "65,94",
+    "score_lepen": "34,06"
+  },
+  {
+    "dpt_num": 91,
+    "circo_num": "09",
+    "abs": "30,12",
+    "vot": "69,88",
+    "score_blanc": "6,73",
+    "score_nul": "2,03",
+    "score_macron": "64,63",
+    "score_lepen": "35,37"
+  },
+  {
+    "dpt_num": 91,
+    "circo_num": 10,
+    "abs": "34,67",
+    "vot": "65,33",
+    "score_blanc": "6,49",
+    "score_nul": "2,34",
+    "score_macron": "64,44",
+    "score_lepen": "35,56"
+  },
+  {
+    "dpt_num": 92,
+    "circo_num": "01",
+    "abs": "38,19",
+    "vot": "61,81",
+    "score_blanc": "8,48",
+    "score_nul": "1,25",
+    "score_macron": "77,68",
+    "score_lepen": "22,32"
+  },
+  {
+    "dpt_num": 92,
+    "circo_num": "02",
+    "abs": "24,49",
+    "vot": "75,51",
+    "score_blanc": "5,97",
+    "score_nul": "1,04",
+    "score_macron": "82,65",
+    "score_lepen": "17,35"
+  },
+  {
+    "dpt_num": 92,
+    "circo_num": "03",
+    "abs": "24,52",
+    "vot": "75,48",
+    "score_blanc": "6,26",
+    "score_nul": "0,56",
+    "score_macron": "80,55",
+    "score_lepen": "19,45"
+  },
+  {
+    "dpt_num": 92,
+    "circo_num": "04",
+    "abs": "31,63",
+    "vot": "68,37",
+    "score_blanc": "7,1",
+    "score_nul": "1,05",
+    "score_macron": "79,04",
+    "score_lepen": "20,96"
+  },
+  {
+    "dpt_num": 92,
+    "circo_num": "05",
+    "abs": "26,94",
+    "vot": "73,06",
+    "score_blanc": "5,51",
+    "score_nul": "1,48",
+    "score_macron": "81,44",
+    "score_lepen": "18,56"
+  },
+  {
+    "dpt_num": 92,
+    "circo_num": "06",
+    "abs": "21,79",
+    "vot": "78,21",
+    "score_blanc": "4,95",
+    "score_nul": "1,27",
+    "score_macron": "79,94",
+    "score_lepen": "20,06"
+  },
+  {
+    "dpt_num": 92,
+    "circo_num": "07",
+    "abs": "23,54",
+    "vot": "76,46",
+    "score_blanc": "5,1",
+    "score_nul": "1,11",
+    "score_macron": "79,87",
+    "score_lepen": "20,13"
+  },
+  {
+    "dpt_num": 92,
+    "circo_num": "08",
+    "abs": "21,92",
+    "vot": "78,08",
+    "score_blanc": "5,9",
+    "score_nul": "0,81",
+    "score_macron": "80,94",
+    "score_lepen": "19,06"
+  },
+  {
+    "dpt_num": 92,
+    "circo_num": "09",
+    "abs": "21,69",
+    "vot": "78,31",
+    "score_blanc": "6,2",
+    "score_nul": 0,
+    "score_macron": "83,28",
+    "score_lepen": "16,72"
+  },
+  {
+    "dpt_num": 92,
+    "circo_num": 10,
+    "abs": "24,04",
+    "vot": "75,96",
+    "score_blanc": "7,01",
+    "score_nul": "0,51",
+    "score_macron": "81,83",
+    "score_lepen": "18,17"
+  },
+  {
+    "dpt_num": 92,
+    "circo_num": 11,
+    "abs": "28,15",
+    "vot": "71,85",
+    "score_blanc": "6,38",
+    "score_nul": "1,93",
+    "score_macron": "80,36",
+    "score_lepen": "19,64"
+  },
+  {
+    "dpt_num": 92,
+    "circo_num": 12,
+    "abs": "25,11",
+    "vot": "74,89",
+    "score_blanc": "5,83",
+    "score_nul": "1,71",
+    "score_macron": "77,05",
+    "score_lepen": "22,95"
+  },
+  {
+    "dpt_num": 92,
+    "circo_num": 13,
+    "abs": "24,68",
+    "vot": "75,32",
+    "score_blanc": "7,39",
+    "score_nul": "0,43",
+    "score_macron": "80,82",
+    "score_lepen": "19,18"
+  },
+  {
+    "dpt_num": 93,
+    "circo_num": "01",
+    "abs": "39,44",
+    "vot": "60,56",
+    "score_blanc": "6,61",
+    "score_nul": "1,94",
+    "score_macron": "79,7",
+    "score_lepen": "20,3"
+  },
+  {
+    "dpt_num": 93,
+    "circo_num": "02",
+    "abs": "44,68",
+    "vot": "55,32",
+    "score_blanc": "7,4",
+    "score_nul": "1,98",
+    "score_macron": "77,08",
+    "score_lepen": "22,92"
+  },
+  {
+    "dpt_num": 93,
+    "circo_num": "03",
+    "abs": "31,54",
+    "vot": "68,46",
+    "score_blanc": "6,87",
+    "score_nul": "1,79",
+    "score_macron": "71,18",
+    "score_lepen": "28,82"
+  },
+  {
+    "dpt_num": 93,
+    "circo_num": "04",
+    "abs": "44,74",
+    "vot": "55,26",
+    "score_blanc": "8,15",
+    "score_nul": "1,47",
+    "score_macron": "70,58",
+    "score_lepen": "29,42"
+  },
+  {
+    "dpt_num": 93,
+    "circo_num": "05",
+    "abs": "42,36",
+    "vot": "57,64",
+    "score_blanc": "7,01",
+    "score_nul": "2,04",
+    "score_macron": "68,74",
+    "score_lepen": "31,26"
+  },
+  {
+    "dpt_num": 93,
+    "circo_num": "06",
+    "abs": "40,25",
+    "vot": "59,75",
+    "score_blanc": "6,7",
+    "score_nul": "2,09",
+    "score_macron": "80,65",
+    "score_lepen": "19,35"
+  },
+  {
+    "dpt_num": 93,
+    "circo_num": "07",
+    "abs": "34,98",
+    "vot": "65,02",
+    "score_blanc": "7,84",
+    "score_nul": "1,45",
+    "score_macron": "82,66",
+    "score_lepen": "17,34"
+  },
+  {
+    "dpt_num": 93,
+    "circo_num": "08",
+    "abs": "33,94",
+    "vot": "66,06",
+    "score_blanc": "8,12",
+    "score_nul": "1,35",
+    "score_macron": "69,04",
+    "score_lepen": "30,96"
+  },
+  {
+    "dpt_num": 93,
+    "circo_num": "09",
+    "abs": "36,02",
+    "vot": "63,98",
+    "score_blanc": "6,93",
+    "score_nul": "2,01",
+    "score_macron": "78,19",
+    "score_lepen": "21,81"
+  },
+  {
+    "dpt_num": 93,
+    "circo_num": 10,
+    "abs": "40,34",
+    "vot": "59,66",
+    "score_blanc": "7,25",
+    "score_nul": "1,95",
+    "score_macron": "70,8",
+    "score_lepen": "29,2"
+  },
+  {
+    "dpt_num": 93,
+    "circo_num": 11,
+    "abs": "42,64",
+    "vot": "57,36",
+    "score_blanc": "7,1",
+    "score_nul": "2,22",
+    "score_macron": "69,47",
+    "score_lepen": "30,53"
+  },
+  {
+    "dpt_num": 93,
+    "circo_num": 12,
+    "abs": "37,83",
+    "vot": "62,17",
+    "score_blanc": "6,56",
+    "score_nul": "1,75",
+    "score_macron": "64,77",
+    "score_lepen": "35,23"
+  },
+  {
+    "dpt_num": 94,
+    "circo_num": "01",
+    "abs": "27,16",
+    "vot": "72,84",
+    "score_blanc": "5,92",
+    "score_nul": "1,72",
+    "score_macron": "75,62",
+    "score_lepen": "24,38"
+  },
+  {
+    "dpt_num": 94,
+    "circo_num": "02",
+    "abs": "35,7",
+    "vot": "64,3",
+    "score_blanc": "7,34",
+    "score_nul": "2,18",
+    "score_macron": "73,4",
+    "score_lepen": "26,6"
+  },
+  {
+    "dpt_num": 94,
+    "circo_num": "03",
+    "abs": "32,82",
+    "vot": "67,18",
+    "score_blanc": "7,08",
+    "score_nul": "1,96",
+    "score_macron": "64,45",
+    "score_lepen": "35,55"
+  },
+  {
+    "dpt_num": 94,
+    "circo_num": "04",
+    "abs": "28,3",
+    "vot": "71,7",
+    "score_blanc": "6,42",
+    "score_nul": "1,81",
+    "score_macron": "68,28",
+    "score_lepen": "31,72"
+  },
+  {
+    "dpt_num": 94,
+    "circo_num": "05",
+    "abs": "30,85",
+    "vot": "69,15",
+    "score_blanc": "6,09",
+    "score_nul": "1,46",
+    "score_macron": "75,36",
+    "score_lepen": "24,64"
+  },
+  {
+    "dpt_num": 94,
+    "circo_num": "06",
+    "abs": "26,34",
+    "vot": "73,66",
+    "score_blanc": "5,52",
+    "score_nul": "1,59",
+    "score_macron": "82,3",
+    "score_lepen": "17,7"
+  },
+  {
+    "dpt_num": 94,
+    "circo_num": "07",
+    "abs": "32,61",
+    "vot": "67,39",
+    "score_blanc": "7,03",
+    "score_nul": "1,82",
+    "score_macron": "73,39",
+    "score_lepen": "26,61"
+  },
+  {
+    "dpt_num": 94,
+    "circo_num": "08",
+    "abs": "26,65",
+    "vot": "73,35",
+    "score_blanc": "6,36",
+    "score_nul": "1,89",
+    "score_macron": "75,86",
+    "score_lepen": "24,14"
+  },
+  {
+    "dpt_num": 94,
+    "circo_num": "09",
+    "abs": "34,62",
+    "vot": "65,38",
+    "score_blanc": "7,11",
+    "score_nul": "2,13",
+    "score_macron": "72,95",
+    "score_lepen": "27,05"
+  },
+  {
+    "dpt_num": 94,
+    "circo_num": 10,
+    "abs": "34,38",
+    "vot": "65,62",
+    "score_blanc": "6,97",
+    "score_nul": "2,32",
+    "score_macron": "77,48",
+    "score_lepen": "22,52"
+  },
+  {
+    "dpt_num": 94,
+    "circo_num": 11,
+    "abs": "33,16",
+    "vot": "66,84",
+    "score_blanc": "7,21",
+    "score_nul": "1,63",
+    "score_macron": "78,08",
+    "score_lepen": "21,92"
+  },
+  {
+    "dpt_num": 95,
+    "circo_num": "01",
+    "abs": "27,42",
+    "vot": "72,58",
+    "score_blanc": "6,72",
+    "score_nul": "1,92",
+    "score_macron": "58,63",
+    "score_lepen": "41,37"
+  },
+  {
+    "dpt_num": 95,
+    "circo_num": "02",
+    "abs": "29,41",
+    "vot": "70,59",
+    "score_blanc": "6,49",
+    "score_nul": "2,03",
+    "score_macron": "63,12",
+    "score_lepen": "36,88"
+  },
+  {
+    "dpt_num": 95,
+    "circo_num": "03",
+    "abs": "29,28",
+    "vot": "70,72",
+    "score_blanc": "6,49",
+    "score_nul": "1,84",
+    "score_macron": "66,06",
+    "score_lepen": "33,94"
+  },
+  {
+    "dpt_num": 95,
+    "circo_num": "04",
+    "abs": "30,09",
+    "vot": "69,91",
+    "score_blanc": "6,7",
+    "score_nul": "1,71",
+    "score_macron": "69,9",
+    "score_lepen": "30,1"
+  },
+  {
+    "dpt_num": 95,
+    "circo_num": "05",
+    "abs": "37,96",
+    "vot": "62,04",
+    "score_blanc": "6,42",
+    "score_nul": "1,95",
+    "score_macron": "72,75",
+    "score_lepen": "27,25"
+  },
+  {
+    "dpt_num": 95,
+    "circo_num": "06",
+    "abs": "31,98",
+    "vot": "68,02",
+    "score_blanc": "6,39",
+    "score_nul": "1,55",
+    "score_macron": "72,25",
+    "score_lepen": "27,75"
+  },
+  {
+    "dpt_num": 95,
+    "circo_num": "07",
+    "abs": "33,38",
+    "vot": "66,62",
+    "score_blanc": "6,39",
+    "score_nul": "1,79",
+    "score_macron": "66,02",
+    "score_lepen": "33,98"
+  },
+  {
+    "dpt_num": 95,
+    "circo_num": "08",
+    "abs": "42,08",
+    "vot": "57,92",
+    "score_blanc": "6,21",
+    "score_nul": "2,03",
+    "score_macron": "67,01",
+    "score_lepen": "32,99"
+  },
+  {
+    "dpt_num": 95,
+    "circo_num": "09",
+    "abs": "35,64",
+    "vot": "64,36",
+    "score_blanc": "6,55",
+    "score_nul": "2,18",
+    "score_macron": "57,7",
+    "score_lepen": "42,3"
+  },
+  {
+    "dpt_num": 95,
+    "circo_num": 10,
+    "abs": "33,28",
+    "vot": "66,72",
+    "score_blanc": "7,17",
+    "score_nul": "1,54",
+    "score_macron": "70,3",
+    "score_lepen": "29,7"
+  },
+  {
+    "dpt_num": "971",
+    "circo_num": "01",
+    "abs": "55,19",
+    "vot": "44,81",
+    "score_blanc": "5,95",
+    "score_nul": "6,05",
+    "score_macron": "27,75",
+    "score_lepen": "72,25"
+  },
+  {
+    "dpt_num": "971",
+    "circo_num": "02",
+    "abs": "52,35",
+    "vot": "47,65",
+    "score_blanc": "5,45",
+    "score_nul": "5,04",
+    "score_macron": "30,8",
+    "score_lepen": "69,2"
+  },
+  {
+    "dpt_num": "971",
+    "circo_num": "03",
+    "abs": "50,85",
+    "vot": "49,15",
+    "score_blanc": "6,16",
+    "score_nul": "5,12",
+    "score_macron": "31,79",
+    "score_lepen": "68,21"
+  },
+  {
+    "dpt_num": "971",
+    "circo_num": "04",
+    "abs": "53,23",
+    "vot": "46,77",
+    "score_blanc": "5,22",
+    "score_nul": "6,05",
+    "score_macron": "30,87",
+    "score_lepen": "69,13"
+  },
+  {
+    "dpt_num": "972",
+    "circo_num": "01",
+    "abs": "53,44",
+    "vot": "46,56",
+    "score_blanc": "8,04",
+    "score_nul": "5,29",
+    "score_macron": "36,82",
+    "score_lepen": "63,18"
+  },
+  {
+    "dpt_num": "972",
+    "circo_num": "02",
+    "abs": "52,94",
+    "vot": "47,06",
+    "score_blanc": "7,58",
+    "score_nul": "5,12",
+    "score_macron": "40,18",
+    "score_lepen": "59,82"
+  },
+  {
+    "dpt_num": "972",
+    "circo_num": "03",
+    "abs": "56,09",
+    "vot": "43,91",
+    "score_blanc": "9,53",
+    "score_nul": "5,15",
+    "score_macron": "42,2",
+    "score_lepen": "57,8"
+  },
+  {
+    "dpt_num": "972",
+    "circo_num": "04",
+    "abs": "56,05",
+    "vot": "43,95",
+    "score_blanc": "7,62",
+    "score_nul": "5,64",
+    "score_macron": "38,2",
+    "score_lepen": "61,8"
+  },
+  {
+    "dpt_num": "973",
+    "circo_num": "01",
+    "abs": "55,65",
+    "vot": "44,35",
+    "score_blanc": "8,1",
+    "score_nul": "2,98",
+    "score_macron": "37,97",
+    "score_lepen": "62,03"
+  },
+  {
+    "dpt_num": "973",
+    "circo_num": "02",
+    "abs": "67,76",
+    "vot": "32,24",
+    "score_blanc": "6,77",
+    "score_nul": "6,82",
+    "score_macron": "41,39",
+    "score_lepen": "58,61"
+  },
+  {
+    "dpt_num": "974",
+    "circo_num": "01",
+    "abs": "40,81",
+    "vot": "59,19",
+    "score_blanc": "5,36",
+    "score_nul": "3,03",
+    "score_macron": "50,77",
+    "score_lepen": "49,23"
+  },
+  {
+    "dpt_num": "974",
+    "circo_num": "02",
+    "abs": "42,87",
+    "vot": "57,13",
+    "score_blanc": "5,68",
+    "score_nul": "4,54",
+    "score_macron": "44,92",
+    "score_lepen": "55,08"
+  },
+  {
+    "dpt_num": "974",
+    "circo_num": "03",
+    "abs": "37,14",
+    "vot": "62,86",
+    "score_blanc": "4,99",
+    "score_nul": "4,15",
+    "score_macron": "32,06",
+    "score_lepen": "67,94"
+  },
+  {
+    "dpt_num": "974",
+    "circo_num": "04",
+    "abs": "37,15",
+    "vot": "62,85",
+    "score_blanc": "5,33",
+    "score_nul": "4,7",
+    "score_macron": "38,79",
+    "score_lepen": "61,21"
+  },
+  {
+    "dpt_num": "974",
+    "circo_num": "05",
+    "abs": "42,32",
+    "vot": "57,68",
+    "score_blanc": "3,81",
+    "score_nul": "3,93",
+    "score_macron": "34,81",
+    "score_lepen": "65,19"
+  },
+  {
+    "dpt_num": "974",
+    "circo_num": "06",
+    "abs": "42,27",
+    "vot": "57,73",
+    "score_blanc": "4,57",
+    "score_nul": "3,47",
+    "score_macron": "38,94",
+    "score_lepen": "61,06"
+  },
+  {
+    "dpt_num": "974",
+    "circo_num": "07",
+    "abs": "42,2",
+    "vot": "57,8",
+    "score_blanc": "5,77",
+    "score_nul": "4,71",
+    "score_macron": "43,42",
+    "score_lepen": "56,58"
+  },
+  {
+    "dpt_num": "976",
+    "circo_num": "01",
+    "abs": "56,07",
+    "vot": "43,93",
+    "score_blanc": "4,42",
+    "score_nul": "4,8",
+    "score_macron": "45,33",
+    "score_lepen": "54,67"
+  },
+  {
+    "dpt_num": "976",
+    "circo_num": "02",
+    "abs": "53,17",
+    "vot": "46,83",
+    "score_blanc": "3,5",
+    "score_nul": "4,71",
+    "score_macron": "37,38",
+    "score_lepen": "62,62"
+  },
+  {
+    "dpt_num": "988",
+    "circo_num": "01",
+    "abs": "63,08",
+    "vot": "36,92",
+    "score_blanc": "3,97",
+    "score_nul": "1,41",
+    "score_macron": "63,84",
+    "score_lepen": "36,16"
+  },
+  {
+    "dpt_num": "988",
+    "circo_num": "02",
+    "abs": "66,87",
+    "vot": "33,13",
+    "score_blanc": "3,99",
+    "score_nul": "2,06",
+    "score_macron": "58,53",
+    "score_lepen": "41,47"
+  },
+  {
+    "dpt_num": "987",
+    "circo_num": "01",
+    "abs": "52,79",
+    "vot": "47,21",
+    "score_blanc": "2,62",
+    "score_nul": "1,84",
+    "score_macron": "56,3",
+    "score_lepen": "43,7"
+  },
+  {
+    "dpt_num": "987",
+    "circo_num": "02",
+    "abs": "60,81",
+    "vot": "39,19",
+    "score_blanc": "2,47",
+    "score_nul": "2,16",
+    "score_macron": "49,27",
+    "score_lepen": "50,73"
+  },
+  {
+    "dpt_num": "987",
+    "circo_num": "03",
+    "abs": "59,97",
+    "vot": "40,03",
+    "score_blanc": "3,22",
+    "score_nul": "1,96",
+    "score_macron": "48,53",
+    "score_lepen": "51,47"
+  },
+  {
+    "dpt_num": "975",
+    "circo_num": "01",
+    "abs": "42,91",
+    "vot": "57,09",
+    "score_blanc": "7,61",
+    "score_nul": "4,83",
+    "score_macron": "49,31",
+    "score_lepen": "50,69"
+  },
+  {
+    "dpt_num": "986",
+    "circo_num": "01",
+    "abs": "38,62",
+    "vot": "61,38",
+    "score_blanc": "1,71",
+    "score_nul": "1,03",
+    "score_macron": "67,45",
+    "score_lepen": "32,55"
+  },
+  {
+    "dpt_num": "977-978",
+    "circo_num": "01",
+    "abs": "61,83",
+    "vot": "38,17",
+    "score_blanc": "5,05",
+    "score_nul": "2,36",
+    "score_macron": "44,58",
+    "score_lepen": "55,42"
+  },
+  {
+    "dpt_num": "ZZ",
+    "circo_num": "01",
+    "abs": "63,53",
+    "vot": "36,47",
+    "score_blanc": "2,43",
+    "score_nul": "0,54",
+    "score_macron": "88,55",
+    "score_lepen": "11,45"
+  },
+  {
+    "dpt_num": "ZZ",
+    "circo_num": "02",
+    "abs": "73,71",
+    "vot": "26,29",
+    "score_blanc": "3,17",
+    "score_nul": "0,98",
+    "score_macron": "85,13",
+    "score_lepen": "14,87"
+  },
+  {
+    "dpt_num": "ZZ",
+    "circo_num": "03",
+    "abs": "56,91",
+    "vot": "43,09",
+    "score_blanc": "2,02",
+    "score_nul": "0,45",
+    "score_macron": "92,51",
+    "score_lepen": "7,49"
+  },
+  {
+    "dpt_num": "ZZ",
+    "circo_num": "04",
+    "abs": "49,65",
+    "vot": "50,35",
+    "score_blanc": "2,76",
+    "score_nul": "0,63",
+    "score_macron": "86,76",
+    "score_lepen": "13,24"
+  },
+  {
+    "dpt_num": "ZZ",
+    "circo_num": "05",
+    "abs": "63,14",
+    "vot": "36,86",
+    "score_blanc": 3,
+    "score_nul": "0,7",
+    "score_macron": "79,61",
+    "score_lepen": "20,39"
+  },
+  {
+    "dpt_num": "ZZ",
+    "circo_num": "06",
+    "abs": "54,45",
+    "vot": "45,55",
+    "score_blanc": "2,88",
+    "score_nul": "0,56",
+    "score_macron": "82,6",
+    "score_lepen": "17,4"
+  },
+  {
+    "dpt_num": "ZZ",
+    "circo_num": "07",
+    "abs": "51,11",
+    "vot": "48,89",
+    "score_blanc": "2,11",
+    "score_nul": "0,5",
+    "score_macron": "91,42",
+    "score_lepen": "8,58"
+  },
+  {
+    "dpt_num": "ZZ",
+    "circo_num": "08",
+    "abs": "80,92",
+    "vot": "19,08",
+    "score_blanc": "3,12",
+    "score_nul": "0,76",
+    "score_macron": "85,98",
+    "score_lepen": "14,02"
+  },
+  {
+    "dpt_num": "ZZ",
+    "circo_num": "09",
+    "abs": "67,44",
+    "vot": "32,56",
+    "score_blanc": "3,8",
+    "score_nul": "0,87",
+    "score_macron": "86,72",
+    "score_lepen": "13,28"
+  },
+  {
+    "dpt_num": "ZZ",
+    "circo_num": 10,
+    "abs": "60,6",
+    "vot": "39,4",
+    "score_blanc": "3,21",
+    "score_nul": "0,79",
+    "score_macron": "79,61",
+    "score_lepen": "20,39"
+  },
+  {
+    "dpt_num": "ZZ",
+    "circo_num": 11,
+    "abs": "59,44",
+    "vot": "40,56",
+    "score_blanc": "3,39",
+    "score_nul": "0,73",
+    "score_macron": "81,12",
+    "score_lepen": "18,88"
+  }
+]

@@ -2,7 +2,7 @@ const errorController = require("./errorController");
 const {
     findCirco
 } = require("../modules/checkPoint");
-const { findMyMp } = require("../modules/mpFinder")
+const { findMyMp, presidentialResults } = require("../modules/mpFinder")
 const mainController = {
     homePage: (req, res) => {
         res.render('home');
@@ -16,9 +16,11 @@ const mainController = {
 
         const myMP = findMyMp(result.numDpt, result.numCirco);
 
+        const presResults = presidentialResults(result.numDpt, result.numCirco);
         res.render("results", {
             result: result,
-            myMp : myMP
+            myMp : myMP,
+            presidentialResults : presResults
         });
     }
 }

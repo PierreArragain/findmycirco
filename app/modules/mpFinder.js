@@ -1,5 +1,7 @@
 const data = require('../data/liste-deputes.json');
 const formerData = require('../data/liste_anciens_deputes.json');
+const firstRoundData = require('../data/resultats-par-circo-t1.json');
+const secondRoundData = require('../data/resultats-par-circo-t2.json');
 
 const mpFinder = {
 
@@ -43,6 +45,57 @@ const mpFinder = {
                 }
             }
         }
+    },
+    presidentialResults: (numDpt, numCirco) => {
+        let firstRoundResults;
+        let secondRoundResults;
+        for (const circo of firstRoundData) {
+            if(parseInt(circo.dpt_num, 10) === parseInt(numDpt, 10) && parseInt(circo.circo_num, 10) === parseInt(numCirco, 10)) {
+                firstRoundResults = {
+                    votants: {
+                    "abstention": circo.abstention,
+                    "votants": circo.votants
+                    },
+                    bulletin: {
+                    "Bulletins blancs": circo.score_blanc,
+                    "Bulletins nuls": circo.score_nul
+                    },
+                    exprimes: {
+                        "Nathalie Arthaud": circo.score_arthaud,
+                        "Fabien Roussel": circo.score_roussel,
+                        "Emmanuel Macron": circo.score_macron,
+                        "Jean Lassalle": circo.score_lassalle,
+                        "Marine Le Pen": circo.score_lepen,
+                        "Eric Zemmour": circo.score_zemmour,
+                        "Jean-Luc Mélenchon": circo.score_melenchon,
+                        "Anne Hidalgo": circo.score_hidalgo,
+                        "Yannick Jadot": circo.score_jadot,
+                        "Valérie Pécresse": circo.score_pecresse,
+                        "Philippe Poutou": circo.score_poutou,
+                        "Nicolas Dupont-Aignan": circo.score_dupontaignan
+                    }   
+                }
+            }
+        }
+        for (const circo of secondRoundData) {
+            if(parseInt(circo.dpt_num, 10) === parseInt(numDpt, 10) && parseInt(circo.circo_num, 10) === parseInt(numCirco, 10)) {
+                secondRoundResults = {
+                    votants: {
+                    "abstention": circo.abstention,
+                    "votants": circo.votants
+                    },
+                    bulletin: {
+                    "Bulletins blancs": circo.score_blanc,
+                    "Bulletins nuls": circo.score_nul
+                    },
+                    exprimes: {
+                        "Emmanuel Macron": circo.score_macron,
+                        "Marine Le Pen": circo.score_lepen
+                    }
+                }
+            }
+        }
+        return { firstRoundResults , secondRoundResults };
     }
 }
 

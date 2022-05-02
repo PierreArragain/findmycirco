@@ -4,8 +4,15 @@
             <h2>Votre circonscription est </h2>
         
 
-        <% let numero=parseInt(result.numCirco, 10); console.log(numero); let order; if
-            (numero===1) { order="ère" ; } else { order="ème" ; } console.log(numero + order) %>
+        <% 
+        let numero=parseInt(result.numCirco, 10); 
+        let order; 
+        if (numero===1) { 
+            order="ère"; 
+            } else { 
+            order="ème";
+         }
+         %>
 
             <p> la <%= myMp.numCirc %><%= order %> circonscription du département <%= myMp.dpt %>
             </p>
@@ -23,6 +30,45 @@
                     </ul>
                 </div>
             </div>
+        </section>
+        <section class="presidential-results-section">
+            <h2 class="presidential-results-section__title">Résultats des élections présidentielles 2022 dans la circonscription</h2>
+            <table class="firstround-table">
+                <thead>
+                    <tr class="result-table-row result-table-row-head">
+                        <th colspan="2">Premier tour</th>
+                    </tr>
+                </thead>
+                <% let exprimesFirst = presidentialResults.firstRoundResults.exprimes;
+                    for (const candidate in exprimesFirst ) { %> 
+                <tr class="result-table-row">
+                    <td class="result-table-column result-table-column-1 ">
+                        <%= candidate %> 
+                    </td>
+                    <td class="result-table-column result-table-column-2 ">
+                        <%= exprimesFirst[candidate] %> %
+                    </td>
+                </tr>
+                <% } %>
+            </table>
+            <table class="secondround-table">
+                <thead>
+                    <tr class="result-table-row result-table-row-head">
+                        <th colspan="2">Second tour</th>
+                    </tr>
+                </thead>
+                <% let exprimesSecond = presidentialResults.secondRoundResults.exprimes;
+                    for (const candidate in exprimesSecond ) { %> 
+                <tr class="result-table-row">
+                    <td class="result-table-column result-table-column-1 ">
+                        <%= candidate %> 
+                    </td>
+                    <td class="result-table-column result-table-column-2 ">
+                        <%= exprimesSecond[candidate] %> %
+                    </td>
+                </tr>
+                <% } %>
+            </table>
         </section>
         <section class="candidats-section">
             <p>Lors de leur publication par le Ministère de l'Intérieur, vous pourrez retrouver ici la liste des candidates et candidats à l'élection legislative dans votre circonscription

@@ -1,7 +1,22 @@
-:root {
-    --main-color: #f0f;
-}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap');
 
+:root {
+    --main-color: #231C4F;
+    --background-color: #E5E5E5;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
+    }
+    
+    
+    /* Desktops and laptops ----------- */
+    @media only screen and (min-width : 1224px) {
+    /* Styles */
+    }
+    
+    
 /* Header */
 
 

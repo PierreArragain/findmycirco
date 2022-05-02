@@ -1,6 +1,6 @@
 <%- include ('partials/header') %>
         <article>
-        <section>
+        <section class="main-description">
             <h1>Trouver ma circonscription éléctorale</h1>
             <h2>Elections legislatives françaises - 15 et 22 juin 2022</h2>
             <p>Connaissez-vous : </p>
@@ -19,14 +19,14 @@
                     <input type="text" name="streetNumber" id="street-number">
 
                     <label for="streetName">Nom de rue : </label>
-                    <input type="text" name="streetName" id="street-name" required>
+                    <input type="text" name="streetName" id="street-name"  required aria-required="true">
                 </div>
                 <div class="town">
                     <label for="zip">Code postal : </label>
-                    <input type="text" name="zip" id="town-zip" min-length="5" max-length="5" size="6">
+                    <input type="text" name="zip" id="town-zip" min-length="5" max-length="5" size="6" required aria-required="true">
                     
                     <label for="townName">Nom de la commune : </label>
-                    <input type="text" name="townName" id="town-name">
+                    <input type="text" name="townName" id="town-name"  required aria-required="true">
                 </div>
                 <input type="submit" value="Trouver ma circonscription">
             </form>
