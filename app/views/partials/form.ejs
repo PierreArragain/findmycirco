@@ -1,0 +1,32 @@
+<form action="/search/results" method="get" class="search-form">
+    <h3 class="home__form__jnstruction">Entrez une adresse pour trouver dans quelle circonscription elle se trouve :
+    </h3>
+    <div class="home__form__line home__form__street">
+        <div class="home__form__field-block home__form__street__number">
+            <label for="street-number">Numéro</label>
+            <input class="home__form__field" type="text" name="street-number" id="street-number">
+        </div>
+        <div class="home__form__field-block home__form__street__name">
+            <label for="street-name">Nom de rue</label>
+            <input class="home__form__field" type="text" name="street-name" id="street-name" required
+                aria-required="true">
+        </div>
+    </div>
+    <div class="home__form__line home__form__town">
+        <div class="home__form__field-block home__form__town__zip">
+            <label for="town-zip">Code postal</label>
+            <input class="home__form__field" type="text" name="zip" id="town-zip" size="6" required
+                aria-required="true">
+        </div>
+        <div class="home__form__field-block home__form__town__name">
+            <label for="town-name">Commune</label>
+            <input class="home__form__field" type="text" name="town-name" id="town-name" required aria-required="true">
+        </div>
+    </div>
+    <div class="home__form__submit-btn__container">
+        <input class="home__form__submit-btn" type="submit" value="Trouver ma circonscription">
+    </div>
+    <div class="home__form__disclaimer">
+        <p>Votre adresse ne sera pas conservée à l'issue de la recherche.</p>
+    </div>
+</form>

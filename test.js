@@ -1,13 +1,14 @@
-const { findMyMp } = require('./app/modules/mpFinder');
-const { findCirco } = require("../modules/checkPoint");
+const getNumberFromString  = (string) => {
+    if (typeof string !== "number") {
+    let number = string.split(',');
+    number = Number(number.join('.'));
+    return number;
+    } else {
+        return string;
+    }
 
-console.log(findMyMp('69', '06'));
+}
 
+console.log(getNumberFromString("1,25"));
 
-/*
-const address = "Lyon";
-(async () => {
-    const circo = await findCirco(address);
-    console.log(circo);
-})();
-*/
+console.log(getNumberFromString(1));

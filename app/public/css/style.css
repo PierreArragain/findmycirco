@@ -2,8 +2,8 @@
 
 :root {
     --main-color: #231C4F;
-    --background-color: #E5E5E5;
-    --secondary-background-color: #F2F2F2;
+
+    --background-color: #F2F2F2;
     --secondary-font-color: #718096;
 
     font-family: 'IBM Plex Sans', sans-serif;
@@ -12,6 +12,10 @@
     
 body {
     color: var(--main-color);
+    box-sizing: border-box;
+    min-width: 320px;
+
+    
 }    
  
     
@@ -20,6 +24,7 @@ body {
 .header {
     border-bottom: solid 1px #F2F2F2;
     margin-bottom: 1rem;
+    height: 3rem;
 }
 
 .header__nav {
@@ -55,9 +60,10 @@ body {
 
 }
 
+
+
 /* Footer */
  .footer {
-    position: relative;
     display: flex;
     height: 2rem;
     background-color: var(--main-color);
@@ -71,8 +77,16 @@ body {
     
  }
 
+ .footer a {
+    color: #FFFFFF;
+}
+
     /* Home */
 /* Home main section */
+
+main {
+    min-height: calc(100vh - 7rem);
+}
 
 
 .home-main__section__title__container {
@@ -107,7 +121,7 @@ body {
 /*Home form section */
 
 .home__form {
-    background-color: var(--secondary-background-color);
+    background-color: var(--background-color);
     padding: 1.2rem .8rem;
 
 }
@@ -157,6 +171,15 @@ body {
     width: 7em;
 }
 
+.home__form__disclaimer {
+    margin-top: 1rem;
+    font-size: .8rem;
+}
+
+.home__form__disclaimer p {
+    text-align: center;
+}
+
 .home__form__submit-btn {
     margin-top: 1rem;
     color: #FFFFFF;
@@ -174,6 +197,10 @@ body {
 }
 
 /* Result Page */
+.results {
+    background-color: var(--background-color);
+    color: var(--main-color);
+}
 
 /* Depute-section-id */
 
@@ -183,6 +210,10 @@ body {
     padding: 1em;
     width: fit-content;
 }
+
+
+
+
 
    /* Desktops and laptops ----------- */
    @media only screen and (min-width : 1024px) {
@@ -214,7 +245,5 @@ body {
             max-width: 600px;
             margin: auto;
         }
-
-        
 
    }

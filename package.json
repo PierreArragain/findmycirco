@@ -1,6 +1,6 @@
 {
   "name": "findmycirco",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Projet pour permettre à chacune et chacun de trouver la circonscription dont il ou elle dépend",
   "main": "app.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/PierreArragain/findmycirco.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Pierre Arragain-Dehlinger",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/PierreArragain/findmycirco/issues"

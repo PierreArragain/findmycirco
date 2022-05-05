@@ -1,55 +1,57 @@
 <%- include ('partials/header') %>
-    <article>
-        <section class="circo-section">
+    <article class="results">
+        <section class="result__section">
             <h2>Votre circonscription est </h2>
-        
 
-        <% 
-        let numero=parseInt(result.numCirco, 10); 
-        let order; 
-        if (numero===1) { 
-            order="ère"; 
-            } else { 
-            order="ème";
-         }
-         %>
 
-            <p> la <%= myMp.numCirc %><%= order %> circonscription du département <%= myMp.dpt %>
-            </p>
+            <% let numero=parseInt(result.numCirco, 10); let order; if (numero===1) { order="ère" ; } else { order="ème"
+                ; } %>
+
+                <p> la <%= myMp.numCirc %>
+                        <%= order %> circonscription du département <%= myMp.dpt %>
+                </p>
         </section>
         <section class="depute-id-section">
-            <h2>Voici les informations concernant <% if (myMp.gender === "H") { %> le député <% } else {%> la députée <% } %> de votre circonscription</h2>
+            <h2>Voici les informations concernant <% if (myMp.gender==="H" ) { %> le député <% } else {%> la députée <%
+                            } %> de votre circonscription</h2>
             <div class="depute-id-container">
-                <img class="depute-id-img" src="<%= myMp.url_img %> " alt="Photo de <%= myMp.lastname %> <%= myMp.firstname %> ">
+                <img class="depute-id-img" src="<%= myMp.url_img %> "
+                    alt="Photo de <%= myMp.lastname %> <%= myMp.firstname %> ">
                 <div class="depute-id-details">
                     <ul>
-                        <li>Nom : <%= myMp.lastname %> <%= myMp.firstname %> </li>
-                        <li>Parti : <%= myMp.party %> </li>
-                        <li> <%= myMp.mandat %></li>
+                        <li>Nom : <%= myMp.lastname %>
+                                <%= myMp.firstname %>
+                        </li>
+                        <li>Parti : <%= myMp.party %>
+                        </li>
+                        <li>
+                            <%= myMp.mandat %>
+                        </li>
                         <li><a href="<%= myMp.url_nosdeputes %>">Plus d'informations sur le site Nos Députés</a></li>
                     </ul>
                 </div>
             </div>
         </section>
         <section class="presidential-results-section">
-            <h2 class="presidential-results-section__title">Résultats des élections présidentielles 2022 dans la circonscription</h2>
+            <h2 class="presidential-results-section__title">Résultats des élections présidentielles 2022 dans la
+                circonscription</h2>
             <table class="firstround-table">
                 <thead>
                     <tr class="result-table-row result-table-row-head">
                         <th colspan="2">Premier tour</th>
                     </tr>
                 </thead>
-                <% let exprimesFirst = presidentialResults.firstRoundResults.exprimes;
-                    for (const candidate in exprimesFirst ) { %> 
-                <tr class="result-table-row">
-                    <td class="result-table-column result-table-column-1 ">
-                        <%= candidate %> 
-                    </td>
-                    <td class="result-table-column result-table-column-2 ">
-                        <%= exprimesFirst[candidate] %> %
-                    </td>
-                </tr>
-                <% } %>
+                <% let exprimesFirst=presidentialResults.firstRoundResults.exprimes; for (const candidate in
+                    exprimesFirst ) { %>
+                    <tr class="result-table-row">
+                        <td class="result-table-column result-table-column-1 ">
+                            <%= candidate %>
+                        </td>
+                        <td class="result-table-column result-table-column-2 ">
+                            <%= exprimesFirst[candidate] %> %
+                        </td>
+                    </tr>
+                    <% } %>
             </table>
             <table class="secondround-table">
                 <thead>
@@ -57,21 +59,22 @@
                         <th colspan="2">Second tour</th>
                     </tr>
                 </thead>
-                <% let exprimesSecond = presidentialResults.secondRoundResults.exprimes;
-                    for (const candidate in exprimesSecond ) { %> 
-                <tr class="result-table-row">
-                    <td class="result-table-column result-table-column-1 ">
-                        <%= candidate %> 
-                    </td>
-                    <td class="result-table-column result-table-column-2 ">
-                        <%= exprimesSecond[candidate] %> %
-                    </td>
-                </tr>
-                <% } %>
+                <% let exprimesSecond=presidentialResults.secondRoundResults.exprimes; for (const candidate in
+                    exprimesSecond ) { %>
+                    <tr class="result-table-row">
+                        <td class="result-table-column result-table-column-1 ">
+                            <%= candidate %>
+                        </td>
+                        <td class="result-table-column result-table-column-2 ">
+                            <%= exprimesSecond[candidate] %> %
+                        </td>
+                    </tr>
+                    <% } %>
             </table>
         </section>
         <section class="candidats-section">
-            <p>Lors de leur publication par le Ministère de l'Intérieur, vous pourrez retrouver ici la liste des candidates et candidats à l'élection legislative dans votre circonscription
+            <p>Lors de leur publication par le Ministère de l'Intérieur, vous pourrez retrouver ici la liste des
+                candidates et candidats à l'élection legislative dans votre circonscription
             </p>
         </section>
 
