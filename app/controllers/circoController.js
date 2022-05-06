@@ -7,21 +7,33 @@ const {
 } = require("../modules/mpAndResultsFinder");
 
 const circoController = {
-    findCirco: async (req, res) => {
+    resultPage: async (req, res) => {
+        try {
         const query = req.query;
-        const searchedAddress = `${query.streetNumber} ${query.streetName} ${query.zip} ${query.townName}`
+        const wayInfo = `${query.streetnumber} ${query.streetname}`;
+        const townInfo = `${query.townzip} ${query.townname}`
+        const searchedAddress = `${wayInfo} ${townInfo}`
         // Récupération de la circonscription à partir de l'adresse saisie.
-        const result = await findCirco(searchedAddress);
+        const result = await findCirco(res, searchedAddress);
+
         // Récupération du / de la députée correspondante
         const myMP = findMyMp(result.numDpt, result.numCirco);
         // Récupération des résultats aux dernières présidentielles 
         const presResults = presidentialResults(result.numDpt, result.numCirco);
-        console.log(presResults.firstRoundResults.exprimes["Fabien Roussel"]);
+    
         return res.render("results", {
+            address: {
+                firstline : wayInfo,
+                secondline: townInfo
+            },
             result: result,
             myMp: myMP,
             presidentialResults: presResults
         });
+    } catch (error) {
+        console.error(error);
+    }
+    
     }
 }
 

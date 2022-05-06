@@ -5,11 +5,12 @@ const circos = require('../data/circonscriptions-legislatives.json');
 
 const checkPoint = {
     // Trouver une circonscription en fonction de l'adresse
-    findCirco : async (address) => {
+    findCirco : async (res, address) => {
         
         try {
             // Récupération des coordonnées GPS liées à l'adresse
-            const point = await getCoordinates(address);
+            const point = await getCoordinates(res, address);
+            
             // Recherche du point GPS dans le geojson des circos
             const result = inside.feature(circos, point);
             // Récupération du numéro du département et de la circonscription.

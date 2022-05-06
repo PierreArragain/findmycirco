@@ -1,4 +1,8 @@
 const errorController = {
+    _400: (req, res) => {
+      res.status(400).redirect('home');
+    },
+  
     _404: (req, res) => {
       res.status(404).render('404',{ title : "404 - Not found"});
     },  

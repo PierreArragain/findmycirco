@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
 
 :root {
     --main-color: #231C4F;
@@ -198,18 +198,109 @@ main {
 
 /* Result Page */
 .results {
-    background-color: var(--background-color);
     color: var(--main-color);
 }
 
-/* Depute-section-id */
+.results h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+/* Recap section */
+
+.recap__section {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1.2rem .8rem;
+    text-align: center;
+    gap: 1rem;
+}
+
+.recap__section h3 {
+    font-weight: 700;
+}
+
+.recap__section p {
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+/* Results div */
+.results__div {
+    padding: 1.2rem .8rem;
+}
+
+.results-subsection {
+    margin-bottom: 1rem;
+}
+
+/* Depute-id-container */
 
 .depute-id-container {
     display: flex;
-    border: solid 1px #000;
-    padding: 1em;
-    width: fit-content;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
 }
+
+.depute-id-img {
+    margin-left: 15px;
+    margin-right:10px
+}
+.depute-id-details__table td {
+    padding-bottom: .3rem ;
+
+}
+
+.depute-id-details__tag {
+    font-weight: 700;
+}
+
+.depute-id-details__circle {
+    text-align: center;
+}
+
+/* Presidential results section */
+.presidential-results-section table {
+    margin-bottom: 1rem;
+}
+
+.presidential-results-section th {
+    text-align: left;
+    font-weight: 700;
+    padding-bottom: .3rem ;
+
+}
+
+.presidential-results-section td {
+    padding-bottom: .3rem;
+    padding-right: .3rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+
+}
+
+.result-table-column-1 {
+    width: 48%;
+}
+
+.presidential-results-section .result-table-column-3 {
+    font-size: 0.8rem;
+}
+
+.result-bar-bg {
+    background-color: var(--background-color);
+    width: 110px;
+}
+
+.result-bar-percentage {
+    background-color: #f0f;
+    width: var(--percentage);
+
+}
+
 
 
 

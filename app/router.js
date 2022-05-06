@@ -9,6 +9,6 @@ router.get("/", mainController.homePage);
 
 router.get("/legal", mainController.legal);
 
-router.get("/search/results", circoController.findCirco);
+router.get("/search/results", circoController.resultPage);
 
 module.exports = router;

@@ -1,82 +1,143 @@
 <%- include ('partials/header') %>
     <article class="results">
-        <section class="result__section">
-            <h2>Votre circonscription est </h2>
+        <%- include ('partials/title-header') %>
 
+            <section class="recap__section">
+                <aside class="recap__section__address">
+                    <h3>Votre adresse : </h3>
+                    <p>
+                        <%= address.firstline %>
+                    </p>
+                    <p>
+                        <%= address.secondline %>
+                    </p>
+                </aside>
+                <aside class="recap__section__circo">
+                    <h3>Votre circonscription : </h3>
+                    <% let numero=parseInt(result.numCirco, 10); let order; if (numero===1) { order="ère" ; } else {
+                        order="ème" ; } %>
 
-            <% let numero=parseInt(result.numCirco, 10); let order; if (numero===1) { order="ère" ; } else { order="ème"
-                ; } %>
+                        <p>
+                            <%= myMp.numCirc %>
+                                <%= order %> circonscription du département
+                        </p>
+                        <p>
+                            <%= myMp.dpt %>
+                        </p>
+                </aside>
+            </section>
+            <div class="results__div">
+                <section class="results-subsection depute-id-section">
+                    <h2>Qui est <% if (myMp.gender==="H" ) { %> le député <% } else {%> la députée <% } %> de votre
+                                    circonscription ?</h2>
+                    <div class="depute-id-container">
+                        <img class="depute-id-img" src="<%= myMp.url_img %> "
+                            alt="Photo de <%= myMp.lastname %> <%= myMp.firstname %> ">
+                        <div class="depute-id-details">
+                            <% let circleColor; 
+                            if (myMp.mandat==='Mandat en cours') { 
+                                circleColor="#8cd155"; 
+                            } else { 
+                                circleColor="#e30022"; 
+                            } %>
+                                <table class="depute-id-details__table">
+                                    <tr class="depute-id-details__row">
+                                        <td class="depute-id-details__tag col-1 ">
+                                            Nom :
+                                        </td>
+                                        <td class="depute-id-details__name col-2">
+                                            <%= myMp.lastname %>
+                                                <%= myMp.firstname %>
+                                        </td>
+                                    </tr>
+                                    <tr class="depute-id-details__row">
+                                        <td class="depute-id-details__tag col-1 ">
+                                            Parti :
+                                        </td>
+                                        <td class="depute-id-details__party col-2">
+                                            <%= myMp.party %>
+                                        </td>
+                                    </tr>
+                                    <tr class="depute-id-details__row">
+                                        <td class="depute-id-details__circle col-1" style="color:<%= circleColor %>">
+                                            &#9679;
+                                        </td>
+                                        <td class="depute-id-details__mandate col-2 ">
+                                            <%= myMp.mandat %>
+                                        </td>
+                                    </tr>
+                                    <tfoot>
+                                        <tr>
+                                            <th colspan="2"><a href="<%= myMp.url_nosdeputes %>">Plus d'informations sur
+                                                    le site Nos Députés</a></th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                        </div>
+                    </div>
+                </section>
+                <section class="results-subsection candidats-section">
+                    <h2>Qui sont les candidates et candidats ?</h2>
+                    <p>Lors de leur publication par le Ministère de l'Intérieur, vous pourrez retrouver ici la liste des
+                        candidates et candidats à l'élection legislative dans votre circonscription
+                    </p>
+                </section>
+                <section class="results-subsection presidential-results-section">
+                    <h2>Résultats des élections présidentielles 2022 dans la
+                        circonscription</h2>
+                    <table class="firstround-table">
+                        <thead>
+                            <tr class="result-table-row result-table-row-head">
+                                <th colspan="1">Premier tour</th>
+                            </tr>
+                        </thead>
+                        <% let exprimesFirst=presidentialResults.firstRoundResults.exprimes; for (const candidate in
+                            exprimesFirst ) { %>
+                            <tr class="result-table-row">
+                                <td class="result-table-column result-table-column-1 ">
+                                    <%= candidate %>
+                                </td>
+                                <td class="result-table-column result-table-column-2 ">
+                                    <div class="result-bar-bg">
+                                        <div class="result-bar-percentage" style="--percentage: <%= exprimesFirst[candidate] %>%;">
+                                            &nbsp;
+                                        </div>
+                                </div>
+                                </td>
+                                <td class="result-table-column result-table-column-3">
+                                    <%= exprimesFirst[candidate] %> %
+                                </td>
+                            </tr>
+                            <% } %>
+                    </table>
+                    <table class="secondround-table">
+                        <thead>
+                            <tr class="result-table-row result-table-row-head">
+                                <th colspan="1">Second tour</th>
+                            </tr>
+                        </thead>
+                        <% let exprimesSecond=presidentialResults.secondRoundResults.exprimes; for (const candidate in
+                            exprimesSecond ) { %>
+                            <tr class="result-table-row">
+                                <td class="result-table-column result-table-column-1 ">
+                                    <%= candidate %>
+                                </td>
+                                <td class="result-table-column result-table-column-2 ">
+                                    <div class="result-bar-bg">
+                                        <div class="result-bar-percentage" style="--percentage: <%= exprimesFirst[candidate] %>%;">
+                                            &nbsp;
+                                        </div>
+                                </div>
+                                </td>
+                                <td class="result-table-column result-table-column-3 ">
+                                    <%= exprimesSecond[candidate] %> %
+                                </td>
+                            </tr>
+                            <% } %>
+                    </table>
+                </section>
 
-                <p> la <%= myMp.numCirc %>
-                        <%= order %> circonscription du département <%= myMp.dpt %>
-                </p>
-        </section>
-        <section class="depute-id-section">
-            <h2>Voici les informations concernant <% if (myMp.gender==="H" ) { %> le député <% } else {%> la députée <%
-                            } %> de votre circonscription</h2>
-            <div class="depute-id-container">
-                <img class="depute-id-img" src="<%= myMp.url_img %> "
-                    alt="Photo de <%= myMp.lastname %> <%= myMp.firstname %> ">
-                <div class="depute-id-details">
-                    <ul>
-                        <li>Nom : <%= myMp.lastname %>
-                                <%= myMp.firstname %>
-                        </li>
-                        <li>Parti : <%= myMp.party %>
-                        </li>
-                        <li>
-                            <%= myMp.mandat %>
-                        </li>
-                        <li><a href="<%= myMp.url_nosdeputes %>">Plus d'informations sur le site Nos Députés</a></li>
-                    </ul>
-                </div>
             </div>
-        </section>
-        <section class="presidential-results-section">
-            <h2 class="presidential-results-section__title">Résultats des élections présidentielles 2022 dans la
-                circonscription</h2>
-            <table class="firstround-table">
-                <thead>
-                    <tr class="result-table-row result-table-row-head">
-                        <th colspan="2">Premier tour</th>
-                    </tr>
-                </thead>
-                <% let exprimesFirst=presidentialResults.firstRoundResults.exprimes; for (const candidate in
-                    exprimesFirst ) { %>
-                    <tr class="result-table-row">
-                        <td class="result-table-column result-table-column-1 ">
-                            <%= candidate %>
-                        </td>
-                        <td class="result-table-column result-table-column-2 ">
-                            <%= exprimesFirst[candidate] %> %
-                        </td>
-                    </tr>
-                    <% } %>
-            </table>
-            <table class="secondround-table">
-                <thead>
-                    <tr class="result-table-row result-table-row-head">
-                        <th colspan="2">Second tour</th>
-                    </tr>
-                </thead>
-                <% let exprimesSecond=presidentialResults.secondRoundResults.exprimes; for (const candidate in
-                    exprimesSecond ) { %>
-                    <tr class="result-table-row">
-                        <td class="result-table-column result-table-column-1 ">
-                            <%= candidate %>
-                        </td>
-                        <td class="result-table-column result-table-column-2 ">
-                            <%= exprimesSecond[candidate] %> %
-                        </td>
-                    </tr>
-                    <% } %>
-            </table>
-        </section>
-        <section class="candidats-section">
-            <p>Lors de leur publication par le Ministère de l'Intérieur, vous pourrez retrouver ici la liste des
-                candidates et candidats à l'élection legislative dans votre circonscription
-            </p>
-        </section>
 
     </article>
 
