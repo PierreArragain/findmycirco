@@ -1,7 +1,6 @@
 <%- include ('partials/header') %>
+<%- include ('partials/title-header') %>
     <article class="results">
-        <%- include ('partials/title-header') %>
-
             <section class="recap__section">
                 <aside class="recap__section__address">
                     <h3>Votre adresse : </h3>
@@ -18,13 +17,13 @@
                         order="ème" ; } %>
 
                         <p>
-                            <%= myMp.numCirc %>
-                                <%= order %> circonscription du département
+                            <%= myMp.numCirc %><%= order %> circonscription du département
                         </p>
                         <p>
                             <%= myMp.dpt %>
                         </p>
                 </aside>
+                <a href="/">Relancer une recherche</a>
             </section>
             <div class="results__div">
                 <div class="results__mp-and-candidates">
@@ -85,7 +84,7 @@
                 </div>
                 <section class="results-subsection presidential-results-section">
                     <h2>Comment vote votre circonscription ?</h2>
-                    <h3>Résultats aux présidentielles 2022</h3>
+                    <h3>Résultats de l'élection présidentielle 2022</h3>
                     <table class="firstround-table">
                         <thead>
                             <tr class="result-table-row-head">
