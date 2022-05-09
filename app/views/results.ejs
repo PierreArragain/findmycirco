@@ -27,93 +27,95 @@
                 </aside>
             </section>
             <div class="results__div">
-                <section class="results-subsection depute-id-section">
-                    <h2>Qui est <% if (myMp.gender==="H" ) { %> le député <% } else {%> la députée <% } %> de votre
-                                    circonscription ?</h2>
-                    <div class="depute-id-container">
-                        <img class="depute-id-img" src="<%= myMp.url_img %> "
-                            alt="Photo de <%= myMp.lastname %> <%= myMp.firstname %> ">
-                        <div class="depute-id-details">
-                            <% let circleColor; 
-                            if (myMp.mandat==='Mandat en cours') { 
-                                circleColor="#8cd155"; 
-                            } else { 
-                                circleColor="#e30022"; 
-                            } %>
-                                <table class="depute-id-details__table">
-                                    <tr class="depute-id-details__row">
-                                        <td class="depute-id-details__tag col-1 ">
-                                            Nom :
-                                        </td>
-                                        <td class="depute-id-details__name col-2">
-                                            <%= myMp.lastname %>
-                                                <%= myMp.firstname %>
-                                        </td>
-                                    </tr>
-                                    <tr class="depute-id-details__row">
-                                        <td class="depute-id-details__tag col-1 ">
-                                            Parti :
-                                        </td>
-                                        <td class="depute-id-details__party col-2">
-                                            <%= myMp.party %>
-                                        </td>
-                                    </tr>
-                                    <tr class="depute-id-details__row">
-                                        <td class="depute-id-details__circle col-1" style="color:<%= circleColor %>">
-                                            &#9679;
-                                        </td>
-                                        <td class="depute-id-details__mandate col-2 ">
-                                            <%= myMp.mandat %>
-                                        </td>
-                                    </tr>
-                                    <tfoot>
-                                        <tr>
-                                            <th colspan="2"><a href="<%= myMp.url_nosdeputes %>">Plus d'informations sur
-                                                    le site Nos Députés</a></th>
+                <div class="results__mp-and-candidates">
+                    <section class="results-subsection depute-id-section">
+                        <h2>Qui est <% if (myMp.gender==="H" ) { %> le député <% } else {%> la députée <% } %> de votre
+                                        circonscription ?</h2>
+                        <div class="depute-id-container">
+                            <img class="depute-id-img" src="<%= myMp.url_img %> "
+                                alt="Photo de <%= myMp.lastname %> <%= myMp.firstname %> ">
+                            <div class="depute-id-details">
+                                <% let circleColor; if (myMp.mandat==='Mandat en cours' ) { circleColor="#8cd155" ; }
+                                    else { circleColor="#e30022" ; } %>
+                                    <table class="depute-id-details__table">
+                                        <tr class="depute-id-details__row">
+                                            <td class="depute-id-details__tag col-1 ">
+                                                Nom :
+                                            </td>
+                                            <td class="depute-id-details__name col-2">
+                                                <%= myMp.lastname %>
+                                                    <%= myMp.firstname %>
+                                            </td>
                                         </tr>
-                                    </tfoot>
-                                </table>
+                                        <tr class="depute-id-details__row">
+                                            <td class="depute-id-details__tag col-1 ">
+                                                Parti :
+                                            </td>
+                                            <td class="depute-id-details__party col-2">
+                                                <%= myMp.party %>
+                                            </td>
+                                        </tr>
+                                        <tr class="depute-id-details__row">
+                                            <td class="depute-id-details__circle col-1"
+                                                style="color:<%= circleColor %>">
+                                                &#9679;
+                                            </td>
+                                            <td class="depute-id-details__mandate col-2 ">
+                                                <%= myMp.mandat %>
+                                            </td>
+                                        </tr>
+                                        <tfoot>
+                                            <tr>
+                                                <th colspan="2"><a href="<%= myMp.url_nosdeputes %>">Plus d'informations
+                                                        sur
+                                                        le site Nos Députés</a></th>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                            </div>
                         </div>
-                    </div>
-                </section>
-                <section class="results-subsection candidats-section">
-                    <h2>Qui sont les candidates et candidats ?</h2>
-                    <p>Lors de leur publication par le Ministère de l'Intérieur, vous pourrez retrouver ici la liste des
-                        candidates et candidats à l'élection legislative dans votre circonscription
-                    </p>
-                </section>
+                    </section>
+                    <section class="results-subsection candidats-section">
+                        <h2>Qui sont les candidates et candidats ?</h2>
+                        <p>Lors de leur publication par le Ministère de l'Intérieur, vous pourrez retrouver ici la liste
+                            des
+                            candidates et candidats à l'élection legislative dans votre circonscription
+                        </p>
+                    </section>
+                </div>
                 <section class="results-subsection presidential-results-section">
-                    <h2>Résultats des élections présidentielles 2022 dans la
-                        circonscription</h2>
+                    <h2>Comment vote votre circonscription ?</h2>
+                    <h3>Résultats aux présidentielles 2022</h3>
                     <table class="firstround-table">
                         <thead>
-                            <tr class="result-table-row result-table-row-head">
-                                <th colspan="1">Premier tour</th>
+                            <tr class="result-table-row-head">
+                                <th colspan="3">Premier tour de la présidentielle</th>
                             </tr>
                         </thead>
                         <% let exprimesFirst=presidentialResults.firstRoundResults.exprimes; for (const candidate in
                             exprimesFirst ) { %>
                             <tr class="result-table-row">
-                                <td class="result-table-column result-table-column-1 ">
+                                <td class="result-table-column result-table-column-1">
                                     <%= candidate %>
                                 </td>
-                                <td class="result-table-column result-table-column-2 ">
+                                <td class="result-table-column result-table-column-2">
                                     <div class="result-bar-bg">
-                                        <div class="result-bar-percentage" style="--percentage: <%= exprimesFirst[candidate] %>%;">
+                                        <div class="result-bar-percentage"
+                                            style="--percentage: <%= exprimesFirst[candidate].result %>%; --candidate-color:<%= exprimesFirst[candidate].color %>">
                                             &nbsp;
                                         </div>
-                                </div>
+                                    </div>
                                 </td>
                                 <td class="result-table-column result-table-column-3">
-                                    <%= exprimesFirst[candidate] %> %
+                                    <%= exprimesFirst[candidate].result %> %
                                 </td>
                             </tr>
                             <% } %>
                     </table>
                     <table class="secondround-table">
                         <thead>
-                            <tr class="result-table-row result-table-row-head">
-                                <th colspan="1">Second tour</th>
+                            <tr class="result-table-row-head">
+                                <th colspan="3">Second tour de la présidentielle</th>
                             </tr>
                         </thead>
                         <% let exprimesSecond=presidentialResults.secondRoundResults.exprimes; for (const candidate in
@@ -124,13 +126,14 @@
                                 </td>
                                 <td class="result-table-column result-table-column-2 ">
                                     <div class="result-bar-bg">
-                                        <div class="result-bar-percentage" style="--percentage: <%= exprimesFirst[candidate] %>%;">
+                                        <div class="result-bar-percentage"
+                                            style="--percentage: <%= exprimesSecond[candidate].result %>%; --candidate-color:<%= exprimesSecond[candidate].color %>">
                                             &nbsp;
                                         </div>
-                                </div>
+                                    </div>
                                 </td>
                                 <td class="result-table-column result-table-column-3 ">
-                                    <%= exprimesSecond[candidate] %> %
+                                    <%= exprimesSecond[candidate].result %> %
                                 </td>
                             </tr>
                             <% } %>

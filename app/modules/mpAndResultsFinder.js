@@ -73,18 +73,56 @@ const mpAndResultsFinder = {
                         "Bulletins nuls": getNumberFromString(circo.score_nul)
                     },
                     exprimes: {
-                        "Nathalie Arthaud": getNumberFromString(circo.score_arthaud),
-                        "Fabien Roussel": getNumberFromString(circo.score_roussel),
-                        "Emmanuel Macron": getNumberFromString(circo.score_macron),
-                        "Jean Lassalle": getNumberFromString(circo.score_lassalle),
-                        "Marine Le Pen": getNumberFromString(circo.score_lepen),
-                        "Eric Zemmour": getNumberFromString(circo.score_zemmour),
-                        "Jean-Luc Mélenchon": getNumberFromString(circo.score_melenchon),
-                        "Anne Hidalgo": getNumberFromString(circo.score_hidalgo),
-                        "Yannick Jadot": getNumberFromString(circo.score_jadot),
-                        "Valérie Pécresse": getNumberFromString(circo.score_pecresse),
-                        "Philippe Poutou": getNumberFromString(circo.score_poutou),
-                        "Nicolas Dupont-Aignan": getNumberFromString(circo.score_dupontaignan)
+                        "Nathalie Arthaud": {
+                            result: getNumberFromString(circo.score_arthaud),
+                            color: "#AC5857"
+                        }, 
+                        "Fabien Roussel": {
+                            result: getNumberFromString(circo.score_roussel),
+                            color: "#DE302C"
+                        },
+                        "Emmanuel Macron": {
+                            result: getNumberFromString(circo.score_macron),
+                            color: "#F3A13D"
+                        },
+                        "Jean Lassalle": {
+                            result: getNumberFromString(circo.score_lassalle),
+                            color: "#667A75"
+                        },
+                        "Marine Le Pen": {
+                            result: getNumberFromString(circo.score_lepen),
+                            color: "#866131"
+                        },
+                        "Eric Zemmour": {
+                            result: getNumberFromString(circo.score_zemmour),
+                            color: "#604521"
+                        },
+                        "Jean-Luc Mélenchon": {
+                            result: getNumberFromString(circo.score_melenchon),
+                            color: "#EC483F"
+                        },
+                        "Anne Hidalgo": 
+                        {
+                            result: getNumberFromString(circo.score_hidalgo),
+                            color: "#ED708C"
+                        },
+                        "Yannick Jadot": 
+                        {
+                            result: getNumberFromString(circo.score_jadot),
+                            color: "#58B34E"
+                        },
+                        "Valérie Pécresse": {
+                            result: getNumberFromString(circo.score_pecresse),
+                            color: "#3E8FC0"
+                        },
+                        "Philippe Poutou": {
+                            result: getNumberFromString(circo.score_poutou),
+                            color: "#BE3A32"
+                        },
+                        "Nicolas Dupont-Aignan": {
+                            result: getNumberFromString(circo.score_dupontaignan),
+                            color: "#052C96"
+                        }
                     }
                 }
             }
@@ -101,8 +139,14 @@ const mpAndResultsFinder = {
                         "Bulletins nuls": getNumberFromString(circo.score_nul)
                     },
                     exprimes: {
-                        "Emmanuel Macron": getNumberFromString(circo.score_macron),
-                        "Marine Le Pen": getNumberFromString(circo.score_lepen)
+                        "Emmanuel Macron": {
+                            result: getNumberFromString(circo.score_macron),
+                            color: "#F3A13D"
+                        },
+                        "Marine Le Pen": {
+                            result: getNumberFromString(circo.score_lepen),
+                            color: "#866131",
+                        }
                     }
                 }
             }

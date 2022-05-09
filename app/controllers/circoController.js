@@ -18,9 +18,9 @@ const circoController = {
 
         // Récupération du / de la députée correspondante
         const myMP = findMyMp(result.numDpt, result.numCirco);
+
         // Récupération des résultats aux dernières présidentielles 
         const presResults = presidentialResults(result.numDpt, result.numCirco);
-    
         return res.render("results", {
             address: {
                 firstline : wayInfo,
