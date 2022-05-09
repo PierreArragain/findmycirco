@@ -6,7 +6,7 @@ const favicon = require("serve-favicon");
 
 const app = express();
 
-const PORT = process.env.SERVER_PORT || 5000;
+const PORT = process.env.PORT || 5000;
 
 const router = require('./app/router');
 
