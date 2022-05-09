@@ -76,9 +76,7 @@
                     </section>
                     <section class="results-subsection candidats-section">
                         <h2>Qui sont les candidates et candidats ?</h2>
-                        <p>Lors de leur publication par le Ministère de l'Intérieur, vous pourrez retrouver ici la liste
-                            des
-                            candidates et candidats à l'élection legislative dans votre circonscription
+                        <p>Vous retrouverez ici les candidates et candidats à l'élection legislative dans votre circonscription lors de la publication de la liste par le Ministère de l'Intérieur.
                         </p>
                     </section>
                 </div>
@@ -99,8 +97,14 @@
                                 </td>
                                 <td class="result-table-column result-table-column-2">
                                     <div class="result-bar-bg">
+                                        <% let percentage;
+                                        if (exprimesFirst[candidate].result < 1.2) {
+                                            percentage = 1.2;
+                                        } else {
+                                            percentage = exprimesFirst[candidate].result;
+                                        } %>
                                         <div class="result-bar-percentage"
-                                            style="--percentage: <%= exprimesFirst[candidate].result %>%; --candidate-color:<%= exprimesFirst[candidate].color %>">
+                                            style="--percentage: <%= percentage %>%; --candidate-color:<%= exprimesFirst[candidate].color %>">
                                             &nbsp;
                                         </div>
                                     </div>

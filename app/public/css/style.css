@@ -394,7 +394,15 @@ main {
 
 
 
-
+@media only screen and (min-width : 768px) {
+    .result-table-column-1 {
+        width: 35%;
+    }
+    
+    .result-bar-bg {
+        width: 300px;
+    }
+}
 
 
 

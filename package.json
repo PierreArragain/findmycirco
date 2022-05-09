@@ -1,6 +1,6 @@
 {
   "name": "findmycirco",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Projet pour permettre à chacune et chacun de trouver la circonscription dont il ou elle dépend",
   "main": "app.js",
   "scripts": {
