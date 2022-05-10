@@ -50,11 +50,11 @@ const mpAndResultsFinder = {
         let firstRoundResults;
         let secondRoundResults;
         //On transforme la donnée en nombre
-        const getNumberFromString  = (string) => {
+        const getNumberFromString = (string) => {
             if (typeof string === "string") {
-            let number = string.split(',');
-            number = Number(number.join('.'));
-            return number;
+                let number = string.split(',');
+                number = Number(number.join('.'));
+                return number;
             } else {
                 return string;
             }
@@ -72,61 +72,27 @@ const mpAndResultsFinder = {
                         "Bulletins blancs": getNumberFromString(circo.score_blanc),
                         "Bulletins nuls": getNumberFromString(circo.score_nul)
                     },
-                    exprimes: {
-                        "Nathalie Arthaud": {
-                            result: getNumberFromString(circo.score_arthaud),
-                            color: "#AC5857"
-                        }, 
-                        "Fabien Roussel": {
-                            result: getNumberFromString(circo.score_roussel),
-                            color: "#DE302C"
-                        },
-                        "Emmanuel Macron": {
-                            result: getNumberFromString(circo.score_macron),
-                            color: "#F3A13D"
-                        },
-                        "Jean Lassalle": {
-                            result: getNumberFromString(circo.score_lassalle),
-                            color: "#667A75"
-                        },
-                        "Marine Le Pen": {
-                            result: getNumberFromString(circo.score_lepen),
-                            color: "#866131"
-                        },
-                        "Eric Zemmour": {
-                            result: getNumberFromString(circo.score_zemmour),
-                            color: "#604521"
-                        },
-                        "Jean-Luc Mélenchon": {
-                            result: getNumberFromString(circo.score_melenchon),
-                            color: "#EC483F"
-                        },
-                        "Anne Hidalgo": 
-                        {
-                            result: getNumberFromString(circo.score_hidalgo),
-                            color: "#ED708C"
-                        },
-                        "Yannick Jadot": 
-                        {
-                            result: getNumberFromString(circo.score_jadot),
-                            color: "#58B34E"
-                        },
-                        "Valérie Pécresse": {
-                            result: getNumberFromString(circo.score_pecresse),
-                            color: "#3E8FC0"
-                        },
-                        "Philippe Poutou": {
-                            result: getNumberFromString(circo.score_poutou),
-                            color: "#BE3A32"
-                        },
-                        "Nicolas Dupont-Aignan": {
-                            result: getNumberFromString(circo.score_dupontaignan),
-                            color: "#052C96"
-                        }
-                    }
+                    exprimes: [
+                        ["Nathalie Arthaud", getNumberFromString(circo.score_arthaud), "#AC5857"],
+                        ["Fabien Roussel", getNumberFromString(circo.score_roussel), "#DE302C"],
+                        ["Emmanuel Macron", getNumberFromString(circo.score_macron), "#F3A13D"],
+                        ["Jean Lassalle", getNumberFromString(circo.score_lassalle), "#667A75"],
+                        ["Marine Le Pen", getNumberFromString(circo.score_lepen), "#866131"],
+                        ["Eric Zemmour", getNumberFromString(circo.score_zemmour), "#604521"],
+                        ["Jean-Luc Mélenchon", getNumberFromString(circo.score_melenchon), "#EC483F"],
+                        ["Anne Hidalgo", getNumberFromString(circo.score_hidalgo), "#ED708C"],
+                        ["Yannick Jadot", getNumberFromString(circo.score_jadot), "#58B34E"],
+                        ["Valérie Pécresse", getNumberFromString(circo.score_pecresse), "#3E8FC0"],
+                        ["Philippe Poutou", getNumberFromString(circo.score_poutou), "#BE3A32"],
+                        ["Nicolas Dupont-Aignan", getNumberFromString(circo.score_dupontaignan), "#052C96"]
+                    ]
                 }
             }
         }
+        firstRoundResults.exprimes.sort(function (a, b) {
+            return b[1] - a[1];
+        })
+
         for (const circo of secondRoundData) {
             if (parseInt(circo.dpt_num, 10) === parseInt(numDpt, 10) && parseInt(circo.circo_num, 10) === parseInt(numCirco, 10)) {
                 secondRoundResults = {
@@ -138,19 +104,17 @@ const mpAndResultsFinder = {
                         "Bulletins blancs": getNumberFromString(circo.score_blanc),
                         "Bulletins nuls": getNumberFromString(circo.score_nul)
                     },
-                    exprimes: {
-                        "Emmanuel Macron": {
-                            result: getNumberFromString(circo.score_macron),
-                            color: "#F3A13D"
-                        },
-                        "Marine Le Pen": {
-                            result: getNumberFromString(circo.score_lepen),
-                            color: "#866131",
-                        }
-                    }
+                    exprimes: [
+                        ["Emmanuel Macron", getNumberFromString(circo.score_macron), "#F3A13D"],
+                        ["Marine Le Pen", getNumberFromString(circo.score_lepen), "#866131"]
+                    ]
                 }
             }
         }
+        secondRoundResults.exprimes.sort(function (a, b) {
+            return b[1] - a[1];
+        })
+
         return {
             firstRoundResults,
             secondRoundResults

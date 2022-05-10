@@ -89,28 +89,28 @@
                                 <th colspan="3">Premier tour de la présidentielle</th>
                             </tr>
                         </thead>
-                        <% let exprimesFirst=presidentialResults.firstRoundResults.exprimes; for (const candidate in
-                            exprimesFirst ) { %>
+                        <% let exprimesFirst=presidentialResults.firstRoundResults.exprimes; 
+                        for (const candidate of exprimesFirst ) { %>
                             <tr class="result-table-row">
                                 <td class="result-table-column result-table-column-1">
-                                    <%= candidate %>
+                                    <%= candidate[0] %>
                                 </td>
                                 <td class="result-table-column result-table-column-2">
                                     <div class="result-bar-bg">
                                         <% let percentage;
-                                        if (exprimesFirst[candidate].result < 1.2) {
+                                        if (candidate[1] < 1.2) {
                                             percentage = 1.2;
                                         } else {
-                                            percentage = exprimesFirst[candidate].result;
+                                            percentage = candidate[1];
                                         } %>
                                         <div class="result-bar-percentage"
-                                            style="--percentage: <%= percentage %>%; --candidate-color:<%= exprimesFirst[candidate].color %>">
+                                            style="--percentage: <%= percentage %>%; --candidate-color:<%= candidate[2] %>">
                                             &nbsp;
                                         </div>
                                     </div>
                                 </td>
                                 <td class="result-table-column result-table-column-3">
-                                    <%= exprimesFirst[candidate].result %> %
+                                    <%= candidate[1] %> %
                                 </td>
                             </tr>
                             <% } %>
@@ -121,22 +121,22 @@
                                 <th colspan="3">Second tour de la présidentielle</th>
                             </tr>
                         </thead>
-                        <% let exprimesSecond=presidentialResults.secondRoundResults.exprimes; for (const candidate in
-                            exprimesSecond ) { %>
+                        <% let exprimesSecond=presidentialResults.secondRoundResults.exprimes; 
+                        for (const candidate of exprimesSecond ) { %>
                             <tr class="result-table-row">
                                 <td class="result-table-column result-table-column-1 ">
-                                    <%= candidate %>
+                                    <%= candidate[0] %>
                                 </td>
                                 <td class="result-table-column result-table-column-2 ">
                                     <div class="result-bar-bg">
                                         <div class="result-bar-percentage"
-                                            style="--percentage: <%= exprimesSecond[candidate].result %>%; --candidate-color:<%= exprimesSecond[candidate].color %>">
+                                            style="--percentage: <%= candidate[1] %>%; --candidate-color:<%= candidate[2] %>">
                                             &nbsp;
                                         </div>
                                     </div>
                                 </td>
                                 <td class="result-table-column result-table-column-3 ">
-                                    <%= exprimesSecond[candidate].result %> %
+                                    <%= candidate[1] %> %
                                 </td>
                             </tr>
                             <% } %>
