@@ -1,13 +1,11 @@
-const { application } = require('express');
-const geocoder = require('geocoder-fr');
+const { requestAddress } = require('../api/reqAddress');
 
 const coordinateCalculator = {
-    getCoordinates: async (res, address) => {
+    getCoordinatesAndAddress: async (res, address) => {
         try {
-        const result = await geocoder.geocodeBestResult(address);
+        const result = await requestAddress(address);
         if (result) {
-        const coordinates = [result.long, result.lat]
-        return coordinates;
+        return result;
         } else {
             res.render('home', { error: "address"});
         }

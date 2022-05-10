@@ -1,5 +1,5 @@
 const inside = require('point-in-geopolygon');
-const { getCoordinates } = require('./coordinateCalculator');
+const { getCoordinatesAndAddress } = require('./coordinateCalculator');
 
 const circos = require('../data/circonscriptions-legislatives.json');
 
@@ -9,16 +9,21 @@ const checkPoint = {
         
         try {
             // Récupération des coordonnées GPS liées à l'adresse
-            const point = await getCoordinates(res, address);
-            
+            const data = await getCoordinatesAndAddress(res, address);
+            const coordinates = [data.long, data.lat];
             // Recherche du point GPS dans le geojson des circos
-            const result = inside.feature(circos, point);
+            const result = inside.feature(circos, coordinates);
             // Récupération du numéro du département et de la circonscription.
-            const circo = {
+            const circoAndAddress = {
                 numDpt: result.properties.REF.split('-')[0],
-                numCirco: result.properties.REF.split('-')[1]
+                numCirco: result.properties.REF.split('-')[1],
+                address: {
+                    name: data.name,
+                    postcode: data.postcode,
+                    city: data.city
+                }
             }
-            return circo;
+            return circoAndAddress;
         } catch (err) {
             console.log(err)
         }

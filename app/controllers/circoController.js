@@ -10,11 +10,9 @@ const circoController = {
     resultPage: async (req, res) => {
         try {
         const query = req.query;
-        const wayInfo = `${query.streetnumber} ${query.streetname}`;
-        const townInfo = `${query.townzip} ${query.townname}`
-        const searchedAddress = `${wayInfo} ${townInfo}`
+
         // Récupération de la circonscription à partir de l'adresse saisie.
-        const result = await findCirco(res, searchedAddress);
+        const result = await findCirco(res, query);
 
         // Récupération du / de la députée correspondante
         const myMP = findMyMp(result.numDpt, result.numCirco);
@@ -23,10 +21,11 @@ const circoController = {
         const presResults = presidentialResults(result.numDpt, result.numCirco);
         return res.render("results", {
             address: {
-                firstline : wayInfo,
-                secondline: townInfo
+                firstline : result.address.name,
+                secondline: `${result.address.postcode} ${result.address.city}`
             },
-            result: result,
+            numCirco: result.numCirco,
+            numDpt: result.numDpt,
             myMp: myMP,
             presidentialResults: presResults
         });
