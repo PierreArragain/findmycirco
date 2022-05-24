@@ -24,8 +24,7 @@ const circoController = {
         const presResults = presidentialResults(result.numDpt, result.numCirco);
         const candidates = getCandidates(result.numDpt, result.numCirco);
         for (const candidate of candidates) {
-            console.log(candidate.nom + " " + candidate.prenom);
-            console.log(myMP.lastname + " " + myMP.firstname);
+           
             if(candidate.nom.toLocaleLowerCase() === myMP.lastname.toLocaleLowerCase() && candidate.prenom.toLocaleLowerCase() === myMP.firstname.toLocaleLowerCase()) {
                 candidate.sortant = true;
             }

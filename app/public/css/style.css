@@ -319,10 +319,6 @@ main {
 
 /* Candidates */
 
-.candidates-section {
-    display: flex;
-    justify-self: center;
-}
 
 .candidates-section__cards {
     display: flex;
