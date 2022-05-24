@@ -1,11 +1,12 @@
 {
   "name": "findmycirco",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Projet pour permettre à chacune et chacun de trouver la circonscription dont il ou elle dépend",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
     "geocoder-fr": "^1.0.3",
     "point-in-geopolygon": "^1.0.1",
     "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }

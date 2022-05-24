@@ -1,0 +1,30 @@
+<div class="candidates-section__cards">
+    <% for (const candidate of candidates) { %>
+        <div class="candidate-card-container">
+            <ul class="candidate-card">
+                <li class="candidate-card__label">
+                    Nom:
+                </li>
+                <li class="candidate-card__content">
+                    <%= candidate.nom %>
+                        <%= candidate.prenom %>
+                </li>
+                <li class="candidate-card__label">
+                    Nuance politique:
+                </li>
+                <li class="candidate-card__content">
+                    <%= candidate.libelleNuance %>
+                </li>
+            </ul>
+            <% if (candidate.sortant) { %>
+                <div class="candidate-card__current">
+                    <img class="candidate-card__current__icon" src="/img/information-icon.svg">
+                    <figure class="candidate-card__current__text">
+                        <% if (candidate.civilite==="Mme" ) { %>
+                            Députée sortante <% } else { %> Député sortant <% } %>
+                    </figure>
+                </div>
+                <% } %>
+        </div>
+        <% } %>
+</div>

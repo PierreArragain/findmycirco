@@ -5,6 +5,7 @@ const {
     findMyMp,
     presidentialResults
 } = require("../modules/mpAndResultsFinder");
+const { getCandidates } = require('../modules/candidates');
 
 const circoController = {
     resultPage: async (req, res) => {
@@ -21,6 +22,14 @@ const circoController = {
 
         // Récupération des résultats aux dernières présidentielles 
         const presResults = presidentialResults(result.numDpt, result.numCirco);
+        const candidates = getCandidates(result.numDpt, result.numCirco);
+        for (const candidate of candidates) {
+            console.log(candidate.nom + " " + candidate.prenom);
+            console.log(myMP.lastname + " " + myMP.firstname);
+            if(candidate.nom.toLocaleLowerCase() === myMP.lastname.toLocaleLowerCase() && candidate.prenom.toLocaleLowerCase() === myMP.firstname.toLocaleLowerCase()) {
+                candidate.sortant = true;
+            }
+        }
         return res.render("results", {
             address: {
                 firstline : wayInfo,
@@ -28,7 +37,8 @@ const circoController = {
             },
             result: result,
             myMp: myMP,
-            presidentialResults: presResults
+            presidentialResults: presResults,
+            candidates: candidates
         });
     } catch (error) {
         console.error(error);

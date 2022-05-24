@@ -6,6 +6,8 @@
     --background-color: #F2F2F2;
     --secondary-font-color: #718096;
 
+    --border-color: #A0A7B1;
+
     font-family: 'IBM Plex Sans', sans-serif;
     
 }
@@ -315,6 +317,70 @@ main {
 
 }
 
+/* Candidates */
+
+.candidates-section {
+    display: flex;
+    justify-self: center;
+}
+
+.candidates-section__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: .5rem;
+    margin: auto;
+
+    
+    
+}
+
+div.candidate-card-container {
+    border: solid 1px var(--border-color);
+    border-radius: 8px;
+    width: 155px;
+    margin-top: 1rem;
+    
+}
+
+.candidate-card {
+    margin: 1rem;
+}
+
+.candidate-card li {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+
+.candidate-card__label {
+    font-weight: 700;
+}
+
+.candidate-card__content {
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.candidate-card__current {
+    display: flex;
+    align-items: center;
+    margin-left: .5rem;
+    margin-bottom: .5rem;
+
+}
+
+.candidate-card__current__icon {
+    width: 20px;
+    margin-right: 0.5rem;
+}
+
+
+.candidate-card__current__text {
+    font-size: 0.8rem;
+    
+    
+}
+
 /* Presidential results section */
 
 /* Tableau des résultats */
@@ -338,7 +404,7 @@ main {
 }
 
 .result-table-row {
-    border: solid 1px #A0A7B1;
+    border: solid 1px var(--border-color);
     padding-left: 0;
     
 }
@@ -453,6 +519,9 @@ main {
         {
             width: 45%;
 
+        }
+        .candidate-card-container {
+            width: 176px;
         }
 
         .presidential-results-section {
