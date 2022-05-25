@@ -1,4 +1,4 @@
-# findmycirco
+# MaCirco (findmycirco)
 Projet pour permettre à chacune et chacun de trouver la circonscription dont il ou elle dépend
 ## Démo
 Vous pouvez tester l'app à cette adresse http://macirco.herokuapp.com
