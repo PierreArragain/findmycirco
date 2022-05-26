@@ -404,6 +404,11 @@ div.candidate-card-container {
     padding-left: 0;
     
 }
+
+.blank-row{
+    border: none;
+}
+
 .presidential-results-section td {
     padding: .5rem;
     vertical-align: middle;

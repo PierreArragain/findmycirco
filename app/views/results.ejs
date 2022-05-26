@@ -1,6 +1,6 @@
 <%- include ('partials/header') %>
-<%- include ('partials/title-header') %>
-    <article class="results">
+    <%- include ('partials/title-header') %>
+        <article class="results">
             <section class="recap__section">
                 <aside class="recap__section__address">
                     <h3>Votre adresse : </h3>
@@ -17,7 +17,8 @@
                         order="ème" ; } %>
 
                         <p>
-                            <%= myMp.numCirc %><%= order %> circonscription du département
+                            <%= myMp.numCirc %>
+                                <%= order %> circonscription du département
                         </p>
                         <p>
                             <%= myMp.dpt %>
@@ -76,7 +77,7 @@
                     </section>
                     <section class="results-subsection candidats-section">
                         <h2>Qui sont les candidates et candidats ?</h2>
-                                                <%- include('partials/candidates.ejs') %>
+                        <%- include('partials/candidates.ejs') %>
                     </section>
                 </div>
                 <section class="results-subsection presidential-results-section">
@@ -88,24 +89,42 @@
                                 <th colspan="3">Premier tour de la présidentielle</th>
                             </tr>
                         </thead>
-                        <% let exprimesFirst=presidentialResults.firstRoundResults.exprimes; 
-                        for (const candidate of exprimesFirst ) { %>
+                        <tr class="result-table-row">
+                            <td class="result-table-column result-table-column-1">
+                                Taux de participation
+                            </td>
+                            <td class="result-table-column result-table-column-2">
+                                <div class="result-bar-bg">
+                                    <% let firstPercentage; if (presidentialResults.firstRoundResults.votants[1][1] < 1.2) { firstPercentage=1.2; } else {
+                                        firstPercentage=presidentialResults.firstRoundResults.votants[1][1]; }
+                                        %>
+                                        <div class="result-bar-percentage"
+                                            style="--percentage: <%= firstPercentage %>%; --candidate-color: #231C4F">
+                                            &nbsp;
+                                        </div>
+                                </div>
+                            </td>
+                            <td class="result-table-column result-table-column-3 ">
+                                    <%= firstPercentage %> %
+                            </td>
+                        </tr>
+                        <tr class="result-table-row blank-row">
+                            <td colspan="3">&nbsp;</td>
+                        </tr>
+                        <% let exprimesFirst=presidentialResults.firstRoundResults.exprimes; for (const candidate of
+                            exprimesFirst ) { %>
                             <tr class="result-table-row">
                                 <td class="result-table-column result-table-column-1">
                                     <%= candidate[0] %>
                                 </td>
                                 <td class="result-table-column result-table-column-2">
                                     <div class="result-bar-bg">
-                                        <% let percentage;
-                                        if (candidate[1] < 1.2) {
-                                            percentage = 1.2;
-                                        } else {
-                                            percentage = candidate[1];
-                                        } %>
-                                        <div class="result-bar-percentage"
-                                            style="--percentage: <%= percentage %>%; --candidate-color:<%= candidate[2] %>">
-                                            &nbsp;
-                                        </div>
+                                        <% let percentage; if (candidate[1] < 1.2) { percentage=1.2; } else {
+                                            percentage=candidate[1]; } %>
+                                            <div class="result-bar-percentage"
+                                                style="--percentage: <%= percentage %>%; --candidate-color:<%= candidate[2] %>">
+                                                &nbsp;
+                                            </div>
                                     </div>
                                 </td>
                                 <td class="result-table-column result-table-column-3">
@@ -120,8 +139,31 @@
                                 <th colspan="3">Second tour de la présidentielle</th>
                             </tr>
                         </thead>
-                        <% let exprimesSecond=presidentialResults.secondRoundResults.exprimes; 
-                        for (const candidate of exprimesSecond ) { %>
+                        <tr class="result-table-row">
+                            <td class="result-table-column result-table-column-1">
+                                Taux de participation
+                            </td>
+                            
+                            <td class="result-table-column result-table-column-2">
+                                <div class="result-bar-bg">
+                                    <% let secondPercentage; if (presidentialResults.secondRoundResults.votants[1][1] <
+                                        1.2) { secondPercentage=1.2; } else {
+                                        secondPercentage=presidentialResults.secondRoundResults.votants[1][1]; } %>
+                                        <div class="result-bar-percentage"
+                                            style="--percentage: <%= secondPercentage %>%; --candidate-color: #231C4F">
+                                            &nbsp;
+                                        </div>
+                                </div>
+                            </td>
+                            <td class="result-table-column result-table-column-3 ">
+                                    <%= secondPercentage %> %
+                            </td>
+                        </tr>
+                        <tr class="result-table-row blank-row">
+                            <td colspan="3">&nbsp;</td>
+                        </tr>
+                        <% let exprimesSecond=presidentialResults.secondRoundResults.exprimes; for (const candidate of
+                            exprimesSecond ) { %>
                             <tr class="result-table-row">
                                 <td class="result-table-column result-table-column-1 ">
                                     <%= candidate[0] %>
@@ -144,6 +186,6 @@
 
             </div>
 
-    </article>
+        </article>
 
-    <%- include ('partials/footer') %>
+        <%- include ('partials/footer') %>

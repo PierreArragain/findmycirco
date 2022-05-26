@@ -62,16 +62,17 @@ const mpAndResultsFinder = {
         }
 
         for (const circo of firstRoundData) {
+            
             if (parseInt(circo.dpt_num, 10) === parseInt(numDpt, 10) && parseInt(circo.circo_num, 10) === parseInt(numCirco, 10)) {
                 firstRoundResults = {
-                    votants: {
-                        "abstention": getNumberFromString(circo.abstention),
-                        "votants": getNumberFromString(circo.votants)
-                    },
-                    bulletin: {
-                        "Bulletins blancs": getNumberFromString(circo.score_blanc),
-                        "Bulletins nuls": getNumberFromString(circo.score_nul)
-                    },
+                    votants: [
+                        ["abstention", getNumberFromString(circo.abs)],
+                        ["votants", getNumberFromString(circo.vot)]
+                    ],
+                    bulletins: [
+                        ["Bulletins blancs", getNumberFromString(circo.score_blanc)],
+                        ["Bulletins nuls", getNumberFromString(circo.score_nul)]
+                    ],
                     exprimes: [
                         ["Nathalie Arthaud", getNumberFromString(circo.score_arthaud), "#AC5857"],
                         ["Fabien Roussel", getNumberFromString(circo.score_roussel), "#DE302C"],
@@ -92,18 +93,18 @@ const mpAndResultsFinder = {
         firstRoundResults.exprimes.sort(function (a, b) {
             return b[1] - a[1];
         })
-
+        
         for (const circo of secondRoundData) {
             if (parseInt(circo.dpt_num, 10) === parseInt(numDpt, 10) && parseInt(circo.circo_num, 10) === parseInt(numCirco, 10)) {
                 secondRoundResults = {
-                    votants: {
-                        "abstention": getNumberFromString(circo.abstention),
-                        "votants": getNumberFromString(circo.votants)
-                    },
-                    bulletin: {
-                        "Bulletins blancs": getNumberFromString(circo.score_blanc),
-                        "Bulletins nuls": getNumberFromString(circo.score_nul)
-                    },
+                    votants: [
+                        ["abstention", getNumberFromString(circo.abs)],
+                        ["votants", getNumberFromString(circo.vot)]
+                    ],
+                    bulletins: [
+                        ["Bulletins blancs", getNumberFromString(circo.score_blanc)],
+                        ["Bulletins nuls", getNumberFromString(circo.score_nul)]
+                    ],
                     exprimes: [
                         ["Emmanuel Macron", getNumberFromString(circo.score_macron), "#F3A13D"],
                         ["Marine Le Pen", getNumberFromString(circo.score_lepen), "#866131"]
