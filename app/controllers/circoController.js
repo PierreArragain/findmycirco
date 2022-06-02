@@ -8,6 +8,10 @@ const {
 const { getCandidates } = require('../modules/candidates');
 
 const circoController = {
+    /**
+     * 
+     * @returns la page de résultat à partir de l'adresse saisie par l'utilisateur
+     */
     resultPage: async (req, res) => {
         try {
         const query = req.query;

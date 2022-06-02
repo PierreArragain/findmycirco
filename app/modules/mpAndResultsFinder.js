@@ -5,7 +5,12 @@ const secondRoundData = require('../data/resultats-par-circo-t2.json');
 
 const mpAndResultsFinder = {
 
-
+/**
+ * 
+ * @param {number} numDpt 
+ * @param {number} numCirco 
+ * @returns un objet contenant les informations correspondant en place jusqu'à la date des élections. S'il n'y a plus de député pour la circonscription à cette date, il retourne le dernier député en place.
+ */
     findMyMp: (numDpt, numCirco) => {
         let myMP;
         for (const depute of data.deputes) {
@@ -46,6 +51,14 @@ const mpAndResultsFinder = {
             }
         }
     },
+    /**
+     * 
+     * @param {number} numDpt 
+     * @param {number} numCirco 
+     * @returns Deux objets : 
+     * - firstRoundResults contient les résultats au premier tour de l'élection présidentielle 
+     * - secondRoundResults contient les résultats au premier tour de l'élection présidentielle 
+     */
     presidentialResults: (numDpt, numCirco) => {
         let firstRoundResults;
         let secondRoundResults;

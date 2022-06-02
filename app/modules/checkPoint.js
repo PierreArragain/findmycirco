@@ -5,6 +5,12 @@ const circos = require('../data/circonscriptions-legislatives.json');
 
 const checkPoint = {
     // Trouver une circonscription en fonction de l'adresse
+    /**
+     * 
+     * 
+     * @param {string} address 
+     * @returns Un objet circo contenant le numéro du département et le numéro de la circonscription correspondant à l'adresse recherchée.
+     */
     findCirco : async (res, address) => {
         
         try {

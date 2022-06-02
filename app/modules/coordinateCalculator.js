@@ -2,6 +2,11 @@ const { application } = require('express');
 const geocoder = require('geocoder-fr');
 
 const coordinateCalculator = {
+    /**
+     * 
+     * @param {*} address 
+     * @returns un array contenant les coordonnées GPS correspondant à l'adresse saisie.
+     */
     getCoordinates: async (res, address) => {
         try {
         const result = await geocoder.geocodeBestResult(address);
