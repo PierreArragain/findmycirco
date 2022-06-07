@@ -8,7 +8,6 @@ const requestAddress = {
         try {
             const response = await fetch('https://api-adresse.data.gouv.fr/search/?q=' + address);
             const data = await response.json();
-            console.log(JSON.stringify(data));
             const result = {
                 long: data.features[0].geometry.coordinates[0],
                 lat: data.features[0].geometry.coordinates[1],
