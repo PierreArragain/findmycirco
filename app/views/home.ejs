@@ -1,11 +1,36 @@
-<%- include ('partials/header') %>
-    <article class="home-main">
-
-        <%- include ('partials/title-header') %> 
-        <section class="home__form">
-            <%- include ('partials/form') %>
-        </section>
-    </article>
-
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ce site permet à chaque élécteur et électrice de trouver sa circonscription legislative, son ou sa députée actuelle et les candidats à l'élection legislative"
+    />
+    <!-- reset.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha256-gvEnj2axkqIj4wbYhPjbWV7zttgpzBVEgHub9AAZQD4="
+      crossorigin="anonymous"
+    />
+    <!-- homemade css -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>
+      MaCirco - Trouver ma circonscription legislative et mes candidats
+    </title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="home-main__section">
+        <%- include ('partials/header') %>
+      </section>
+      <article class="home-main">
+        <%- include ('partials/title-header') %>
+        <section class="home__form"><%- include ('partials/form') %></section>
+      </article>
+    </main>
     <%- include ('partials/footer') %>
+  </body>
+</html>
