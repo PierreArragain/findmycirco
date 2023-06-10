@@ -1,539 +1,496 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap");
 
 :root {
-    --main-color: #231C4F;
+  --main-color: #231c4f;
 
-    --background-color: #F2F2F2;
-    --secondary-font-color: #718096;
+  --background-color: #f2f2f2;
+  --secondary-font-color: #718096;
 
-    --border-color: #A0A7B1;
+  --border-color: #a0a7b1;
 
-    font-family: 'IBM Plex Sans', sans-serif;
-    
+  font-family: "IBM Plex Sans", sans-serif;
 }
-    
-body {
-    color: var(--main-color);
-    box-sizing: border-box;
-    min-width: 320px;
 
-    
+body {
+  color: var(--main-color);
+  box-sizing: border-box;
+  min-width: 320px;
 }
 
 p {
-    line-height: 1.3rem;
+  line-height: 1.3rem;
 }
- 
-    
+
 /* Header */
 
 .header {
-    border-bottom: solid 1px #F2F2F2;
-    margin-bottom: 1rem;
-    height: 3rem;
+  border-bottom: solid 1px #f2f2f2;
+  margin-bottom: 1rem;
+  height: 3rem;
 }
 
 .header__nav {
-    display: flex;
-    justify-content: space-between;
-    padding: .6rem .8rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem 0.8rem;
 }
 
 .header__nav a {
-    text-decoration: none;
-    color: var(--main-color);
+  text-decoration: none;
+  color: var(--main-color);
 }
 
 .header__nav-container {
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .header__nav__icon {
-    width: 1.5rem;
+  width: 1.5rem;
 }
 
 .header__nav__title {
-    font-weight: 700;
-    font-size: 1.2rem;
-    margin-left: 0.4rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-left: 0.4rem;
 }
 
 .header__nav__menu {
-    display: flex;
-    list-style-type: none;
-
+  display: flex;
+  list-style-type: none;
 }
-
-
 
 /* Footer */
- .footer {
-    display: flex;
-    height: 2rem;
-    background-color: var(--main-color);
-    color: #FFFFFF;
-    font-size: 00.8rem;
-    padding: .6rem .8rem;
-    align-items: center;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    
- }
-
- .footer a {
-    color: #FFFFFF;
+.footer {
+  display: flex;
+  height: 2rem;
+  background-color: var(--main-color);
+  color: #ffffff;
+  font-size: 00.8rem;
+  padding: 0.6rem 0.8rem;
+  align-items: center;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
-    /* Home */
+.footer a {
+  color: #ffffff;
+}
+
+/* Home */
 /* Home main section */
 
 main {
-    min-height: calc(100vh - 7rem);
+  min-height: calc(100vh - 7rem);
 }
 
-
 .home-main__section__title__container {
-    width: 70%;
-    margin : .6rem .8rem;
-    
+  width: 70%;
+  margin: 0.6rem 0.8rem;
 }
 
 .home-main__section__title {
-    font-size: 2.2rem;
-    font-weight: 700;
-    text-align: left;
-    line-height: 2.5rem;
-    margin-bottom: 1rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-align: left;
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .home-main__section__subtitle {
-    font-size: 1.1rem;
-    font-weight: 500;
-    margin-bottom: .6rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0.6rem;
 }
 
 .home-main__img {
-    margin: 1rem;
-    min-height: 98px;
+  margin: 1rem;
+  min-height: 98px;
 }
 
 .home-main__section__description {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 /*Home form section */
 
 .home__form {
-    background-color: var(--background-color);
-    padding: 1.2rem .8rem;
-
+  background-color: var(--background-color);
+  padding: 1.2rem 0.8rem;
 }
 .home__form label {
-    color: var(--secondary-font-color);
+  color: var(--secondary-font-color);
 }
 
 .home__form__jnstruction {
-    font-weight: 700;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .home__form__line {
-    display: flex;
-    justify-content: flex-start;
-    gap: 0.8rem;
-    margin-top: 0.8rem;
-    width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.8rem;
+  margin-top: 0.8rem;
+  width: 100%;
 }
 
 .home__form__line label {
-    font-weight: 600;
-    font-size: 0.9rem;
+  font-weight: 600;
+  font-size: 0.9rem;
 }
 
 .home__form__field-block {
-    display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  width: 100%;
 }
 
 .home__form__field {
-    background: #FFFFFF;
-    border: 1px solid #E2E8F0;
-    box-sizing: border-box;
-    border-radius: 4px;
-    height: 2rem;
-    padding-left: .5rem;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 2rem;
+  padding-left: 0.5rem;
 }
 .home__form__field::placeholder {
-    color: #A0A7B1;
-    
+  color: #a0a7b1;
 }
 
 .home__form__street__number {
-   width: 5em; 
+  width: 5em;
 }
 
-
 .home__form__town__zip {
-    width: 7em;
+  width: 7em;
 }
 
 .home__form__disclaimer {
-    margin-top: 1rem;
-    font-size: .8rem;
+  margin-top: 1rem;
+  font-size: 0.8rem;
 }
 
 .home__form__disclaimer p {
-    text-align: center;
+  text-align: center;
 }
 
 .home__form__submit-btn {
-    margin-top: 1rem;
-    color: #FFFFFF;
-    background-color: var(--main-color);
-    border-radius: 4px;
-    border-color: var(--main-color);
-    width: 340px;
-    height: 3rem;
-    font-weight: 700;
-    
+  margin-top: 1rem;
+  color: #ffffff;
+  background-color: var(--main-color);
+  border-radius: 4px;
+  border-color: var(--main-color);
+  width: 340px;
+  height: 3rem;
+  font-weight: 700;
 }
 
 .home__form__submit-btn__container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 /* Result Page */
 .results {
-    color: var(--main-color);
+  color: var(--main-color);
 }
 
 .results h2 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 2rem;
-    margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  margin-bottom: 1rem;
 }
 /* Recap section */
 
 .recap__section {
-    background-color: var(--background-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: .2rem .8rem 1rem .8rem;
-    text-align: center;
-    gap: 1rem;
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0.2rem 0.8rem 1rem 0.8rem;
+  text-align: center;
+  gap: 1rem;
 }
 
 .recap__section a {
-    color: #FFFFFF;
-    background-color: var(--main-color);
-    border-radius: 4px;
-    border-color: var(--main-color);
-    width: 340px;
-    font-weight: 700;
-    margin: auto;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    text-decoration: none;
-    padding: .9rem 0;
+  color: #ffffff;
+  background-color: var(--main-color);
+  border-radius: 4px;
+  border-color: var(--main-color);
+  width: 340px;
+  font-weight: 700;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  padding: 0.9rem 0;
 }
 
 .recap__section h3 {
-    font-weight: 700;
-    margin-top: .8rem;
-    margin-bottom: .8rem;
+  font-weight: 700;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
 }
 
 .recap__section p {
-    font-weight: 500;
-    line-height: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5rem;
 }
 
 /* Results div */
 .results__div {
-    padding: 1.2rem .8rem;
+  padding: 1.2rem 0.8rem;
 }
 
 .results-subsection {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* Depute-id-container */
 
 .depute-id-container {
-    display: flex;
-    font-size: 0.9rem;
-    margin-bottom: 1rem;
-    border: solid 1px #A0A7B1;
-    border-radius: 8px;
-    padding: 0.8rem 1rem;
-    margin-top: 1rem;
-    margin-bottom: 2.5rem;
-
+  display: flex;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  border: solid 1px #a0a7b1;
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
 }
 
 .depute-id-img {
-    margin-right:10px;
-    height: 100px;
+  margin-right: 10px;
+  height: 100px;
 }
 .depute-id-details {
-    line-height: 1.2rem;
+  line-height: 1.2rem;
 }
 
 .depute-id-details__table td {
-    padding-bottom: .3rem ;
-
+  padding-bottom: 0.3rem;
 }
 
 .depute-id-details__tag {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .depute-id-details__table .col-1 {
-    width: 3rem;
+  width: 3rem;
 }
 
-
-
 .depute-id-details__row {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .depute-id-details__circle {
-    text-align: center;
+  text-align: center;
 }
 .depute-id-details__table tfoot {
-    text-align: left;
-    font-weight: 500;
-    padding-bottom: .3rem ;
-
+  text-align: left;
+  font-weight: 500;
+  padding-bottom: 0.3rem;
 }
 
 /* Candidates */
 
-
 .candidates-section__cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: .5rem;
-    margin: auto;
-
-    
-    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  margin: auto;
 }
 
 div.candidate-card-container {
-    border: solid 1px var(--border-color);
-    border-radius: 8px;
-    width: 155px;
-    margin-top: 1rem;
-    
+  border: solid 1px var(--border-color);
+  border-radius: 8px;
+  width: 155px;
+  margin-top: 1rem;
 }
 
 .candidate-card {
-    margin: 1rem;
+  margin: 1rem;
 }
 
 .candidate-card li {
-    font-size: 0.9rem;
-    line-height: 1.2rem;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
 }
 
 .candidate-card__label {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .candidate-card__content {
-    font-weight: 500;
-    margin-bottom: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
 }
 
 .candidate-card__current {
-    display: flex;
-    align-items: center;
-    margin-left: .5rem;
-    margin-bottom: .5rem;
-
+  display: flex;
+  align-items: center;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .candidate-card__current__icon {
-    width: 20px;
-    margin-right: 0.5rem;
+  width: 20px;
+  margin-right: 0.5rem;
 }
 
-
 .candidate-card__current__text {
-    font-size: 0.8rem;
-    
-    
+  font-size: 0.8rem;
 }
 
 /* Presidential results section */
 
 /* Tableau des résultats */
 
-
-
-
 .results-subsection h2 {
-    margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .results-subsection h3 {
-    font-weight: 500;
-    margin-bottom: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
 }
 
 .presidential-results-section table {
-    border-collapse: collapse;
-    margin-bottom: 1rem;
-    width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  width: 100%;
 }
 
 .result-table-row {
-    border: solid 1px var(--border-color);
-    padding-left: 0;
-    
+  border: solid 1px var(--border-color);
+  padding-left: 0;
 }
 
-.blank-row{
-    border: none;
+.blank-row {
+  border: none;
 }
 
 .presidential-results-section td {
-    padding: .5rem;
-    vertical-align: middle;
+  padding: 0.5rem;
+  vertical-align: middle;
 }
 
 .presidential-results-section th {
-    text-align: left;
-    font-weight: 700;
-    padding-bottom: .6rem;
-    border: none;
-
+  text-align: left;
+  font-weight: 700;
+  padding-bottom: 0.6rem;
+  border: none;
 }
 
 .presidential-results-section td {
-    padding: .8rem .3rem;
-    padding-left: .5rem;
-    font-weight: 500;
-    font-size: 0.9rem;
-
+  padding: 0.8rem 0.3rem;
+  padding-left: 0.5rem;
+  font-weight: 500;
+  font-size: 0.9rem;
 }
 
 .result-table-column-1 {
-    width: 51%;
-    font-weight: 500;
+  width: 51%;
+  font-weight: 500;
 }
 
 .result-table-row-head {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .presidential-results-section .result-table-column-3 {
-    font-size: 0.7rem;
-    width: 5rem;
-    font-weight: 500;
+  font-size: 0.7rem;
+  width: 5rem;
+  font-weight: 500;
 }
 
 .result-bar-bg {
-    background-color: var(--background-color);
-    width: 90px;
-    border-radius: 8px;
+  background-color: var(--background-color);
+  width: 90px;
+  border-radius: 8px;
 }
 
 .result-bar-percentage {
-    background-color: var(--candidate-color);
-    width: var(--percentage);
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-
+  background-color: var(--candidate-color);
+  width: var(--percentage);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
+@media only screen and (min-width: 768px) {
+  .result-table-column-1 {
+    width: 35%;
+  }
 
-
-@media only screen and (min-width : 768px) {
-    .result-table-column-1 {
-        width: 35%;
-    }
-    
-    .result-bar-bg {
-        width: 300px;
-    }
+  .result-bar-bg {
+    width: 300px;
+  }
 }
 
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1024px) {
+  /* Styles */
 
+  /* Home */
+  /* Home main section */
 
-   /* Desktops and laptops ----------- */
-   @media only screen and (min-width : 1024px) {
-    /* Styles */
+  .home-main__section {
+    padding: 0.6rem 0.8rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
 
+  .home-main__section__title__container {
+    max-width: 600px;
+  }
+  .home-main__img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+  }
 
-            /* Home */
-        /* Home main section */
+  .search-form {
+    max-width: 600px;
+    margin: auto;
+  }
 
-        .home-main__section {
-            padding: .6rem .8rem;
-            margin-right: 2rem;
-            margin-bottom: 2rem;
-            display: flex;
-            justify-content: space-between;
-        }
+  /* Result Page */
 
-        .home-main__section__title__container {
-            max-width: 600px;
-        }
-        .home-main__img-container {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            box-sizing: border-box;
-        }
+  .results h2 {
+    font-size: 1.8rem;
+  }
+  .results__div {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 5rem;
+  }
 
-        .search-form {
-            max-width: 600px;
-            margin: auto;
-        }
+  .results__mp-and-candidates {
+    width: 45%;
+  }
+  .candidate-card-container {
+    width: 176px;
+  }
 
-        .results h2 {
-            font-size: 1.8rem;
-        }
+  .presidential-results-section {
+    width: 45%;
+  }
 
-        /* Result Page */
-
-        .results__div {
-            display: flex;
-            justify-content: space-between;
-            padding: 3rem 5rem;
-        }
-
-        .results__mp-and-candidates
-        {
-            width: 45%;
-
-        }
-        .candidate-card-container {
-            width: 176px;
-        }
-
-        .presidential-results-section {
-            width: 45%;
-        }
-
-        .result-table-column-1 {
-            width: 40%;
-        }
-        .result-bar-bg {
-            width: 250px;
-        }
-
-   }
+  .result-table-column-1 {
+    width: 40%;
+  }
+  .result-bar-bg {
+    width: 250px;
+  }
+}
